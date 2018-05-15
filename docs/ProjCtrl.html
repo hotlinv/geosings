@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		ProjCtrl工程管理工具
+	</title>
+	<style type="text/css">
+		@import url("css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		ProjCtrl工程管理工具
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+<h2>简介</h2>
+<p>
+ProjCtrl是一个工程管理工具。它和GIS其实是没有一点关系。是我开发出来配合我的GVIM一起使用的（其实是用来作为试验田做来练练手，熟悉熟悉WxPython和Python的文件操作，gettext等等七七八八的琐碎技巧）。如果你有强大的Python/文本编辑管理工具，比如limodou老大的UliPad，或者你崇拜emacs，当然可以有理由不用使用我做来玩的东西。奉劝您还是尽可能快得放过这页。但是就我来说，还是有必要和有责任把这个管理工具的配置讲一讲。况且我觉得这个工具做得还算可以的。当然功能十分简陋还有待加强。而且我也不会放弃对其的加强。
+</p>
+<h2>安装</h2>
+<p>
+安装ProjCtrl只要运行tools下面的install.py程序就可以自动拷贝projctrl.conf以及生成lang语言文件(如果没有生成的话或者版本过旧，或者你想自己改改界面)。
+</p>
+<h2>使用</h2>
+<p>
+使用ProjCtrl，只要把这个ProjCtrl所在的tools文件夹随便扔到哪个文件夹下就可以了。什么都不需要设置，然后就可以双击启动ProjectCtrl.pyw这个文件。就会启动主程序。
+</p>
+
+<p>
+启动主程序后，可以看到根目录是在tools所在的目录。列出了根目录下的目录和文件。目录后面跟着一个反斜杠“/”而文件没有。用反斜杠来区分目录和文件。所有的操作都在右键中。现在暂时只有“打开”和“编辑/察看”有效。打开可以直接运行文件。编辑/察看可以在指定编辑器中编辑所选的文件。
+</p>
+
+<p>
+当然我现在对ProjCtrl的配置都是基于GVIM的。配置文件是projctrl.conf。这个文件里只有三个配置选项。一个是DEF_EDITOR。这个是配置默认编辑器和运行参数。另一个是DEF_EDITOR_N，这个参数是用来在打开文件时定位到文件中的哪一行（当然编辑器需要有这个功能才可以设置这个选项，不然这一行可以不用写，不过在文件中搜索匹配某个字符串的功能就不能使用了）。还有一个是NEW_PID。可以配置的值有两个(y/n)。这个是配置是否在新的进程中打开编辑器。有时在本进程中打开编辑器会影响ProjCtrl的运行。这是因为Python的system命令的缘故。比如用notepad打开就需要新建一个进程。不然ProjCtrl就像死掉一样。但是gvim就不用新建进程。因为gvim是默认新建的。
+</p>
+
+<p>
+至于各个编辑器的使用妙处就在于各个编辑器自身了。比如针对gvim就可以设成
+</p>
+<p>
+<b>
+DEF_EDITOR=gvim -S ./tools/Session.vim --servername PROJCTRL --remote-tab-silent
+</b></p>
+<p>
+其中使用了Session.vim这个文件。这个文件可以根据自己机器上的自动生成。打开gvim，输入:mksession 命令就会在当前目录下自动生成。当然我的不一定适合你，用Session就是为了可以在任何机器上定制编辑器以适应各个人不同的需要，比如可以在Session中添加九形函数的tags自动补全等等。--servername PROJCTRL --remote-tab-silent是说在同一个gvim窗口中以标签形式打开新的文件。
+</p>
+<p>
+而需要注意的是到某文件某行的命令格式要有格式参数比如gvim是这样设置：
+</p>
+<p>
+<b>
+DEF_EDITOR_N=gvim -S ./tools/Session.vim --servername PROJCTRL --remote-tab-silent +%d %s
+</b>
+</p>
+<p>这样+%d是匹配到某行，%s是匹配打开的文件名。（这两项的格式是根据各个编辑器来定的，各个编辑器不一样）
+</p>
+<p>
+当然如果你愿意你可以按照你自己的高兴来配置。我是习惯了gvim，所以这样设。
+</p>
+<p>
+lang下放置了gettext翻译库，满足中文和英文不同需求（这个只是一个华丽的鸡肋，玩玩而已）。
+</p>
+
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, ProjCtrl工程管理工具</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

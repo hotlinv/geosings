@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>
+  	ecloude开发手册
+  </title>
+	<style type="text/css">
+        @import url("css/function.css");
+    </style>
+
+</head>
+<body>
+  <center>
+    <h1>ecloude开发手册</h1>
+  </center>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+	<h2>gsseye的结构：</h2>
+<p>
+根目录下包含几个文件：manage.py，settings.py，urls.py，对于开发比较有用的是urls.py，这个文件中包含了几个系统可以识别的URL信息。如果需要添加需要访问的URL，就需要在文件中添加。如果在veiw中有添加方法对应，则需要添加一个和方法相对应的url，不然系统将认不到。至于其他的几个文件不要去管。
+Core目录下包含的是后台核心。主要包含的是两个文件，views.py 和 models.py。其中views是直接负责和前台交换信息和后台处理的主要模块。Models是主管数据库数据结构定义的文件。
+Templates目录下包含的是网页模板。也就是可以直接显示的初试网页的模板。全部模板都要放在目录下的gsseye目录下。现在我用到的就只有mappage.html的网页模板。定义地图浏览网页的主要内容。
+Media目录下包含的是主要的前台javascript以及网页的Css定义。还有一些图片资源等等。
+</p>
+	<h2>开发向导</h2>
+<p>
+开发django的ajax应用程序，由几个部分的开发组成，一是前台网页模板和javascript开发，二是后台views和models开发。在django中统称MTV（models，template，views）开发模式。
+前台的开发主要是写在templates目录下的网页模板。以及media目录下的css，javascript。需要注意的是在templates下编写的是网页模板，而不是真实网页。真实网页当然也可以，不过django的网页模板可以实现和后台的直接通讯，具体的模板编写方式可以看这里。 
+编写javascript的时候有几个地方需要注意：使用了MochiKit.js的ajax开发库，一些操作可以简写。关于这个库，更多的信息可以访问这里。这里的javascript的链接地址需要和后台地址联系，比如要掉后台的input方法，就用”/gsseye/input/”就可以访问。用xmlhttpresponse呼叫后台直接可以用doSimpleXMLHttpRequest(url,{参数名:参数值;参数名:参数值})的形式呼叫。还需要注意的一点是有一些url在setting文件中已经定义，比如空间数据存储路径可以用/data/来表示。另外我还定义了一个工具js脚本，用来封装一些常用的工具方法。
+因为django服务器是自动刷新的，只要对views有修改，服务器会自动重启，对javascript或者模板有修改只要在浏览器中刷新就可以了。
+</p>
+
+
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, 九形帮助中心</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>

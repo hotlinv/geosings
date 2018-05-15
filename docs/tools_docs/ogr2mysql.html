@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  
+
+
+  
+  <title>Ogr2Mysql导入工具</title>
+  <style type="text/css">
+@import url("../css/function.css");
+  </style>
+</head>
+
+
+<body>
+
+
+<h1 id="htitle"> Ogr2Mysql </h1>
+
+
+<a href="../index.html">返回主索引</a>
+<hr><!--"----------------------------------------"--><br>
+
+
+<p>ogr2mysql是一个导入ogr矢量数据集到MySQL的工具。直接使用gdal提供的ogr2ogr实用程序。仅仅算是提供了一个GUI工具。</p>
+
+
+<p>实用类：<a href="../gss_tools/geosings.tools.Ogr2ogr.Ogr2ogr4intoMySQL-class.html">geosings.tools.Ogr2ogr.Ogr2ogr4intoMySQL</a></p>
+
+
+<p>UI控制面板类：<a href="../gss_tools/geosings.tools.ui.Ogr2ogr4intoMySQLUI.Ogr2ogr4intoMySQLUI-class.html">geosings.tools.ui.Ogr2ogr4intoMySQLUI.Ogr2ogr4intoMySQLUI</a></p>
+
+
+<p>运行主界面如下：</p>
+
+
+<p><img style="width: 400px; height: 492px;" alt="" src="../image/ogr2ogr4intomysqlui.JPG"></p>
+
+<p>主界面分为四个部分。一个是图层输入面板，一个是控制参数面板，一个是图层输出面板。一个是过程输出显示面板。</p>
+
+<p><a href="inputPanel.html">图层输入面板</a>和<a href="outputPanel.html">图层输出面板</a>的介绍可以看链接文档。最主要的核心在于控制面板。</p>
+
+<h2>控制面板参数</h2>
+
+<p>控制面板中的几个参数都是依据ogr2ogr参数精简出来的。</p>
+
+<p></p>
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="width: 192px;">-update</td>
+
+      <td style="width: 402px;">是否更新图层<br>
+
+该参数指定更新已存在的图层（如果指定输出图层在MySQL数据库中已存在的话）。<br>
+
+默认为否</td>
+
+    </tr>
+
+    <tr>
+
+      <td style="width: 192px;">-overwrite</td>
+
+      <td style="width: 402px;">是否覆盖图层<br>
+
+该参数指定覆盖已存在的图层（如果指定输出图层在MySQL数据库中已存在的话）。<br>
+
+默认为否</td>
+
+    </tr>
+
+    <tr>
+
+      <td style="width: 192px;">engine</td>
+
+      <td style="width: 402px;">指定使用的MySQL引擎。<br>
+
+在导入的时候，MySQL对建立空间索引所使用的引擎有所挑剔。比如在MySQL4的情况下，一定只能用MyISAM引擎才可以在输入数据的同时建立空间
+索引。按我的经验，在MySQL5的某些版本中也挑引擎，而有些版本却没有这个问题。所以还是需要添加一下指定引擎的参数。<br>
+
+默认使用MySQL默认的引擎。您在需要的时候可以指定MyISAM引擎或者自己写引擎的名称。</td>
+
+    </tr>
+
+    <tr>
+
+      <td style="width: 192px;">build spatial index</td>
+
+      <td style="width: 402px;">指定是否建立空间索引。<br>
+
+该参数指定是否建立空间索引。（当然是推荐建立啦，没有空间索引，对于大数据量来说是很痛苦的。）<br>
+
+默认也是建立的。</td>
+
+    </tr>
+
+  
+  </tbody>
+</table>
+
+<p></p>
+
+<hr><!--"----------------------------------------"--><br>
+
+
+<table id="etab">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td id="etit">geosings, Ogr2Mysql</td>
+
+
+      <td id="ereta"><a href="../index.html">返回主目
+录</a></td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</body>
+</html>

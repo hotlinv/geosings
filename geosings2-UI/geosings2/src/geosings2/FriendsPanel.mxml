@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" initialize="init();">
+
+<mx:Script>
+<![CDATA[
+	import mx.collections.ArrayCollection;
+	import mx.controls.Alert;
+
+	import mx.collections.XMLListCollection;
+	import geosings2.dialogs.TalkDlg;
+	import com.adobe.serialization.json.JSON;
+	
+	[Embed(source="../resources/images/geosings.png")]
+	[Bindable]
+	public var Image1:Class; 
+            
+    [Bindable]
+
+    private var companyData:ArrayCollection = new ArrayCollection([]);
+    private var parentWin:MainPanel;
+    
+    public function setParent(parentWin:MainPanel):void{
+    	this.parentWin = parentWin;
+    }
+    
+    private function init():void{
+    	// actionscript code
+		var loader:URLLoader = new URLLoader();
+		// 声明一个URLRequest
+		var url:URLRequest = new URLRequest( "http://localhost:8000/geosings/friends" );
+
+		// 设置传输方式为GET
+		url.method = URLRequestMethod.GET;
+		loader.addEventListener(Event.COMPLETE,loaded);
+		loader.load(url);
+    }
+    
+    private function loaded(e:Event):void {
+		trace(e.target.data);
+		var jsonObj:Object = new Object(); 
+		jsonObj = JSON.decode(e.target.data); 
+		for (var k:String in jsonObj){
+			trace(k);
+		  	var newNode:Object = {type:"group",label:k};
+		  	var flist:ArrayCollection = new ArrayCollection([]);
+		  	for each(var n:String in jsonObj[k]){
+		  		var node:Object = {type:"man",label:n, name:n};
+		  		flist.addItem(node);
+		  	}
+		  	newNode.children=flist;
+          	companyData.addItem(newNode);
+		}
+    }
+    
+    private function itemdclick(event:Event):void
+    {
+    	var node:Object = tree.selectedItem;
+        if (node.name){
+        	trace(node.name);
+			parentWin.showTalkDlg(node.name);
+        }
+    }
+    
+]]>
+ 
+</mx:Script>
+	<mx:VBox x="0" y="0" width="100%" height="100%">
+		<mx:HBox width="100%">
+			<mx:Image source="{Image1}"/>
+			<mx:Label text="Label" width="100%" height="100%"/>
+		</mx:HBox>
+		<mx:Tree id="tree"  width="100%" height="100%" 
+			dataProvider="{companyData}" 
+			itemDoubleClick="itemdclick(event)"
+ 			doubleClickEnabled="true">
+ 		</mx:Tree>
+	</mx:VBox>
+</mx:Canvas>

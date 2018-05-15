@@ -1,0 +1,14 @@
+package geosings2
+{
+	import mx.containers.Canvas;
+
+	public class MapCanv extends Canvas
+	{
+		public function MapCanv()
+		{
+			//TODO: implement function
+			super();
+		}
+		
+	}
+}

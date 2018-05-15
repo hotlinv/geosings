@@ -1,0 +1,155 @@
+﻿# -*- coding: utf-8 -*-
+"""
+该模块定义选择要素属性列表的框架控件
+"""
+
+import wx
+from geosings.core.system.EncodeTran import any2utf8
+from TablePanel import TablePanel
+
+class FeatureTabPanel(wx.Panel):
+    """该类定义要素属性表的面板控件
+    """
+    def __init__(self,parent,horv=True,*argv,**keymaps):
+        """初始化控件
+        @type parent: wxCtrl
+        @param parent: 父控件
+        """
+        wx.Panel.__init__(self,parent,*argv,**keymaps)
+        self.parent = parent
+        self.spwin = wx.SplitterWindow(self, -1, style=wx.SP_3D|wx.SP_BORDER)
+        self.ftab = wx.ListCtrl(self.spwin,-1,style=wx.LC_REPORT|wx.LC_NO_HEADER
+                )
+        #self.ftab = wx.ListCtrl(self.spwin,-1)
+        self.tree = TablePanel(self.spwin)
+        if horv:
+            self.spwin.SplitVertically(self.ftab, self.tree, 152)
+        else:
+            self.spwin.SplitHorizontally(self.ftab, self.tree, 152)
+        sizer = wx.BoxSizer(wx.HORIZONTAL)
+        sizer.Add(self.spwin, 1, wx.EXPAND, 0)
+        self.SetAutoLayout(True)
+        self.SetSizer(sizer)
+        sizer.Fit(self)
+        self.Layout()
+
+        self.ftab.InsertColumn(0,"FID",-1)
+
+        self.ftab.Bind(wx.EVT_LIST_ITEM_SELECTED,self.OnSelectItem)
+        #if self.parent is not None:
+        #    self.ftab.Bind(wx.EVT_CHAR, self.parent.OnChar)
+        #    self.tree.Bind(wx.EVT_CHAR, self.parent.OnChar)
+
+        self.__drawFoo = None #高亮闪动函数
+
+    def RegHLDrawFoo(self, foo):
+        self.__drawFoo = foo
+
+    def OnSelectItem(self,evt=None):
+        """List控件选择变化的时候的响应函数
+        @type evt: wxEvent
+        @param evt: EVT_LIST_ITEM_SELECTED事件
+        """
+        #self.ftab.
+        self.tree.ClearAll()
+        if type(evt)!=int:
+            item = self.ftab.GetNextItem(-1,wx.LIST_NEXT_ALL,
+                    wx.LIST_STATE_SELECTED)
+        else: item = evt
+        if item == -1:
+            return
+        feature = self.features[item]
+        fc = feature.GetFieldCount()
+        cols = ["Field","Value"]
+        vals = []
+        for i in range(fc):
+            fname = feature.GetFieldDefnRef(i).GetName()
+            val = any2utf8(feature.GetField(i))
+            vals.append([fname,val])
+        self.tree.SetData(cols,vals)
+
+        if self.__drawFoo is not None:
+            self.__drawFoo([feature])
+        pass
+    def SetFeatures(self,features):
+        """设置Feature，显示要显示的Feature的属性信息
+        @type features: list
+        @param features: GDAL Feature 的列表
+        """
+        self.features = features
+        self.ftab.DeleteAllItems()
+        i = 0
+        for f in features:
+            ftxt = "feature"+str(f.GetFID())
+            item = self.ftab.InsertStringItem(i,ftxt)
+            #item.SetItemText(0,ftxt)
+            #self.ftab.Append("feature"+str(f.GetFID))
+            i+=1
+        if len(features)>0:
+            self.OnSelectItem(0)
+
+def InitFeatureTab(self):
+    """初始化要素属性列表
+    （注意，这不是类中的方法，是几个类可以共用的方法，避免重写）
+    """
+    self.panel = FeatureTabPanel(self)
+    sizer = wx.BoxSizer(wx.VERTICAL)
+    sizer.Add(self.panel,1,wx.EXPAND,0)
+    self.SetSizer(sizer)
+    self.SetAutoLayout(True)
+    self.Layout()
+
+class FeatureTabFrame(wx.Frame):
+    """该类定义要素属性表的框架,包含了上面定义的面板
+    """
+    def __init__(self,parent,*argv,**keymaps):
+        """初始化函数
+        @type parent: wxCtrl
+        @param parent: 父控件
+        """
+        wx.Frame.__init__(self,parent,*argv,**keymaps)
+        self.parent = parent
+        InitFeatureTab(self)
+        if self.parent is not None:
+            self.Bind(wx.EVT_CHAR, self.parent.OnChar)
+            self.panel.Bind(wx.EVT_CHAR, self.parent.OnChar)
+        #self.SetSize((350,200))
+    def SetFeatures(self,features):
+        """设置要显示的要素
+        @type features: list
+        @param features: 要显示的要素
+        """
+        #self.features = features
+        self.panel.SetFeatures(features)
+
+    def OnChar(self,evt):
+        """键盘响应事件
+        @type evt: wxEvent
+        @param evt: 键盘事件
+        """
+        self.parent.OnChar(evt)
+
+    def SetDrawFoo(self, foo):
+        self.panel.RegHLDrawFoo(foo)
+
+class FeatureTabDialog(wx.Dialog):
+    """该类定义要素属性表的对话框,包含了上面定义的面板
+    """
+    def __init__(self,*argv,**keymaps):
+        """初始化对话框
+        """
+        wx.Dialog.__init__(self,*argv,**keymaps)
+        InitFeatureTab(self)
+    def SetFeatures(self,features):
+        """设置要显示的要素
+        @type features: list
+        @param features: 要显示的要素
+        """
+        self.panel.SetFeatures(features)
+
+if __name__=="__main__":
+    app = wx.PySimpleApp(0)
+    frame = FeatureTabFrame(None,-1,"")
+    app.SetTopWindow(frame)
+    frame.Show()
+    app.MainLoop()

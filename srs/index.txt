@@ -1,0 +1,3177 @@
+------8021,67784292(98)
+\NAD27\Louisiana South.prj,1401555,720
+\NAD83\Louisiana South.prj,1229131,672
+\MGI.prj,68926,349
+\KOC.prj,53719,319
+\NGN.prj,77738,311
+\KKJ.prj,52788,293
+\NTF.prj,80341,334
+\ST71 Belep\UTM zone 58S.prj,532790,667
+\NAD27\Minnesota Central.prj,1405743,711
+\NAD83\Minnesota Central.prj,1242080,680
+\ST87 Ouvea\UTM zone 58S (deprecated).prj,530827,693
+\ST87 Ouvea\UTM zone 58S.prj,531520,640
+\NAD83\California Albers.prj,1184344,656
+\NAD27\California Albers.prj,1375140,665
+\NZGD49\Buller Circuit.prj,923007,692
+\Guyane Francaise.prj,35707,298
+\NAD83(HARN)\Nevada Central.prj,1069106,653
+\NAD83(HARN)\Oregon Lambert.prj,1092091,684
+\Porto Santo\UTM zone 28N.prj,910757,635
+\Segara (Jakarta)\NEIEZ (deprecated).prj,565384,653
+\Campo Inchauspe\UTM zone 19S.prj,1785040,622
+\Campo Inchauspe\UTM zone 20S.prj,1785662,622
+\NZGD2000\Gawler Circuit 2000.prj,947912,678
+\NZGD2000\Buller Circuit 2000.prj,946546,678
+\NZGD2000\Nelson Circuit 2000.prj,956123,678
+\NZGD2000\Timaru Circuit 2000.prj,960905,678
+\Yoff.prj,163004,278
+\Cape.prj,14610,274
+\Chua.prj,16741,293
+\Lake.prj,56150,263
+\Tete.prj,138647,272
+\Lome.prj,62006,278
+\GR96.prj,32961,296
+\TM65.prj,139230,275
+\TM75.prj,139505,293
+\FD54.prj,29080,275
+\RGPF.prj,95924,302
+\DHDN.prj,21797,291
+\ED50.prj,23980,278
+\ST74.prj,127050,600
+\HD72.prj,36644,279
+\ED87.prj,24566,278
+\ID74.prj,41554,294
+\ED79.prj,24258,308
+\FD58.prj,29355,282
+\RT90.prj,105834,291
+\fk89.prj,30241,263
+\RT38.prj,101339,278
+\Xian 1980\Gauss-Kruger CM 99E.prj,199759,594
+\NZGD2000\Mount Eden Circuit 2000.prj,953358,691
+\Xian 1980\Gauss-Kruger CM 93E.prj,199165,594
+\Xian 1980\Gauss-Kruger CM 81E.prj,197977,594
+\Xian 1980\Gauss-Kruger CM 87E.prj,198571,594
+\NZGD2000\Wellington Circuit 2000.prj,965542,685
+\Xian 1980\Gauss-Kruger CM 75E.prj,197383,594
+\NAD83\Wisconsin North.prj,1334574,695
+\NAD27\Wisconsin North.prj,1466616,731
+\IGN72 Nuku Hiva.prj,44963,296
+\NAD83\Alberta 10-TM (Forest).prj,1174864,616
+\SAD69\Brazil Polyconic (deprecated).prj,570508,594
+\Hartebeesthoek94.prj,36324,320
+\St. Lawrence Island.prj,125409,316
+\NAD83(HARN)\Texas South.prj,1112597,723
+\MGI (Ferro)\Austria East Zone (deprecated).prj,1488145,668
+\MGI (Ferro)\Austria West Zone (deprecated).prj,1489455,668
+\NZGD49\Karamea Circuit.prj,927862,694
+\Amersfoort\RD Old.prj,1868491,686
+\Amersfoort\RD New.prj,1867795,696
+\Diego Garcia 1969.prj,22088,333
+\NTF (Paris)\Centre France (deprecated).prj,966227,719
+\GGRS87\Greek Grid.prj,1655470,642
+\NAD83(HARN)\New Mexico East (ftUS).prj,1073667,693
+\NAD83(HARN)\New Mexico West (ftUS).prj,1075011,696
+\GDM2000\Peninsula RSO.prj,1659256,711
+\ED50\France EuroLambert.prj,1730825,633
+\NAD83\New York Central.prj,1268251,623
+\NAD27\New York Central.prj,1423618,658
+\NAD83\New York West.prj,1272266,617
+\NAD27\New York West.prj,1425658,652
+\NAD83\New York East.prj,1269529,616
+\NAD27\New York East.prj,1424276,654
+\NAD27\California zone V.prj,1378704,723
+\NAD27\California zone I.prj,1375805,721
+\NAD83\California zone 4.prj,1190055,679
+\NAD83\California zone 5.prj,1191475,693
+\NAD83\California zone 6.prj,1192925,709
+\NAD83\California zone 1.prj,1185739,691
+\NAD83\California zone 2.prj,1187184,706
+\NAD83\California zone 3.prj,1188633,695
+\Mauritania 1999.prj,67963,319
+\Ammassalik 1958.prj,3365,333
+\Scoresbysund 1952.prj,108655,341
+\Mount Dillon\Tobago Grid.prj,1476931,638
+\NAD27(CGQ77)\SCoPQ zone 10.prj,1340484,635
+\NAD27\California zone II.prj,1376526,738
+\NAD27\California zone VI.prj,1379427,741
+\NAD27\California zone IV.prj,1377993,711
+\Samboja\UTM zone 50S (deprecated).prj,569142,658
+------68623474,123891514(101)
+\St. Helena 1971.prj,124784,326
+\NAD83\Tennessee.prj,1295673,671
+\NAD27\Tennessee.prj,1439923,711
+\Mhast (onshore).prj,69572,294
+\NZGD49\Amuri Circuit.prj,920927,690
+\Saint Pierre et Miquelon 1950\UTM zone 21N.prj,569800,708
+\NAD27\New Jersey.prj,1420993,661
+\NAD83\New Jersey.prj,1263121,610
+\Lake\Maracaibo Grid M1.prj,1542266,619
+\Lake\Maracaibo Grid M3.prj,1542885,624
+\Lake\Maracaibo Grid.prj,1543509,618
+\NAD27\Iowa South.prj,1396459,708
+\NAD83\Iowa South.prj,1220644,672
+\NAD83\Iowa North.prj,1219963,681
+\NAD27\Iowa North.prj,1395749,710
+\US National Atlas Equal Area.prj,157306,676
+\NZGD49\Bluff Circuit.prj,922318,689
+\NZGD2000\Okarito Circuit 2000.prj,958867,668
+\NZGD2000\Karamea Circuit 2000.prj,951322,680
+\NAD83(HARN)\Indiana East (ftUS) (deprecated).prj,1034565,722
+\NAD83(HARN)\Indiana West (ftUS) (deprecated).prj,1036646,719
+\NAD83(HARN)\Idaho West.prj,1032599,645
+\NAD83(HARN)\Maine West.prj,1050083,656
+\NZGD2000\Mount York Circuit 2000.prj,955437,686
+\NAD83\Wisconsin South.prj,1335989,680
+\NAD27\Wisconsin South.prj,1467347,716
+\MGI\Austria Lambert.prj,1496164,732
+\K0 1949\UTM zone 42S (deprecated).prj,1579314,645
+\Schwarzeck\UTM zone 33S.prj,567210,622
+\Unknown datum based upon the Clarke 1880 (RGS) ellipsoid.prj,146569,418
+\Unknown datum based upon the Clarke 1880 (IGN) ellipsoid.prj,146143,426
+\Unknown datum based upon the Clarke 1880 (Arc) ellipsoid.prj,145281,422
+\NAD27\Montana South.prj,1412622,702
+\NAD27\Virginia North.prj,1461576,718
+\NAD83\Virginia North.prj,1326101,689
+\NAD27\Montana North.prj,1411919,703
+\NAD27\Virginia South.prj,1462294,731
+\NAD83\Virginia South.prj,1327540,702
+\Puerto Rico\St. Croix.prj,886153,769
+\NZGD49\Grey Circuit.prj,925087,688
+\NAD83(HARN)\Massachusetts Mainland (ftUS).prj,1053637,774
+\NAD83\Nevada East.prj,1261262,619
+\NAD27\Nevada East.prj,1419041,648
+\NAD83\Nevada West.prj,1261881,619
+\NAD27\Nevada West.prj,1419689,648
+\NAD27\Louisiana North.prj,1400070,733
+\NAD83\Louisiana North.prj,1227742,685
+\NTF (Paris)\Sud France (deprecated).prj,976853,714
+\NAD27\Missouri Central.prj,1409223,662
+\NAD83\Missouri Central.prj,1246720,627
+\Luxembourg 1930\Gauss.prj,1525518,679
+\NAD27\Florida North.prj,1387179,702
+\NAD83\Florida North.prj,1203261,666
+\NAD27\Missouri West.prj,1410541,656
+\NAD83\Missouri West.prj,1247968,621
+\NAD27\Missouri East.prj,1409885,656
+\NAD83\Missouri East.prj,1247347,621
+\Ain el Abd\UTM zone 38N.prj,1874393,600
+\Ain el Abd\UTM zone 39N.prj,1874993,600
+\Ain el Abd\UTM zone 36N.prj,1873193,600
+\Ain el Abd\UTM zone 40N.prj,1875593,600
+\Ain el Abd\UTM zone 37N.prj,1873793,600
+\NAD83\Idaho East (ftUS).prj,1212137,671
+\NAD83\Idaho West (ftUS).prj,1213436,661
+\Puerto Rico\UTM zone 20N.prj,886922,636
+\NAD83\Utah North (ft).prj,1307079,716
+\NAD83\Utah South (ft).prj,1308489,704
+\WGS 84\UTM zone 45S.prj,323993,609
+\WGS 72\UTM zone 45S.prj,472799,579
+\WGS 84\UTM zone 55S.prj,337329,610
+\WGS 72\UTM zone 55S.prj,485475,580
+\WGS 84\UTM zone 15S.prj,284007,610
+\WGS 72\UTM zone 15S.prj,434793,580
+\SIRGAS\UTM zone 25S.prj,561448,663
+\WGS 84\UTM zone 25S.prj,297348,610
+\WGS 72\UTM zone 25S.prj,447474,580
+\WGS 84\UTM zone 35S.prj,310672,609
+\WGS 72\UTM zone 35S.prj,460138,579
+\WGS 84\UTM zone 44S.prj,322782,609
+\WGS 72\UTM zone 44S.prj,471648,579
+\WGS 84\UTM zone 54S.prj,336116,610
+\WGS 72\UTM zone 54S.prj,484322,580
+\WGS 84\UTM zone 14S.prj,282794,610
+\WGS 72\UTM zone 14S.prj,433640,580
+\SIRGAS\UTM zone 24S.prj,560785,663
+\WGS 84\UTM zone 24S.prj,296135,610
+\WGS 72\UTM zone 24S.prj,446321,580
+\WGS 84\UTM zone 34S.prj,309461,609
+\WGS 72\UTM zone 34S.prj,458987,579
+\WGS 84\UTM zone 47S.prj,326415,609
+\WGS 72\UTM zone 47S.prj,475101,579
+\WGS 84\UTM zone 57S.prj,339755,610
+\WGS 72\UTM zone 57S.prj,487781,580
+\SIRGAS\UTM zone 17S.prj,552864,663
+\WGS 84\UTM zone 17S.prj,286433,610
+\WGS 72\UTM zone 17S.prj,437099,580
+\PSAD56\UTM zone 17S.prj,891962,618
+\WGS 84\UTM zone 27S.prj,299774,610
+\WGS 72\UTM zone 27S.prj,449780,580
+\WGS 84\UTM zone 37S.prj,313094,609
+\Moznet\UTM zone 37S.prj,1476315,616
+------123891517,271396441(204)
+\WGS 72\UTM zone 37S.prj,462440,579
+\WGS 84\UTM zone 46S.prj,325204,609
+\WGS 72\UTM zone 46S.prj,473950,579
+\WGS 84\UTM zone 56S.prj,338542,610
+\WGS 72\UTM zone 56S.prj,486628,580
+\WGS 84\UTM zone 16S.prj,285220,610
+\WGS 72\UTM zone 16S.prj,435946,580
+\WGS 84\UTM zone 26S.prj,298561,610
+\WGS 72\UTM zone 26S.prj,448627,580
+\WGS 84\UTM zone 36S.prj,311883,609
+\Moznet\UTM zone 36S.prj,1475699,616
+\WGS 72\UTM zone 36S.prj,461289,579
+\WGS 84\UTM zone 41S.prj,319149,609
+\WGS 72\UTM zone 41S.prj,468195,579
+\WGS 84\UTM zone 51S.prj,332477,610
+\WGS 72\UTM zone 51S.prj,480863,580
+\WGS 84\UTM zone 11S.prj,279150,611
+\WGS 72\UTM zone 11S.prj,430176,581
+\SIRGAS\UTM zone 21S.prj,558140,663
+\WGS 84\UTM zone 21S.prj,292496,610
+\WGS 72\UTM zone 21S.prj,442862,580
+\PSAD56\UTM zone 21S.prj,896878,618
+\WGS 84\UTM zone 31S.prj,305831,608
+\WGS 72\UTM zone 31S.prj,455537,578
+\WGS 84\UTM zone 40S.prj,317938,609
+\WGS 72\UTM zone 40S.prj,467044,579
+\Segara\UTM zone 50S.prj,566612,598
+\WGS 84\UTM zone 50S.prj,331264,610
+\WGS 72\UTM zone 50S.prj,479710,580
+\WGS 84\UTM zone 60S.prj,344605,610
+\WGS 72\UTM zone 60S.prj,492391,580
+\NZGD49\UTM zone 60S.prj,941768,664
+\WGS 84\UTM zone 10S.prj,277935,611
+\WGS 72\UTM zone 10S.prj,429021,581
+\SIRGAS\UTM zone 20S.prj,556821,663
+\WGS 84\UTM zone 20S.prj,291283,610
+\WGS 72\UTM zone 20S.prj,441709,580
+\PSAD56\UTM zone 20S.prj,895649,618
+\WGS 84\UTM zone 30S.prj,304621,609
+\WGS 72\UTM zone 30S.prj,454387,579
+\WGS 84\UTM zone 43S.prj,321571,609
+\WGS 72\UTM zone 43S.prj,470497,579
+\WGS 84\UTM zone 53S.prj,334903,610
+\WGS 72\UTM zone 53S.prj,483169,580
+\WGS 84\UTM zone 13S.prj,281580,611
+\WGS 72\UTM zone 13S.prj,432486,581
+\SIRGAS\UTM zone 23S.prj,560122,663
+\WGS 84\UTM zone 23S.prj,294922,610
+\WGS 72\UTM zone 23S.prj,445168,580
+\WGS 84\UTM zone 33S.prj,308250,609
+\WGS 72\UTM zone 33S.prj,457836,579
+\WGS 84\UTM zone 42S.prj,320360,609
+\WGS 72\UTM zone 42S.prj,469346,579
+\WGS 84\UTM zone 52S.prj,333690,610
+\WGS 72\UTM zone 52S.prj,482016,580
+\WGS 84\UTM zone 12S.prj,280365,611
+\WGS 72\UTM zone 12S.prj,431331,581
+\SIRGAS\UTM zone 22S.prj,559459,663
+\WGS 84\UTM zone 22S.prj,293709,610
+\WGS 72\UTM zone 22S.prj,444015,580
+\PSAD56\UTM zone 22S.prj,897496,618
+\WGS 84\UTM zone 32S.prj,307040,608
+\WGS 72\UTM zone 32S.prj,456686,578
+\WGS 84\UTM zone 49S.prj,328840,610
+\WGS 72\UTM zone 49S.prj,477406,580
+\WGS 84\UTM zone 59S.prj,342181,610
+\WGS 72\UTM zone 59S.prj,490087,580
+\NZGD49\UTM zone 59S.prj,941104,664
+\SIRGAS\UTM zone 19S.prj,555502,663
+\WGS 84\UTM zone 19S.prj,288859,610
+\WGS 72\UTM zone 19S.prj,439405,580
+\PSAD56\UTM zone 19S.prj,894420,618
+\WGS 84\UTM zone 29S.prj,302199,609
+\WGS 72\UTM zone 29S.prj,452085,579
+\WGS 84\UTM zone 39S.prj,315516,609
+\WGS 72\UTM zone 39S.prj,464742,579
+\WGS 84\UTM zone 48S.prj,327627,610
+\WGS 72\UTM zone 48S.prj,476253,580
+\WGS 84\UTM zone 58S.prj,340968,610
+\WGS 72\UTM zone 58S.prj,488934,580
+\NZGD49\UTM zone 58S.prj,940440,664
+\SIRGAS\UTM zone 18S.prj,554183,663
+\WGS 84\UTM zone 18S.prj,287646,610
+\WGS 72\UTM zone 18S.prj,438252,580
+\PSAD56\UTM zone 18S.prj,893191,618
+\WGS 84\UTM zone 28S.prj,300987,610
+\WGS 72\UTM zone 28S.prj,450933,580
+\WGS 84\UTM zone 38S.prj,314305,609
+\WGS 72\UTM zone 38S.prj,463591,579
+\Australian Antarctic.prj,6086,345
+\Sierra Leone 1968\UTM zone 28N.prj,562111,657
+\Monte Mario\Italy zone 1.prj,1480789,598
+\Monte Mario\Italy zone 2.prj,1481387,599
+\IGN72 Grande Terre\UTM zone 58S.prj,1605204,634
+\NZGD49\Okarito Circuit.prj,936255,694
+\Kasai 1953\Congo TM zone 22.prj,1559345,616
+\Kasai 1953\Congo TM zone 24.prj,1559961,616
+\Zanderij\Suriname TM.prj,164228,632
+\NAD83\Texas North.prj,1301385,669
+\NAD27\Texas North.prj,1442117,699
+\NAD27\Texas South.prj,1443555,725
+\NAD83\Texas South.prj,1304267,695
+\NGN\UTM zone 39N.prj,987443,618
+\NGN\UTM zone 38N.prj,986825,618
+\KKJ\Finland Uniform Coordinate System.prj,1550244,637
+\NAD83(HARN)\North Dakota North (ft).prj,1084114,736
+\NAD83(HARN)\North Dakota South (ft).prj,1085567,751
+\IGN56 Lifou\UTM zone 58S.prj,1607107,606
+\Sudan\UTM zone 35N (deprecated).prj,529597,615
+\Sudan\UTM zone 36N (deprecated).prj,530212,615
+\SAD69\UTM zone 20N (deprecated).prj,577804,621
+\SAD69\UTM zone 21N (deprecated).prj,580254,621
+\SAD69\UTM zone 22N (deprecated).prj,582704,621
+\SAD69\UTM zone 18N (deprecated).prj,572904,621
+\SAD69\UTM zone 19N (deprecated).prj,575354,621
+\SAD69\UTM zone 24S (deprecated).prj,586386,628
+\SAD69\UTM zone 25S (deprecated).prj,587618,628
+\SAD69\UTM zone 17S (deprecated).prj,571672,628
+\SAD69\UTM zone 20S (deprecated).prj,579022,628
+\SAD69\UTM zone 21S (deprecated).prj,581472,628
+\Mhast\UTM zone 32S (deprecated).prj,1486178,645
+\SAD69\UTM zone 22S (deprecated).prj,583922,628
+\SAD69\UTM zone 23S (deprecated).prj,585154,628
+\SAD69\UTM zone 18S (deprecated).prj,574122,628
+\SAD69\UTM zone 19S (deprecated).prj,576572,628
+\NZGD49\Wairarapa Circuit.prj,942432,698
+\AGD66\Vicgrid66.prj,1889811,665
+\GDA94\Vicgrid94.prj,1672682,679
+\Campo Inchauspe.prj,13984,296
+\Sierra Leone 1968\UTM zone 29N.prj,562768,656
+\Barbados 1938\British West Indies Grid.prj,1850894,676
+\WGS 84\Plate Carree.prj,212053,559
+\Dominica 1945\British West Indies Grid.prj,1745499,667
+\Anguilla 1957\British West Indies Grid.prj,1867157,638
+\DHDN\Gauss-Kruger zone 3.prj,1749966,608
+\DHDN\Gauss-Kruger zone 2.prj,1749358,608
+\DHDN\Gauss-Kruger zone 5.prj,1751183,609
+\DHDN\Gauss-Kruger zone 4.prj,1750574,609
+\Grand Cayman 1959.prj,33257,345
+\NAD27(76)\MTM zone 17.prj,1353675,619
+\NAD27(76)\MTM zone 16.prj,1353056,619
+\NAD27(76)\MTM zone 15.prj,1352437,619
+\NAD27(76)\MTM zone 14.prj,1351818,619
+\NAD27(76)\MTM zone 13.prj,1351199,619
+\NAD27(76)\MTM zone 12.prj,1350580,619
+\NAD27(76)\MTM zone 11.prj,1349959,621
+\NAD27(76)\MTM zone 10.prj,1349338,621
+\NAD27(76)\UTM zone 18N.prj,1357395,621
+\NAD27(76)\UTM zone 17N.prj,1356774,621
+\NAD27(76)\UTM zone 16N.prj,1356153,621
+\NAD27(76)\UTM zone 15N.prj,1355532,621
+\NAD27(76)\MTM zone 8.prj,1354294,619
+\NAD27(76)\MTM zone 9.prj,1354913,619
+\PSAD56\Peru central zone.prj,889446,638
+\NAD83(HARN)\Wisconsin North (ftUS).prj,1128407,764
+\NAD83(HARN)\Wisconsin South (ftUS).prj,1129894,749
+\DHDN\Soldner Berlin.prj,1751792,599
+\JGD2000\Japan Plane Rectangular CS XVIII.prj,1591890,663
+\JGD2000\Japan Plane Rectangular CS XVII.prj,1591229,661
+\JGD2000\Japan Plane Rectangular CS VIII.prj,1585275,663
+\JGD2000\Japan Plane Rectangular CS XIII.prj,1587929,664
+\PSAD56\Peru west zone.prj,890719,632
+\PSAD56\Peru east zone.prj,890084,635
+\Deir ez Zor\Levant Stereographic.prj,1761729,636
+\OSGB 1936\British National Grid.prj,916978,625
+\Mauritania 1999\UTM zone 30N.prj,1511323,637
+\Mauritania 1999\UTM zone 28N.prj,1508754,638
+\Mauritania 1999\UTM zone 29N.prj,1510039,637
+\Montserrat 1958.prj,71645,332
+\Camp Area Astro.prj,13657,327
+\Chos Malal 1914.prj,16119,296
+\NZGD49\North Island Grid.prj,934123,708
+\NZGD49\South Island Grid.prj,937651,708
+\Trinidad 1903\Trinidad Grid (ftCla).prj,502083,660
+\Unspecified datum based upon the GRS 1980 Authalic Sphere.prj,156890,416
+\Sierra Leone 1924\New Colony Grid.prj,563424,666
+\Korean 1985\Korea East Belt.prj,1549010,617
+\Little Cayman 1961\UTM zone 17N.prj,1529903,636
+\MGI\3-degree Gauss zone 7 (deprecated).prj,1494014,696
+\MGI\3-degree Gauss zone 6 (deprecated).prj,1493318,696
+\MGI\3-degree Gauss zone 5 (deprecated).prj,1492622,696
+\MGI\3-degree Gauss zone 8 (deprecated).prj,1494710,696
+\NAD83\Idaho Central.prj,1211517,620
+\NAD27\Idaho Central.prj,1391136,655
+\NAD83\Mississippi West (ftUS).prj,1245430,667
+\Nord Sahara 1959\Voirol Unifie Nord.prj,980069,658
+\Mhast (onshore)\UTM zone 32S.prj,1484938,618
+\M'poraloko\UTM zone 32S.prj,1521804,616
+\M'poraloko\UTM zone 32N.prj,1521195,609
+\SAD69\Brazil Polyconic.prj,571102,570
+\Pulkovo 1942(58)\GUGiK-80.prj,744527,701
+\NAD83(HARN)\New York Central.prj,1077060,651
+\NAD83(HARN)\Missouri Central.prj,1065118,655
+\Makassar (Jakarta).prj,64762,360
+\IGN 1962 Kerguelen.prj,42866,335
+\Luzon 1911\Philippines zone V.prj,1524900,618
+\NAD83(HARN)\Tennessee (ftUS).prj,1102920,740
+\Camacupa\TM 11.30 SE.prj,1786284,601
+\NAD83(HARN)\Mississippi West.prj,1064467,651
+\NAD83(HARN)\Mississippi East.prj,1063120,651
+\NAD83\Indiana West (ftUS) (deprecated).prj,1217974,690
+\NAD83\Indiana East (ftUS) (deprecated).prj,1215979,693
+\NAD27\Cuba Norte.prj,1384613,625
+\NZGD49\Nelson Circuit.prj,932781,692
+------272966175,442722610(215)
+\MAGNA-SIRGAS\Colombia Bogota zone.prj,1516395,703
+\Bogota 1975\Colombia East Central zone.prj,1791471,691
+\NAD83(HARN)\California zone 1.prj,1003046,719
+\ETRS89\Kp2000 Jutland.prj,1700325,620
+\ETRS89\Kp2000 Zealand.prj,1700945,619
+\Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid.prj,149699,474
+\Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid.prj,149228,471
+\Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid.prj,148754,474
+\Voirol 1879 (Paris).prj,160271,324
+\Voirol 1875 (Paris).prj,159588,354
+\Corrego Alegre\UTM zone 22S.prj,1769353,648
+\Corrego Alegre\UTM zone 23S.prj,1770001,648
+\Corrego Alegre\UTM zone 21S.prj,1768705,648
+\Corrego Alegre\UTM zone 24S.prj,1770649,648
+\Corrego Alegre\UTM zone 25S.prj,1771297,648
+\NAD27\Shackleford.prj,1435540,707
+\South West African Coord. System zone 15.prj,120082,680
+\South West African Coord. System zone 17.prj,120762,680
+\South West African Coord. System zone 11.prj,118722,680
+\South West African Coord. System zone 13.prj,119402,680
+\South West African Coord. System zone 19.prj,121442,680
+\IGN72 Grand Terre.prj,44356,302
+\RRAF 1991\UTM zone 20N.prj,589538,651
+\Unknown datum based upon the Everest (1830 Definition) ellipsoid.prj,147827,456
+\Luzon 1911\Philippines zone II.prj,1523038,620
+\Luzon 1911\Philippines zone IV.prj,1524280,620
+\Luzon 1911\Philippines zone I.prj,1522420,618
+\Luzon 1911\Philippines zone III.prj,1523658,622
+\NAD83(HARN)\California zone 2.prj,1004548,734
+\NAD27\New Hampshire.prj,1420337,656
+\NAD83\New Hampshire.prj,1262500,621
+\NAD27\Alaska Albers.prj,1359305,675
+\NAD83\New Mexico West.prj,1266955,623
+\NAD27\New Mexico West.prj,1422960,658
+\WGS 84\Australian Antarctic Lambert.prj,207563,695
+\NAD27\New Mexico Central.prj,1421654,648
+\NAD83\New Mexico Central.prj,1264388,613
+\Tahiti 52\UTM zone 6S.prj,528378,626
+\South West African Coord. System zone 25.prj,123482,680
+\South West African Coord. System zone 21.prj,122122,680
+\South West African Coord. System zone 23.prj,122802,680
+\American Samoa 1962.prj,2664,347
+\NAD27\Guatemala Sur.prj,1390490,646
+\NAD83\Utah South.prj,1309193,682
+\NAD27\Utah South.prj,1445720,712
+\NAD27\Utah North.prj,1444996,724
+\NAD83\Utah North.prj,1307795,694
+\Tananarive\UTM zone 39S.prj,527143,638
+\Tananarive\UTM zone 38S.prj,526505,638
+\NAD83(HARN)\California zone 3.prj,1006054,723
+\NAD83\Idaho East.prj,1212808,628
+\NAD27\Idaho East.prj,1391791,663
+\NAD83\Idaho West.prj,1214097,617
+\NAD27\Idaho West.prj,1392454,652
+\Nord Sahara 1959.prj,79070,306
+\NAD27\Guatemala Norte.prj,1389827,663
+\Tern Island 1961.prj,138317,330
+\Wake Island 1952.prj,160894,328
+\Zanderij\Suriname Old TM.prj,163588,640
+\PRS92\Philippines zone 4.prj,900154,680
+\PRS92\Philippines zone 5.prj,900834,680
+\PRS92\Philippines zone 2.prj,898794,680
+\PRS92\Philippines zone 3.prj,899474,680
+\PRS92\Philippines zone 1.prj,898114,680
+\NZGD2000\Collingwood Circuit 2000.prj,947224,688
+\NZGD49\Taranaki Circuit.prj,938359,691
+\NZGD49\Wanganui Circuit.prj,943130,696
+\NAD83(HARN)\Michigan Central (ft).prj,1055140,746
+\RGNC91-93\UTM zone 59S.prj,595358,657
+\RGNC91-93\UTM zone 58S.prj,594701,657
+\RGNC91-93\UTM zone 57S.prj,594044,657
+\NAD27\Louisiana Offshore.prj,1400803,752
+\NAD83\Louisiana Offshore.prj,1228427,704
+\NAD83(HARN)\Texas Centric Lambert Conformal.prj,1106613,720
+\Guadeloupe 1948\UTM zone 20N.prj,1645666,615
+\RGNC91-93\Lambert New Caledonia.prj,593288,756
+\NAD83\Texas Central.prj,1297110,712
+\NAD27\Texas Central.prj,1440634,742
+\NAD83(HARN)\Oregon Lambert (ft).prj,1091388,703
+\NAD83(HARN)\California zone 4.prj,1007533,707
+\Unknown datum based upon the Everest 1830 Modified ellipsoid.prj,150173,437
+\Mhast (offshore).prj,69275,297
+\NZGD49\Gawler Circuit.prj,924395,692
+\Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid.prj,148283,471
+\NAD83(HARN)\California zone 5.prj,1009010,721
+\Madeira 1936\UTM zone 28N (deprecated).prj,1520567,628
+\IGCB 1955\UTM zone 33S.prj,1614716,671
+\MGI\Slovenia Grid.prj,1504193,657
+\Sierra Leone 1924.prj,110452,301
+\Sierra Leone 1968.prj,110753,336
+\NAD83(HARN)\California zone 6.prj,1010517,737
+\NAD27\Nebraska South.prj,1417656,731
+\NAD27\Nebraska North.prj,1416938,718
+\NAD83\New Mexico East.prj,1265665,623
+\NAD27\New Mexico East.prj,1422302,658
+\Fiji 1986\Fiji Map Grid.prj,1675198,612
+\Fiji 1956\UTM zone 1S.prj,1675810,639
+\Fiji 1956\UTM zone 60S.prj,1676449,640
+\Johnston Island 1961.prj,48629,341
+\Martinique 1938\UTM zone 20N.prj,1513216,615
+\Korean 1985\Korea Central Belt.prj,1548387,623
+\NAD83\Michigan Central.prj,1237857,700
+\ATS77\MTM Nova Scotia zone 5.prj,1855485,641
+\ATS77\MTM Nova Scotia zone 4.prj,1854844,641
+\IGN53 Mare\UTM zone 59S.prj,1608315,602
+\IGN53 Mare\UTM zone 58S.prj,1607713,602
+\NAD83\Quebec Lambert.prj,1289624,645
+\NAD27\Quebec Lambert.prj,1434234,654
+\St. Vincent 1945.prj,126358,346
+\NAD83\Oregon Lambert.prj,1282618,655
+\NAD83\Nevada Central.prj,1260637,625
+\NAD27\Nevada Central.prj,1418387,654
+\NAD83\Michigan North.prj,1239268,694
+\NAD83\Michigan South.prj,1241397,683
+\Merchich\Sahara (deprecated).prj,1505498,662
+\Nakhl-e Ghanem\UTM zone 39N.prj,991297,638
+\St. George Island.prj,124474,310
+\Moorea 87\UTM zone 6S.prj,1478150,661
+\NAD83(HARN)\Idaho East.prj,1031253,656
+\NAD83(HARN)\Maine East.prj,1049445,638
+\NZGD2000\Hawkes Bay Circuit 2000.prj,949264,686
+\MGI (Ferro)\M31.prj,1491384,619
+\MGI (Ferro)\M34.prj,1492003,619
+\MGI (Ferro)\M28.prj,1490765,619
+\NAD27\Colorado Central.prj,1381725,712
+\NAD83\Colorado Central.prj,1194356,691
+\Luxembourg 1930.prj,62284,345
+\NAD27\Oklahoma North.prj,1429910,714
+\NAD83\Oklahoma North.prj,1279174,678
+\NAD83\Colorado South.prj,1197242,711
+\NAD27\Colorado South.prj,1383169,732
+\NAD83\Colorado North.prj,1195789,711
+\NAD27\Colorado North.prj,1382437,732
+\NAD27\Oklahoma South.prj,1430624,729
+\NAD83\Oklahoma South.prj,1280585,693
+\NAD27\Illinois East.prj,1393106,666
+\NAD83\Illinois East.prj,1214714,631
+\NAD27\Illinois West.prj,1393772,669
+\NAD83\Illinois West.prj,1215345,634
+\ETRS89\Kp2000 Bornholm.prj,1699710,615
+\NAD83(HARN)\Colorado Central.prj,1012005,719
+\NAD83(HARN)\Hawaii zone 5.prj,1028560,652
+\NAD83(HARN)\Hawaii zone 4.prj,1027914,646
+\NAD83(HARN)\Hawaii zone 3.prj,1027270,644
+\NAD83(HARN)\Hawaii zone 2.prj,1026608,662
+\NAD83(HARN)\Hawaii zone 1.prj,1025958,650
+\Indian 1960\TM 106 NE.prj,1600781,614
+\TM65\Irish Grid.prj,518617,589
+\TM75\Irish Grid.prj,518010,607
+\WGS 84\BLM 15N (ftUS).prj,209556,637
+\WGS 84\BLM 14N (ftUS).prj,208919,637
+\WGS 84\BLM 17N (ftUS).prj,210830,637
+\WGS 84\BLM 16N (ftUS).prj,210193,637
+\Tahiti 79\UTM zone 6S.prj,527781,597
+\Marshall Islands 1960.prj,66708,334
+\NAD83\Tennessee (ftUS).prj,1294962,711
+\Guadeloupe 1948.prj,34788,296
+\ETRS89\ETRS-GK29FIN.prj,1686203,609
+\ETRS89\ETRS-GK28FIN.prj,1685594,609
+\ETRS89\ETRS-GK21FIN.prj,1681331,609
+\ETRS89\ETRS-GK20FIN.prj,1680722,609
+\ETRS89\ETRS-GK23FIN.prj,1682549,609
+\ETRS89\ETRS-GK22FIN.prj,1681940,609
+\ETRS89\ETRS-GK25FIN.prj,1683767,609
+\ETRS89\ETRS-GK24FIN.prj,1683158,609
+\ETRS89\ETRS-GK27FIN.prj,1684985,609
+\ETRS89\ETRS-GK26FIN.prj,1684376,609
+\ETRS89\ETRS-GK31FIN.prj,1687421,609
+\ETRS89\ETRS-GK30FIN.prj,1686812,609
+\ETRS89\ETRS-GK19FIN.prj,1680113,609
+\ETRS89\ETRS-TM35FIN.prj,1695367,614
+\NAD83\Kentucky South.prj,1227041,701
+\NAD27\Kentucky South.prj,1399338,732
+\NAD83\Kentucky North.prj,1224137,682
+\NAD27\Kentucky North.prj,1398619,719
+\NAD83(HARN)\Arizona West (ft).prj,998877,648
+\NAD83(HARN)\Arizona East (ft).prj,997583,654
+\WGS 84\UTM zone 45N.prj,323391,602
+\WGS 72\UTM zone 45N.prj,472227,572
+\WGS 84\UTM zone 55N.prj,336726,603
+\WGS 72\UTM zone 55N.prj,484902,573
+\WGS 84\UTM zone 15N.prj,283404,603
+\WGS 72\UTM zone 15N.prj,434220,573
+\WGS 84\UTM zone 25N.prj,296745,603
+\WGS 72\UTM zone 25N.prj,446901,573
+\WGS 84\UTM zone 35N.prj,310070,602
+\WGS 72\UTM zone 35N.prj,459566,572
+\ETRS89\UTM zone 35N.prj,1710238,615
+\WGS 84\UTM zone 44N.prj,322180,602
+\WGS 72\UTM zone 44N.prj,471076,572
+\WGS 84\UTM zone 54N.prj,335513,603
+\WGS 72\UTM zone 54N.prj,483749,573
+\WGS 84\UTM zone 14N.prj,282191,603
+\WGS 72\UTM zone 14N.prj,433067,573
+\WGS 84\UTM zone 24N.prj,295532,603
+\WGS 72\UTM zone 24N.prj,445748,573
+\WGS 84\UTM zone 34N.prj,308859,602
+\WGS 72\UTM zone 34N.prj,458415,572
+\ETRS89\UTM zone 34N.prj,1709623,615
+\WGS 84\UTM zone 47N.prj,325813,602
+\WGS 72\UTM zone 47N.prj,474529,572
+\WGS 84\UTM zone 57N.prj,339152,603
+\WGS 72\UTM zone 57N.prj,487208,573
+\SIRGAS\UTM zone 17N.prj,552208,656
+\WGS 84\UTM zone 17N.prj,285830,603
+\WGS 72\UTM zone 17N.prj,436526,573
+\PSAD56\UTM zone 17N.prj,891351,611
+\WGS 84\UTM zone 27N.prj,299171,603
+\WGS 72\UTM zone 27N.prj,449207,573
+\WGS 84\UTM zone 37N.prj,312492,602
+\WGS 72\UTM zone 37N.prj,461868,572
+\ETRS89\UTM zone 37N.prj,1711468,615
+\WGS 84\UTM zone 46N.prj,324602,602
+\WGS 72\UTM zone 46N.prj,473378,572
+\WGS 84\UTM zone 56N.prj,337939,603
+------442722621,538984265(202)
+\WGS 72\UTM zone 56N.prj,486055,573
+\WGS 84\UTM zone 16N.prj,284617,603
+\WGS 72\UTM zone 16N.prj,435373,573
+\WGS 84\UTM zone 26N.prj,297958,603
+\WGS 72\UTM zone 26N.prj,448054,573
+\WGS 84\UTM zone 36N.prj,311281,602
+\WGS 72\UTM zone 36N.prj,460717,572
+\ETRS89\UTM zone 36N.prj,1710853,615
+\WGS 84\UTM zone 41N.prj,318547,602
+\WGS 72\UTM zone 41N.prj,467623,572
+\WGS 84\UTM zone 51N.prj,331874,603
+\WGS 72\UTM zone 51N.prj,480290,573
+\WGS 84\UTM zone 11N.prj,278546,604
+\WGS 72\UTM zone 11N.prj,429602,574
+\SIRGAS\UTM zone 21N.prj,557484,656
+\WGS 84\UTM zone 21N.prj,291893,603
+\WGS 72\UTM zone 21N.prj,442289,573
+\RGFG95\UTM zone 21N.prj,596793,635
+\PSAD56\UTM zone 21N.prj,896267,611
+\WGS 84\UTM zone 31N.prj,305230,601
+\WGS 72\UTM zone 31N.prj,454966,571
+\ETRS89\UTM zone 31N.prj,1707780,614
+\WGS 84\UTM zone 40N.prj,317336,602
+\WGS 72\UTM zone 40N.prj,466472,572
+\WGS 84\UTM zone 50N.prj,330661,603
+\WGS 72\UTM zone 50N.prj,479137,573
+\WGS 84\UTM zone 60N.prj,344002,603
+\WGS 72\UTM zone 60N.prj,491818,573
+\WGS 84\UTM zone 10N.prj,277331,604
+\WGS 72\UTM zone 10N.prj,428447,574
+\SIRGAS\UTM zone 20N.prj,556165,656
+\REGVEN\UTM zone 20N.prj,600606,620
+\WGS 84\UTM zone 20N.prj,290680,603
+\WGS 72\UTM zone 20N.prj,441136,573
+\PSAD56\UTM zone 20N.prj,895038,611
+\WGS 84\UTM zone 30N.prj,304019,602
+\WGS 72\UTM zone 30N.prj,453815,572
+\ETRS89\UTM zone 30N.prj,1707165,615
+\WGS 84\UTM zone 43N.prj,320969,602
+\WGS 72\UTM zone 43N.prj,469925,572
+\WGS 84\UTM zone 53N.prj,334300,603
+\WGS 72\UTM zone 53N.prj,482596,573
+\WGS 84\UTM zone 13N.prj,280976,604
+\WGS 72\UTM zone 13N.prj,431912,574
+\WGS 84\UTM zone 23N.prj,294319,603
+\WGS 72\UTM zone 23N.prj,444595,573
+\Garoua\UTM zone 33N.prj,1673980,585
+\WGS 84\UTM zone 33N.prj,307648,602
+\WGS 72\UTM zone 33N.prj,457264,572
+\ETRS89\UTM zone 33N.prj,1709008,615
+\NAD83\Texas Centric Albers Equal Area.prj,1297822,690
+\WGS 84\UTM zone 42N.prj,319758,602
+\WGS 72\UTM zone 42N.prj,468774,572
+\WGS 84\UTM zone 52N.prj,333087,603
+\WGS 72\UTM zone 52N.prj,481443,573
+\WGS 84\UTM zone 12N.prj,279761,604
+\WGS 72\UTM zone 12N.prj,430757,574
+\SIRGAS\UTM zone 22N.prj,558803,656
+\WGS 84\UTM zone 22N.prj,293106,603
+\WGS 72\UTM zone 22N.prj,443442,573
+\RGFG95\UTM zone 22N.prj,597428,635
+\WGS 84\UTM zone 32N.prj,306439,601
+\WGS 72\UTM zone 32N.prj,456115,571
+\ETRS89\UTM zone 32N.prj,1708394,614
+\WGS 84\UTM zone 49N.prj,328237,603
+\WGS 72\UTM zone 49N.prj,476833,573
+\WGS 84\UTM zone 59N.prj,341578,603
+\WGS 72\UTM zone 59N.prj,489514,573
+\SIRGAS\UTM zone 19N.prj,554846,656
+\REGVEN\UTM zone 19N.prj,599986,620
+\WGS 84\UTM zone 19N.prj,288256,603
+\WGS 72\UTM zone 19N.prj,438832,573
+\PSAD56\UTM zone 19N.prj,893809,611
+\WGS 84\UTM zone 29N.prj,301597,602
+\WGS 72\UTM zone 29N.prj,451513,572
+\ETRS89\UTM zone 29N.prj,1706550,615
+\WGS 84\UTM zone 39N.prj,314914,602
+\WGS 72\UTM zone 39N.prj,464170,572
+\WGS 84\UTM zone 48N.prj,327024,603
+\WGS 72\UTM zone 48N.prj,475680,573
+\WGS 84\UTM zone 58N.prj,340365,603
+\WGS 72\UTM zone 58N.prj,488361,573
+\SIRGAS\UTM zone 18N.prj,553527,656
+\REGVEN\UTM zone 18N.prj,599366,620
+\WGS 84\UTM zone 18N.prj,287043,603
+\WGS 72\UTM zone 18N.prj,437679,573
+\PSAD56\UTM zone 18N.prj,892580,611
+\Bissau\UTM zone 28N.prj,1795489,608
+\WGS 84\UTM zone 28N.prj,300384,603
+\WGS 72\UTM zone 28N.prj,450360,573
+\ETRS89\UTM zone 28N.prj,1705934,616
+\WGS 84\UTM zone 38N.prj,313703,602
+\WGS 72\UTM zone 38N.prj,463019,572
+\ETRS89\UTM zone 38N.prj,1712083,615
+\NAD83\Minnesota South.prj,1243449,685
+\NAD27\Minnesota South.prj,1407174,716
+\NAD27\Arizona Central.prj,1366538,653
+\NAD83\Arizona Central.prj,1176726,618
+\NAD83\South Carolina.prj,1292179,680
+\NAD83(HARN)\Rhode Island.prj,1099382,646
+\Grand Cayman 1959\UTM zone 17N.prj,1647557,666
+\NAD83(HARN)\Arizona Central (ft).prj,996277,660
+\NAD27\Maine East.prj,1402275,645
+\NAD83\Maine East.prj,1231672,610
+\NAD27\Maine West.prj,1402920,663
+\NAD83\Maine West.prj,1232282,628
+\NAD83\Ohio South.prj,1277784,672
+\NAD27\Ohio South.prj,1429202,708
+\NAD27\Ohio North.prj,1428492,710
+\NAD83\Ohio North.prj,1277110,674
+\Bogota 1975\Colombia East (deprecated).prj,1790063,691
+\NZGD2000\Marlborough Circuit 2000.prj,952670,688
+\NTF (Paris)\Nord France (deprecated).prj,976137,716
+\WGS 84\World Mercator.prj,350059,587
+\Sapper Hill 1943.prj,108027,327
+\NAD83(HARN)\Washington South.prj,1124825,728
+\NAD83(HARN)\Washington North.prj,1123340,712
+\NAD27(CGQ77)\SCoPQ zone 9.prj,1345550,633
+\NAD27(CGQ77)\SCoPQ zone 8.prj,1344917,633
+\NAD27(CGQ77)\SCoPQ zone 3.prj,1341752,633
+\NAD27(CGQ77)\SCoPQ zone 2.prj,1341119,633
+\NAD27(CGQ77)\SCoPQ zone 5.prj,1343018,633
+\NAD27(CGQ77)\SCoPQ zone 4.prj,1342385,633
+\NAD27(CGQ77)\SCoPQ zone 7.prj,1344284,633
+\NAD27(CGQ77)\SCoPQ zone 6.prj,1343651,633
+\NAD83\Pennsylvania South (ftUS).prj,1287443,744
+\NAD83\Pennsylvania North (ftUS).prj,1286019,732
+\WGS 84\Antarctic Polar Stereographic.prj,206937,626
+\NAD83\Minnesota North.prj,1242760,689
+\NAD27\Minnesota North.prj,1406454,720
+\NAD83\North Carolina.prj,1273604,684
+\NAD27\North Carolina.prj,1426310,717
+\Pico de la Nieves.prj,85725,332
+\Unknown datum based upon the Clarke 1866 Michigan ellipsoid.prj,144833,448
+\Porto Santo 1995.prj,87001,299
+\Vanua Levu 1915.prj,157982,357
+\NAD27\Montana Central.prj,1411197,722
+\Deception Island.prj,20854,335
+\Hartebeesthoek94\Lo15.prj,1636797,630
+\Hartebeesthoek94\Lo27.prj,1640577,630
+\Hartebeesthoek94\Lo17.prj,1637427,630
+\Hartebeesthoek94\Lo25.prj,1639947,630
+\Hartebeesthoek94\Lo33.prj,1642467,630
+\Hartebeesthoek94\Lo23.prj,1639317,630
+\Hartebeesthoek94\Lo31.prj,1641837,630
+\Hartebeesthoek94\Lo21.prj,1638687,630
+\Hartebeesthoek94\Lo19.prj,1638057,630
+\Hartebeesthoek94\Lo29.prj,1641207,630
+\NAD27\Washington North.prj,1463025,720
+\NAD83\Washington North.prj,1328970,684
+\NAD27\Washington South.prj,1463745,736
+\NAD83\Washington South.prj,1330398,700
+\ETRS89\Guernsey Grid.prj,1698413,640
+\NZGD49\Timaru Circuit.prj,939050,692
+\NAD83(HARN)\Texas North.prj,1109601,697
+\NZGD49\Tuhirangi Circuit.prj,939742,698
+\Kertau\R.S.O. Malaya (ch) (deprecated).prj,1557276,802
+\RT38 (Stockholm).prj,96884,328
+\NZGD2000\Poverty Bay Circuit 2000.prj,959535,688
+\NAD27\Wisconsin Central.prj,1465906,710
+\NAD83\Wisconsin Central.prj,1333165,674
+\NGO 1948 (Oslo)\NGO zone I.prj,981385,682
+\NGO 1948 (Oslo)\NGO zone V.prj,984089,681
+\NZGD2000\Lindis Peak Circuit 2000.prj,952002,668
+\NZGD49\Hokitika Circuit.prj,926475,690
+\NAD27\Wisconsin Transverse Mercator.prj,1468063,645
+\NAD83\Wisconsin Transverse Mercator.prj,1336669,636
+\NAD83(HARN)\Michigan Central.prj,1055886,728
+\Kertau (RSO)\RSO Malaya (ch).prj,1555791,767
+\Unknown datum based upon the Australian National Spheroid.prj,141514,429
+\Unknown datum based upon the Indonesian National Spheroid.prj,152158,430
+\LKS92\Latvia TM.prj,1529299,604
+\NAD83\BLM 14N (ftUS).prj,1181824,630
+\NAD83\BLM 15N (ftUS).prj,1182454,630
+\NAD83\BLM 16N (ftUS).prj,1183084,630
+\NAD83\BLM 17N (ftUS).prj,1183714,630
+\NAD27\BLM 16N (ftUS).prj,1373197,639
+\NAD27\BLM 17N (ftUS).prj,1374501,639
+\NAD27\BLM 14N (ftUS).prj,1370589,639
+\NAD27\BLM 15N (ftUS).prj,1371893,639
+\Nouakchott 1965.prj,79376,337
+\Korean 1985\Korea West Belt.prj,1549627,617
+\NAD83\Connecticut.prj,1198675,692
+\NAD27\Connecticut.prj,1383901,712
+\NAD83(HARN)\Utah Central (ft).prj,1113320,736
+\NAD27\Arkansas North.prj,1368479,729
+\NAD83\Arkansas North.prj,1179806,693
+\Martinique 1938.prj,67042,296
+\NAD27\Arkansas South.prj,1369208,716
+\NAD83\Arkansas South.prj,1180499,685
+\RGF93\Lambert-93.prj,598063,674
+\NAD83\Mississippi East (ftUS).prj,1244134,673
+\TM65\Irish National Grid (deprecated).prj,519206,633
+\NGO 1948 (Oslo)\NGO zone IV.prj,983420,669
+\NGO 1948 (Oslo)\NGO zone II.prj,982067,684
+\NGO 1948 (Oslo)\NGO zone VI.prj,984770,683
+\Pulkovo 1942(58)\Poland zone I (deprecated).prj,745228,726
+\WGS 84\USGS Transantarctic Mountains.prj,276619,712
+\Tokyo\Japan Plane Rectangular CS VIII.prj,508338,617
+\Tokyo\Japan Plane Rectangular CS XIII.prj,510808,618
+\Tokyo\Japan Plane Rectangular CS XVII.prj,513878,615
+\NAD83(HARN)\Delaware.prj,1017893,634
+------539230776,774912029(237)
+\NAD83(HARN)\New Jersey.prj,1071702,638
+\South Yemen\Gauss Kruger zone 8 (deprecated).prj,535455,662
+\South Yemen\Gauss Kruger zone 9 (deprecated).prj,536117,662
+\ELD79\TM 12 NE.prj,1718060,587
+\SWEREF99 TM.prj,135632,587
+\Yemen NGN96\UTM zone 39N.prj,167321,644
+\Yemen NGN96\UTM zone 38N.prj,166677,644
+\Accra\TM 1 NW.prj,1894711,585
+\SWEREF99 16 30.prj,131499,590
+\SWEREF99 15 00.prj,130320,588
+\SWEREF99 15 45.prj,130908,591
+\SWEREF99 23 15.prj,135041,591
+\SWEREF99 20 15.prj,133859,591
+\SWEREF99 13 30.prj,129139,590
+\SWEREF99 14 15.prj,129729,591
+\SWEREF99 17 15.prj,132089,591
+\SWEREF99 21 45.prj,134450,591
+\SWEREF99 12 00.prj,128551,588
+\SWEREF99 18 45.prj,133268,591
+\SWEREF99 18 00.prj,132680,588
+\RT90 2.5 gon V.prj,102811,601
+\RT90 7.5 gon V.prj,105233,601
+\RT38 2.5 gon V.prj,98380,588
+\RT38 7.5 gon V.prj,100751,588
+\RT90 2.5 gon O.prj,102210,601
+\RT38 2.5 gon O.prj,97792,588
+\Anguilla 1957.prj,3698,297
+\Iwo Jima 1945.prj,47418,319
+\Naparima 1972.prj,76868,290
+\Naparima 1955.prj,76578,290
+\Dominica 1945.prj,22421,326
+\Fatu Iva 72.prj,28730,350
+\Trinidad 1903.prj,140069,307
+\Le Pouce 1934.prj,57017,334
+\Timbalai 1948.prj,138919,311
+\Albanian 1987.prj,2375,289
+\Pitcairn 1967.prj,86057,318
+\Barbados 1938.prj,8430,334
+\RT38 2.5 gon W (deprecated).prj,98968,615
+\RT90 2.5 gon W (deprecated).prj,103412,627
+\GDM2000\Selangor Grid.prj,1661176,607
+\Unknown datum based upon the War Office ellipsoid.prj,155329,384
+\NAD83(HARN)\Tennessee.prj,1103660,699
+\NZGD49\Observation Point Circuit.prj,935541,714
+\Pulkovo 1942\CS63 zone A4.prj,824260,629
+\Pulkovo 1942\CS63 zone A3.prj,823631,629
+\Pulkovo 1942\CS63 zone C1.prj,825490,602
+\Pulkovo 1942\CS63 zone A2.prj,823002,629
+\Pulkovo 1942\CS63 zone C0.prj,824889,601
+\Pulkovo 1942\CS63 zone A1.prj,822373,629
+\Pulkovo 1942\CS63 zone C2.prj,826092,602
+\Pulkovo 1942\CS63 zone K4.prj,827952,629
+\Pulkovo 1942\CS63 zone K3.prj,827323,629
+\Pulkovo 1942\CS63 zone K2.prj,826694,629
+\Kalianpur 1937\UTM zone 46N.prj,1574614,632
+\Kalianpur 1937\UTM zone 45N.prj,1573982,632
+\Kalianpur 1962\UTM zone 43N.prj,1572686,635
+\Kalianpur 1962\UTM zone 42N.prj,1572051,635
+\Kalianpur 1962\UTM zone 41N.prj,1571416,635
+\Kalianpur 1975\UTM zone 43N.prj,1566774,664
+\Kalianpur 1975\UTM zone 42N.prj,1566110,664
+\Kalianpur 1975\UTM zone 47N.prj,1569430,664
+\Kalianpur 1975\UTM zone 46N.prj,1568766,664
+\Kalianpur 1975\UTM zone 45N.prj,1568102,664
+\Kalianpur 1975\UTM zone 44N.prj,1567438,664
+\WGS 84\UPS South.prj,276016,603
+\WGS 84\UPS North.prj,275414,602
+\OSNI 1952\Irish National Grid.prj,916313,665
+\Tokyo\Japan Plane Rectangular CS XVI.prj,513265,613
+\Tokyo\Japan Plane Rectangular CS III.prj,504612,627
+\Tokyo\Japan Plane Rectangular CS VII.prj,507711,627
+\Tokyo\Japan Plane Rectangular CS XII.prj,510192,616
+\Tokyo\Japan Plane Rectangular CS XIV.prj,511426,613
+\Tokyo\Japan Plane Rectangular CS XIX.prj,512039,613
+\Azores Oriental 1940\UTM zone 26N.prj,1852213,672
+\Estonian Coordinate System of 1997.prj,27434,718
+\Estonian Coordinate System of 1992.prj,26681,753
+\LGD2006\Libya TM zone 7.prj,1535762,651
+\LGD2006\Libya TM zone 6.prj,1535111,651
+\LGD2006\Libya TM zone 5.prj,1534461,650
+\LGD2006\Libya TM zone 9.prj,1537064,651
+\LGD2006\Libya TM zone 8.prj,1536413,651
+\Hito XVIII 1963.prj,37586,296
+\LGD2006\Libya TM zone 12.prj,1533155,653
+\LGD2006\Libya TM zone 13.prj,1533808,653
+\LGD2006\Libya TM zone 10.prj,1531849,653
+\LGD2006\Libya TM zone 11.prj,1532502,653
+\Pulkovo 1942(58)\3-degree Gauss-Kruger zone 5.prj,739702,697
+\Pulkovo 1942(58)\3-degree Gauss-Kruger zone 6.prj,740399,697
+\Pulkovo 1942(58)\3-degree Gauss-Kruger zone 7.prj,741096,697
+\Pulkovo 1942(58)\3-degree Gauss-Kruger zone 8.prj,741793,697
+\NAD83(CSRS)\Alberta 10-TM (Resource).prj,1148306,647
+\MGI\Balkans zone 8 (deprecated).prj,1498879,687
+\Kertau 1968\Singapore Grid.prj,1553875,639
+\Saint Pierre et Miquelon 1950.prj,107030,375
+\NAD83\Mississippi West.prj,1246097,623
+\NAD27\Mississippi West.prj,1408561,662
+\Batavia\TM 109 SE.prj,1847808,589
+\NAD27\Tennessee (deprecated).prj,1439191,732
+\NTF (Paris)\Corse (deprecated).prj,966946,711
+\Minna\Nigeria Mid Belt.prj,1482584,595
+\Belge 1972\Belgian Lambert 72.prj,1797524,723
+\NAD83\Georgia West (ftUS).prj,1206471,656
+\NAD83\Georgia East (ftUS).prj,1205204,655
+\NAD83\Florida West (ftUS).prj,1203927,660
+\NAD83\Florida East (ftUS).prj,1200622,660
+\Bogota 1975\Colombia Bogota zone (deprecated).prj,1788679,705
+\Beijing 1954\Gauss-Kruger 22N (deprecated).prj,1831188,632
+\Pulkovo 1942\Gauss-Kruger 32N (deprecated).prj,843106,633
+\Pulkovo 1995\Gauss-Kruger 32N (deprecated).prj,695640,633
+\Pulkovo 1942\Gauss-Kruger 22N (deprecated).prj,836157,632
+\Pulkovo 1995\Gauss-Kruger 22N (deprecated).prj,689319,632
+\Pulkovo 1942\Gauss-Kruger 12N (deprecated).prj,829843,631
+\Pulkovo 1995\Gauss-Kruger 12N (deprecated).prj,683005,631
+\Beijing 1954\Gauss-Kruger 23N (deprecated).prj,1831820,632
+\Beijing 1954\Gauss-Kruger 13N (deprecated).prj,1825505,631
+\Pulkovo 1942\Gauss-Kruger 23N (deprecated).prj,836789,632
+\Pulkovo 1995\Gauss-Kruger 23N (deprecated).prj,689951,632
+\Pulkovo 1942\Gauss-Kruger 13N (deprecated).prj,830474,631
+\Pulkovo 1995\Gauss-Kruger 13N (deprecated).prj,683636,631
+\Beijing 1954\Gauss-Kruger 20N (deprecated).prj,1829924,632
+\Pulkovo 1942\Gauss-Kruger 30N (deprecated).prj,841841,632
+\Pulkovo 1995\Gauss-Kruger 30N (deprecated).prj,694375,632
+\Pulkovo 1942\Gauss-Kruger 20N (deprecated).prj,834893,632
+\Pulkovo 1995\Gauss-Kruger 20N (deprecated).prj,688055,632
+\Pulkovo 1942\Gauss-Kruger 10N (deprecated).prj,828581,631
+\Pulkovo 1995\Gauss-Kruger 10N (deprecated).prj,681743,631
+\Beijing 1954\Gauss-Kruger 21N (deprecated).prj,1830556,632
+\Pulkovo 1942\Gauss-Kruger 31N (deprecated).prj,842473,633
+\Pulkovo 1995\Gauss-Kruger 31N (deprecated).prj,695007,633
+\Pulkovo 1942\Gauss-Kruger 21N (deprecated).prj,835525,632
+\Pulkovo 1995\Gauss-Kruger 21N (deprecated).prj,688687,632
+\Pulkovo 1942\Gauss-Kruger 11N (deprecated).prj,829212,631
+\Pulkovo 1995\Gauss-Kruger 11N (deprecated).prj,682374,631
+\Beijing 1954\Gauss-Kruger 16N (deprecated).prj,1827398,631
+\Pulkovo 1942\Gauss-Kruger 26N (deprecated).prj,838685,632
+\Pulkovo 1995\Gauss-Kruger 26N (deprecated).prj,691847,632
+\Pulkovo 1942\Gauss-Kruger 16N (deprecated).prj,832367,631
+\Pulkovo 1995\Gauss-Kruger 16N (deprecated).prj,685529,631
+\Beijing 1954\Gauss-Kruger 17N (deprecated).prj,1828029,631
+\Pulkovo 1942\Gauss-Kruger 27N (deprecated).prj,839317,632
+\Pulkovo 1995\Gauss-Kruger 27N (deprecated).prj,692479,632
+\Pulkovo 1942\Gauss-Kruger 17N (deprecated).prj,832998,631
+\Pulkovo 1995\Gauss-Kruger 17N (deprecated).prj,686160,631
+\Beijing 1954\Gauss-Kruger 14N (deprecated).prj,1826136,631
+\Pulkovo 1942\Gauss-Kruger 24N (deprecated).prj,837421,632
+\Pulkovo 1995\Gauss-Kruger 24N (deprecated).prj,690583,632
+\Pulkovo 1942\Gauss-Kruger 14N (deprecated).prj,831105,631
+\Pulkovo 1995\Gauss-Kruger 14N (deprecated).prj,684267,631
+\Beijing 1954\Gauss-Kruger 15N (deprecated).prj,1826767,631
+\Pulkovo 1942\Gauss-Kruger 25N (deprecated).prj,838053,632
+\Pulkovo 1995\Gauss-Kruger 25N (deprecated).prj,691215,632
+\Pulkovo 1942\Gauss-Kruger 15N (deprecated).prj,831736,631
+\Pulkovo 1995\Gauss-Kruger 15N (deprecated).prj,684898,631
+\Beijing 1954\Gauss-Kruger 18N (deprecated).prj,1828660,632
+\Pulkovo 1942\Gauss-Kruger 28N (deprecated).prj,839949,632
+\Pulkovo 1995\Gauss-Kruger 28N (deprecated).prj,693111,632
+\Pulkovo 1942\Gauss-Kruger 18N (deprecated).prj,833629,632
+\Pulkovo 1995\Gauss-Kruger 18N (deprecated).prj,686791,632
+\Beijing 1954\Gauss-Kruger 19N (deprecated).prj,1829292,632
+\Pulkovo 1942\Gauss-Kruger 29N (deprecated).prj,840581,632
+\Pulkovo 1995\Gauss-Kruger 29N (deprecated).prj,693743,632
+\Pulkovo 1942\Gauss-Kruger 19N (deprecated).prj,834261,632
+\Pulkovo 1995\Gauss-Kruger 19N (deprecated).prj,687423,632
+\NAD83(HARN)\Connecticut.prj,1016495,720
+\NEA74 Noumea\Noumea Lambert 2.prj,988061,716
+\NAD83(HARN)\Vermont.prj,1118967,624
+\ETRS89\ETRS-TM39.prj,1697805,608
+\ETRS89\ETRS-TM38.prj,1697197,608
+\ETRS89\ETRS-TM31.prj,1692329,607
+\ETRS89\ETRS-TM30.prj,1691721,608
+\ETRS89\ETRS-TM33.prj,1693543,608
+\ETRS89\ETRS-TM32.prj,1692936,607
+\ETRS89\ETRS-TM35.prj,1694759,608
+\ETRS89\ETRS-TM34.prj,1694151,608
+\ETRS89\ETRS-TM37.prj,1696589,608
+\ETRS89\ETRS-TM36.prj,1695981,608
+\ETRS89\ETRS-TM29.prj,1691113,608
+\ETRS89\ETRS-TM28.prj,1690504,609
+\ETRS89\ETRS-TM27.prj,1689895,609
+\ETRS89\ETRS-TM26.prj,1689286,609
+\ETRS89\ETRS-LAEA.prj,1688030,595
+\NGO 1948 (Oslo)\NGO zone VIII.prj,986138,687
+\Unknown datum based upon the WGS 84 ellipsoid.prj,156084,378
+\Unknown datum based upon the WGS 72 ellipsoid.prj,155713,371
+\Unknown datum based upon the NWL 9D ellipsoid.prj,153410,371
+\Unknown datum based upon the OSU91A ellipsoid.prj,154161,380
+\Unknown datum based upon the OSU86F ellipsoid.prj,153781,380
+\Lisbon (Lisbon).prj,58976,313
+\Belge 1972\Belge Lambert 72.prj,1796786,738
+\NAD83\Maryland (ftUS).prj,1232910,700
+\WGS 84\TM 36 SE.prj,274223,601
+\ETRS89\TM 30 NE.prj,1704715,606
+\GDA94\NSW Lambert.prj,1671309,692
+\NAD83\Texas Centric Lambert Conformal.prj,1298512,691
+\NAD83(CSRS)\SCoPQ zone 2.prj,1156680,629
+\NAD83\Wisconsin South (ftUS).prj,1335269,720
+\Naparima 1972\UTM zone 20N.prj,990082,608
+\Naparima 1955\UTM zone 20N.prj,990690,607
+\NAD83(CSRS98)\MTM zone 8 (deprecated).prj,1138703,679
+\NAD83(CSRS98)\MTM zone 9 (deprecated).prj,1139382,679
+\NAD83(CSRS98)\MTM zone 6 (deprecated).prj,1137345,679
+\NAD83(CSRS98)\MTM zone 7 (deprecated).prj,1138024,679
+\NAD83(CSRS98)\MTM zone 4 (deprecated).prj,1135987,679
+\NAD83(CSRS98)\MTM zone 5 (deprecated).prj,1136666,679
+\NAD83(CSRS98)\MTM zone 3 (deprecated).prj,1135308,679
+\Timbalai 1948\UTM zone 49N.prj,522150,629
+\Timbalai 1948\UTM zone 50N.prj,522779,629
+\NAD83(CSRS)\Prince Edward Isl. Stereographic (NAD83).prj,1155984,696
+\NTF (Paris)\France I (deprecated).prj,967657,711
+\MAGNA-SIRGAS\Colombia Far West zone.prj,1518512,707
+\NAD27(76).prj,73506,308
+\NTF (Paris)\France II (deprecated).prj,968368,712
+\NTF (Paris)\France IV (deprecated).prj,969795,720
+\Hito XVIII 1963\UTM zone 19S.prj,1634833,622
+\St. Kitts 1955\British West Indies Grid.prj,534814,641
+\NAD83\New York Central (ftUS).prj,1267578,673
+\Bogota 1975\Colombia Bogota zone.prj,1789384,679
+\Douala 1948\AOF west (deprecated).prj,1744220,661
+\NAD83(HARN)\Idaho West (ftUS).prj,1031909,690
+\Beduaram\TM 13 NE.prj,1845962,623
+\Zanderij\TM 54 NW.prj,164860,611
+\Carthage\TM 11 NE.prj,1777795,593
+\Camacupa\TM 12 SE.prj,1786885,593
+\Datum 73\Modified Portuguese Grid.prj,1764931,644
+\Unknown datum based upon the Bessel Modified ellipsoid.prj,143177,416
+\ATS77\Prince Edward Isl. Stereographic (ATS77).prj,1856804,687
+\Merchich\Sahara Nord.prj,1506160,651
+\Azores Oriental 1995\UTM zone 26N.prj,1851570,643
+\NAD83\Florida GDL Albers.prj,1201899,656
+\Madrid 1870 (Madrid)\Spain.prj,1519918,649
+\TC(1948).prj,138036,281
+\NZGD2000.prj,80675,321
+\Arc 1950.prj,4555,286
+\Arc 1960.prj,4841,282
+\Gan 1970.prj,30821,305
+\OS(SN)80.prj,81934,280
+------775108477,929265172(226)
+\Datum 73.prj,19958,275
+\Lao 1993.prj,56413,274
+\Tahaa 54.prj,136517,275
+\IRENET95.prj,46520,298
+\Lao 1997.prj,56687,330
+\NGO 1948.prj,78409,330
+\Point 58.prj,86375,313
+\SWEREF99.prj,136219,298
+\WGS 72BE.prj,161484,327
+\HD72\EOV.prj,1636123,674
+\La Canoa.prj,55838,312
+\Camacupa.prj,13375,282
+\Carthage.prj,15199,290
+\Bellevue.prj,10894,306
+\NAD83\Indiana East (ftUS).prj,1216672,678
+\NAD83\Indiana West (ftUS).prj,1218664,675
+\Merchich.prj,68282,317
+\Kousseri.prj,54963,282
+\Zanderij.prj,163282,306
+\Beduaram.prj,9360,320
+\NAD27\Massachusetts Mainland.prj,1405012,731
+\NAD83\Massachusetts Mainland.prj,1236439,701
+\Makassar.prj,65122,318
+\Unknown datum based upon the Airy 1830 ellipsoid.prj,140694,392
+\Carthage\Nord Tunisie.prj,1776551,622
+\NZGD2000\Hokitika Circuit 2000.prj,949950,682
+\NZGD2000\Wanganui Circuit 2000.prj,964860,682
+\NZGD2000\Taranaki Circuit 2000.prj,960223,682
+\PSAD56\ICN Regional.prj,888784,662
+\NAD83\Wisconsin North (ftUS).prj,1333839,735
+\NZGD2000\New Zealand Transverse Mercator.prj,956801,679
+\ETRS89\Poland CS2000 zone 8.prj,1703463,633
+\ETRS89\Poland CS2000 zone 6.prj,1702197,633
+\ETRS89\Poland CS2000 zone 7.prj,1702830,633
+\ETRS89\Poland CS2000 zone 5.prj,1701564,633
+\MAGNA-SIRGAS\Colombia East Central zone.prj,1517098,715
+\NAD83\Puerto Rico & Virgin Is..prj,1288891,733
+\ED50\TM 0 N.prj,1732044,573
+\Korea 2000.prj,54038,319
+\SIRGAS 2000.prj,111089,355
+\ED50\TM30.prj,1733756,564
+\NAD83(HARN)\Wisconsin Transverse Mercator.prj,1131351,665
+\Xian 1980.prj,162103,273
+\Egypt 1907.prj,24844,277
+\S-JTSK (Ferro)\Krovak.prj,588850,688
+\Pulkovo 1995\3-degree Gauss-Kruger CM 81E.prj,639377,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 84E.prj,640005,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 87E.prj,640633,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 81E.prj,779407,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 87E.prj,780663,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 84E.prj,780035,628
+\Beijing 1954\3-degree Gauss-Kruger CM 84E.prj,1808453,628
+\Beijing 1954\3-degree Gauss-Kruger CM 87E.prj,1809081,628
+\Beijing 1954\3-degree Gauss-Kruger CM 81E.prj,1807825,628
+\Unknown datum based upon the Krassowsky 1940 ellipsoid.prj,153004,406
+\Egypt 1907\Extended Purple Belt.prj,1722301,609
+\Jamaica 1875.prj,48019,294
+\Bermuda 1957.prj,11200,325
+\Madeira 1936.prj,63215,286
+\Grenada 1953.prj,34465,323
+\Katanga 1955.prj,51870,296
+\Antigua 1943.prj,3995,294
+\Liberia 1964.prj,57990,321
+\Perroud 1950.prj,84735,332
+\Beijing 1954.prj,9680,286
+\Combani 1950.prj,18038,318
+\Abidjan 1987.prj,2,329
+\Nahrwan 1967.prj,75963,294
+\Nahrwan 1934.prj,75669,294
+\Tristan 1968.prj,140376,318
+\Reunion 1947.prj,94011,287
+\Solomon 1968.prj,111789,287
+\Locodjo 1965.prj,61393,323
+\Pulkovo 1942.prj,91005,286
+\Malongo 1987.prj,65440,287
+\Pulkovo 1995.prj,91291,286
+\Petrels 1972.prj,85067,316
+\Conakry 1905.prj,18356,330
+\Hjorsey 1955.prj,37882,315
+\Nord Sahara 1959 (Paris).prj,78739,331
+\JGD2000\Japan Plane Rectangular CS V.prj,1583276,669
+\JGD2000\Japan Plane Rectangular CS X.prj,1585938,669
+\JGD2000\Japan Plane Rectangular CS I.prj,1579959,657
+\Mahe 1971.prj,64447,315
+\Luzon 1911.prj,62629,290
+\RGNC 1991.prj,95254,333
+\RRAF 1991.prj,96546,338
+\Pulkovo 1995\3-degree Gauss-Kruger CM 90E.prj,641261,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 93E.prj,641889,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 99E.prj,783175,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 96E.prj,642517,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 93E.prj,781919,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 99E.prj,643145,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 90E.prj,781291,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 96E.prj,782547,628
+\Beijing 1954\3-degree Gauss-Kruger CM 99E.prj,1811593,628
+\Beijing 1954\3-degree Gauss-Kruger CM 96E.prj,1810965,628
+\Beijing 1954\3-degree Gauss-Kruger CM 90E.prj,1809709,628
+\Beijing 1954\3-degree Gauss-Kruger CM 93E.prj,1810337,628
+\NAD83\Colorado Central (ftUS).prj,1193634,722
+\GDA94\MGA zone 49.prj,1664979,633
+\GDA94\MGA zone 48.prj,1664346,633
+\GDA94\MGA zone 58.prj,1670676,633
+\GDA94\MGA zone 55.prj,1668777,633
+\GDA94\MGA zone 54.prj,1668144,633
+\GDA94\MGA zone 57.prj,1670043,633
+\GDA94\MGA zone 56.prj,1669410,633
+\GDA94\MGA zone 51.prj,1666245,633
+\GDA94\MGA zone 50.prj,1665612,633
+\GDA94\MGA zone 53.prj,1667511,633
+\GDA94\MGA zone 52.prj,1666878,633
+\Xian 1980\3-degree Gauss-Kruger CM 108E.prj,169195,615
+\Xian 1980\3-degree Gauss-Kruger CM 129E.prj,173500,615
+\Xian 1980\3-degree Gauss-Kruger CM 120E.prj,171655,615
+\Xian 1980\3-degree Gauss-Kruger CM 111E.prj,169810,615
+\Xian 1980\3-degree Gauss-Kruger CM 132E.prj,174115,615
+\Xian 1980\3-degree Gauss-Kruger CM 102E.prj,167965,615
+\Xian 1980\3-degree Gauss-Kruger CM 123E.prj,172270,615
+\Xian 1980\3-degree Gauss-Kruger CM 114E.prj,170425,615
+\Xian 1980\3-degree Gauss-Kruger CM 135E.prj,174730,615
+\Xian 1980\3-degree Gauss-Kruger CM 105E.prj,168580,615
+\Xian 1980\3-degree Gauss-Kruger CM 126E.prj,172885,615
+\Xian 1980\3-degree Gauss-Kruger CM 117E.prj,171040,615
+\NSWC 9Z-2.prj,79713,269
+\ED50\TM42.prj,1736012,564
+\Tahiti 52.prj,136792,307
+\OSNI 1952.prj,82773,335
+\Gulshan 303.prj,35402,305
+\NAD83(HARN)\Montana.prj,1067758,668
+\ED50\TM33.prj,1734320,564
+\Guam 1963.prj,35084,318
+\RGNC91-93.prj,95587,337
+\Egypt 1930.prj,25121,281
+\Pulkovo 1942\Caspian Sea Mercator.prj,821773,600
+\NZGD2000\Mount Nicholas Circuit 2000.prj,954049,694
+\NAD83(HARN)\Georgia East.prj,1023993,640
+\NAD83(HARN)\Georgia West.prj,1025318,640
+\NAD83(HARN)\Arizona West.prj,999525,634
+\NAD83(HARN)\Arizona East.prj,998237,640
+\NAD83(HARN)\Indiana East.prj,1035994,652
+\NAD83(HARN)\Indiana West.prj,1038069,652
+\NAD83(HARN)\Montana (ft).prj,1067071,687
+\NAD83(HARN)\Alabama East.prj,995002,643
+\NAD83(HARN)\Alabama West.prj,995645,632
+\NTF (Paris)\Lambert zone III.prj,974730,701
+\NAD83(HARN)\Florida East.prj,1019216,645
+\NAD83(HARN)\Florida West.prj,1022664,645
+\NZGD49\Marlborough Circuit.prj,929258,702
+\JGD2000\Japan Plane Rectangular CS XV.prj,1589911,659
+\JGD2000\Japan Plane Rectangular CS IV.prj,1581946,659
+\JGD2000\Japan Plane Rectangular CS IX.prj,1582605,671
+\JGD2000\Japan Plane Rectangular CS VI.prj,1583945,657
+\JGD2000\Japan Plane Rectangular CS XI.prj,1586607,660
+\JGD2000\Japan Plane Rectangular CS II.prj,1580616,657
+\Hjorsey 1955\UTM zone 27N.prj,1632950,631
+\Hjorsey 1955\UTM zone 26N.prj,1632319,631
+\Conakry 1905\UTM zone 28N.prj,1771945,647
+\Conakry 1905\UTM zone 29N.prj,1772592,646
+\Hjorsey 1955\UTM zone 28N.prj,1633581,631
+\Combani 1950\UTM zone 38S.prj,1773238,640
+\Nahrwan 1967\UTM zone 39N.prj,993155,610
+\Abidjan 1987\UTM zone 30N.prj,1896574,644
+\Nahrwan 1967\UTM zone 38N.prj,992545,610
+\Nahrwan 1967\UTM zone 40N.prj,993765,610
+\Nahrwan 1967\UTM zone 37N.prj,991935,610
+\Abidjan 1987\UTM zone 29N.prj,1895930,644
+\Malongo 1987\UTM zone 32S.prj,1514479,609
+\Locodjo 1965\UTM zone 30N.prj,1528048,638
+\Locodjo 1965\UTM zone 29N.prj,1527410,638
+\GDM2000\Pinang Grid.prj,1660572,604
+\POSGAR 94.prj,87620,306
+\Qatar 1948.prj,91886,277
+\Israel\Israeli TM Grid.prj,1596958,657
+\NZGD49\New Zealand Map Grid.prj,933473,650
+\Carthage\Sud Tunisie.prj,1777173,622
+\ED50\TM 5 NE.prj,1732617,575
+\KUDAMS\KTM (deprecated).prj,1546635,595
+\Unknown datum based upon the GRS 1980 ellipsoid.prj,151378,386
+\Unknown datum based upon the GRS 1967 ellipsoid.prj,150992,386
+\ED50\TM45.prj,1736576,564
+\IGCB 1955.prj,42198,352
+\Belge 1950.prj,10300,297
+\Helle 1954.prj,36923,348
+\Mhast 1951.prj,69866,320
+\Kasai 1953.prj,51582,288
+\NAD83(HARN)\Wyoming East.prj,1132682,645
+\NAD83(HARN)\Wyoming West.prj,1133977,650
+\Kalianpur 1975\India zone IV.prj,1565421,689
+\Kalianpur 1880\India zone IV.prj,1578637,677
+\NAD83\Washington South (ftUS).prj,1329654,744
+\NAD83\Washington North (ftUS).prj,1328242,728
+\OSGB 1936.prj,82214,281
+\ED50\TM36.prj,1734884,564
+\Fiji 1956.prj,29637,320
+\Fiji 1986.prj,29957,284
+\Santo 1965.prj,107719,308
+\Jouik 1961.prj,48970,326
+\WGS 84\PDC Mercator.prj,211467,586
+\NAD83\Mississippi East.prj,1244807,623
+\NAD27\Mississippi East.prj,1407890,671
+\Voirol 1879\Sud Algerie (ancienne).prj,498231,656
+\Voirol 1875\Sud Algerie (ancienne).prj,499573,686
+\Lisbon (Lisbon)\Portuguese National Grid.prj,1531180,669
+\NAD83(CSRS)\BC Albers.prj,1148953,672
+\ED50\TM27.prj,1733192,564
+\ED50(ED77).prj,23685,295
+\Moorea 87.prj,71977,342
+\Belge 1972.prj,10597,297
+\Hanoi 1972.prj,36005,319
+\Qatar 1974.prj,92163,281
+\Karbala 1979 (Polservice)\UTM zone 38N.prj,1561271,694
+\Karbala 1979 (Polservice)\UTM zone 39N.prj,1561965,694
+\Karbala 1979 (Polservice)\UTM zone 37N.prj,1560577,694
+\AGD84\AMG zone 51.prj,1878050,619
+\AGD66\AMG zone 51.prj,1884859,619
+\AGD84\AMG zone 50.prj,1877431,619
+\AGD66\AMG zone 50.prj,1884240,619
+\AGD84\AMG zone 53.prj,1879288,619
+\AGD66\AMG zone 53.prj,1886097,619
+\AGD84\AMG zone 52.prj,1878669,619
+\AGD66\AMG zone 52.prj,1885478,619
+\AGD84\AMG zone 55.prj,1880526,619
+\AGD66\AMG zone 55.prj,1887335,619
+\AGD84\AMG zone 54.prj,1879907,619
+\AGD66\AMG zone 54.prj,1886716,619
+\AGD84\AMG zone 57.prj,1881764,619
+------929265176,961164320(45)
+\AGD66\AMG zone 57.prj,1888573,619
+\AGD84\AMG zone 56.prj,1881145,619
+\AGD66\AMG zone 56.prj,1887954,619
+\AGD84\AMG zone 49.prj,1876812,619
+\AGD66\AMG zone 49.prj,1883621,619
+\AGD84\AMG zone 48.prj,1876193,619
+\AGD84\AMG zone 58.prj,1882383,619
+\AGD66\AMG zone 48.prj,1883002,619
+\AGD66\AMG zone 58.prj,1889192,619
+\NAD83(HARN)\Utah Central.prj,1114056,714
+\NAD83(CSRS)\Statistics Canada Lambert.prj,1157309,730
+\NAD83\New Mexico East (ftUS).prj,1265001,664
+\Merchich\Sahara Sud.prj,1506811,649
+\Maupiti 83.prj,67643,320
+\Lisbon 1890.prj,59617,289
+\Voirol 1875.prj,159942,329
+\Voirol 1879.prj,160595,299
+\Bern 1938.prj,11835,283
+\POSGAR 98.prj,87926,306
+\St. Lucia 1955\British West Indies Grid.prj,534143,671
+\Padang (Jakarta).prj,83108,321
+\Segara (Jakarta).prj,108996,323
+\NAD83\Delaware (ftUS).prj,1199367,649
+\GDM2000\Kelantan Grid.prj,1658038,612
+\Trinidad 1903\Trinidad Grid.prj,502743,647
+\Korean 1995.prj,54652,311
+\Korean 1985.prj,54357,295
+\Douala 1948.prj,22747,321
+\Bogota 1975.prj,12739,314
+\Midway 1961.prj,70490,284
+\Indian 1954.prj,45576,334
+\Manoca 1962.prj,65727,335
+\Qornoq 1927.prj,92798,284
+\Indian 1975.prj,46215,305
+\Dabola 1981.prj,19631,327
+\Indian 1960.prj,45910,305
+\Kusaie 1951.prj,55522,316
+\Kertau 1968.prj,52465,323
+\NAD83(HARN)\Nebraska.prj,1068426,680
+\ED50\TM39.prj,1735448,564
+\Tahiti 79.prj,137099,278
+\Pulkovo 1995\3-degree Gauss-Kruger CM 129E.prj,612303,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 123E.prj,751071,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 138E.prj,614196,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 132E.prj,752964,631
+------961164321,1011496051(194)
+\Pulkovo 1942\3-degree Gauss-Kruger CM 111E.prj,748547,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 177E.prj,764325,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 144E.prj,755488,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 165E.prj,759905,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 174E.prj,763062,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 147E.prj,756119,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 156E.prj,758012,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 120E.prj,750440,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 108E.prj,607886,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 102E.prj,746654,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 180E.prj,625558,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 105E.prj,747285,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 114E.prj,749178,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 141E.prj,754857,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 150E.prj,756750,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 126E.prj,751702,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 168E.prj,620506,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 162E.prj,759274,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 135E.prj,753595,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 117E.prj,749809,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 171E.prj,761799,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 159E.prj,618613,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 153E.prj,757381,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 165E.prj,619875,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 174E.prj,623032,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 147E.prj,616089,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 156E.prj,617982,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 120E.prj,610410,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 102E.prj,606624,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 108E.prj,747916,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 180E.prj,765588,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 123E.prj,611041,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 129E.prj,752333,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 132E.prj,612934,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 138E.prj,754226,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 111E.prj,608517,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 177E.prj,624295,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 144E.prj,615458,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 135E.prj,613565,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 117E.prj,609779,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 171E.prj,621769,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 153E.prj,617351,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 159E.prj,758643,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 105E.prj,607255,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 114E.prj,609148,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 141E.prj,614827,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 150E.prj,616720,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 126E.prj,611672,631
+\Pulkovo 1995\3-degree Gauss-Kruger CM 162E.prj,619244,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 168E.prj,760536,631
+\Pulkovo 1942\3-degree Gauss-Kruger CM 174W.prj,763693,632
+\Pulkovo 1942\3-degree Gauss-Kruger CM 177W.prj,764956,632
+\Pulkovo 1942\3-degree Gauss-Kruger CM 171W.prj,762430,632
+\Pulkovo 1995\3-degree Gauss-Kruger CM 168W.prj,621137,632
+\Pulkovo 1995\3-degree Gauss-Kruger CM 177W.prj,624926,632
+\Pulkovo 1995\3-degree Gauss-Kruger CM 174W.prj,623663,632
+\Pulkovo 1942\3-degree Gauss-Kruger CM 168W.prj,761167,632
+\Pulkovo 1995\3-degree Gauss-Kruger CM 171W.prj,622400,632
+\Pulkovo 1942\3-degree Gauss-Kruger CM 18E.prj,766219,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 18E.prj,626189,628
+\Beijing 1954\3-degree Gauss-Kruger CM 135E.prj,1805938,631
+\Beijing 1954\3-degree Gauss-Kruger CM 117E.prj,1802152,631
+\Beijing 1954\3-degree Gauss-Kruger CM 126E.prj,1804045,631
+\Beijing 1954\3-degree Gauss-Kruger CM 105E.prj,1799628,631
+\Beijing 1954\3-degree Gauss-Kruger CM 114E.prj,1801521,631
+\Beijing 1954\3-degree Gauss-Kruger CM 120E.prj,1802783,631
+\Beijing 1954\3-degree Gauss-Kruger CM 102E.prj,1798997,631
+\Beijing 1954\3-degree Gauss-Kruger CM 111E.prj,1800890,631
+\Beijing 1954\3-degree Gauss-Kruger CM 123E.prj,1803414,631
+\Beijing 1954\3-degree Gauss-Kruger CM 132E.prj,1805307,631
+\Beijing 1954\3-degree Gauss-Kruger CM 129E.prj,1804676,631
+\Beijing 1954\3-degree Gauss-Kruger CM 108E.prj,1800259,631
+\Bogota 1975\Colombia East.prj,1792162,665
+\Helle 1954\Jan Mayen Grid.prj,1635455,668
+\NZGD2000\Mount Pleasant Circuit 2000.prj,954743,694
+\Pulkovo 1995\3-degree Gauss-Kruger CM 21E.prj,626817,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 24E.prj,627445,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 27E.prj,628073,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 21E.prj,766847,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 27E.prj,768103,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 24E.prj,767475,628
+\Tokyo\Japan Plane Rectangular CS II.prj,504001,611
+\Tokyo\Japan Plane Rectangular CS XV.prj,512652,613
+\Tokyo\Japan Plane Rectangular CS XI.prj,509578,614
+\Tokyo\Japan Plane Rectangular CS IX.prj,505852,625
+\Tokyo\Japan Plane Rectangular CS VI.prj,507100,611
+\Tokyo\Japan Plane Rectangular CS IV.prj,505239,613
+\NZGD2000\Bay of Plenty Circuit 2000.prj,945191,692
+\NAD83(HARN)\Pennsylvania South (ftUS).prj,1097116,773
+\NAD83(HARN)\Pennsylvania North (ftUS).prj,1095635,761
+\NAD83\Maine CS2000 Central.prj,1229803,617
+\Jamaica 1875\Jamaica (Old Grid).prj,1595688,651
+\Pulkovo 1995\3-degree Gauss-Kruger CM 30E.prj,628701,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 33E.prj,629329,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 39E.prj,770615,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 36E.prj,629957,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 33E.prj,769359,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 39E.prj,630585,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 30E.prj,768731,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 36E.prj,769987,628
+\Belge 1950 (Brussels)\Belge Lambert 50.prj,1798247,750
+\Unknown datum based upon the Average Terrestrial System 1977 ellipsoid.prj,142305,472
+\NZGD49\Lindis Peak Circuit.prj,928556,702
+\NZGD49\Bay of Plenty Circuit.prj,921617,701
+\NAD83(HARN)\New Mexico Central (ftUS).prj,1072340,686
+\NAD83\New Mexico West (ftUS).prj,1266288,667
+\Pulkovo 1942\Gauss-Kruger CM 165E.prj,854882,613
+\Pulkovo 1942\Gauss-Kruger CM 147E.prj,852433,613
+\Pulkovo 1942\Gauss-Kruger CM 177E.prj,856722,613
+\Pulkovo 1942\Gauss-Kruger CM 111E.prj,848755,613
+\Pulkovo 1942\Gauss-Kruger CM 123E.prj,849981,613
+\Pulkovo 1995\Gauss-Kruger CM 129E.prj,702499,613
+\Pulkovo 1942\Gauss-Kruger CM 171E.prj,855495,613
+\Pulkovo 1942\Gauss-Kruger CM 153E.prj,853046,613
+\Pulkovo 1942\Gauss-Kruger CM 135E.prj,851207,613
+\Pulkovo 1942\Gauss-Kruger CM 117E.prj,849368,613
+\Pulkovo 1995\Gauss-Kruger CM 159E.prj,705564,613
+\Pulkovo 1942\Gauss-Kruger CM 141E.prj,851820,613
+\Pulkovo 1942\Gauss-Kruger CM 105E.prj,848142,613
+\Pulkovo 1995\Gauss-Kruger CM 111E.prj,700660,613
+\Pulkovo 1995\Gauss-Kruger CM 177E.prj,708017,613
+\Pulkovo 1942\Gauss-Kruger CM 129E.prj,850594,613
+\Pulkovo 1995\Gauss-Kruger CM 123E.prj,701886,613
+\Pulkovo 1995\Gauss-Kruger CM 165E.prj,706177,613
+\Pulkovo 1995\Gauss-Kruger CM 147E.prj,704338,613
+\Pulkovo 1995\Gauss-Kruger CM 105E.prj,700047,613
+\Pulkovo 1995\Gauss-Kruger CM 141E.prj,703725,613
+\Pulkovo 1942\Gauss-Kruger CM 159E.prj,853659,613
+\Pulkovo 1995\Gauss-Kruger CM 135E.prj,703112,613
+\Pulkovo 1995\Gauss-Kruger CM 117E.prj,701273,613
+\Pulkovo 1995\Gauss-Kruger CM 171E.prj,706790,613
+\Pulkovo 1995\Gauss-Kruger CM 153E.prj,704951,613
+\Pulkovo 1942\Gauss-Kruger CM 177W.prj,857335,614
+\Pulkovo 1942\Gauss-Kruger CM 171W.prj,856108,614
+\Pulkovo 1995\Gauss-Kruger CM 177W.prj,708630,614
+\Pulkovo 1995\Gauss-Kruger CM 171W.prj,707403,614
+\Beijing 1954\Gauss-Kruger CM 105E.prj,1832452,614
+\Beijing 1954\Gauss-Kruger CM 117E.prj,1833680,614
+\Beijing 1954\Gauss-Kruger CM 135E.prj,1835522,614
+\Beijing 1954\Gauss-Kruger CM 123E.prj,1834294,614
+\Beijing 1954\Gauss-Kruger CM 111E.prj,1833066,614
+\Beijing 1954\Gauss-Kruger CM 129E.prj,1834908,614
+\Beijing 1954\Gauss-Kruger CM 75E.prj,1836136,611
+\Beijing 1954\Gauss-Kruger CM 99E.prj,1838580,611
+\Beijing 1954\Gauss-Kruger CM 87E.prj,1837358,611
+\Beijing 1954\Gauss-Kruger CM 93E.prj,1837969,611
+\Beijing 1954\Gauss-Kruger CM 81E.prj,1836747,611
+\Pulkovo 1942\Gauss-Kruger CM 45E.prj,860389,610
+\Pulkovo 1995\Gauss-Kruger CM 93E.prj,716564,610
+\Pulkovo 1942\Gauss-Kruger CM 99E.prj,865879,610
+\Pulkovo 1995\Gauss-Kruger CM 39E.prj,711074,610
+\Pulkovo 1942\Gauss-Kruger CM 33E.prj,859169,610
+\Pulkovo 1995\Gauss-Kruger CM 81E.prj,715344,610
+\Pulkovo 1942\Gauss-Kruger CM 21E.prj,857949,610
+\Pulkovo 1942\Gauss-Kruger CM 75E.prj,863439,610
+\Pulkovo 1942\Gauss-Kruger CM 57E.prj,861609,610
+\Pulkovo 1995\Gauss-Kruger CM 87E.prj,715954,610
+\Pulkovo 1995\Gauss-Kruger CM 69E.prj,714124,610
+\Pulkovo 1942\Gauss-Kruger CM 63E.prj,862219,610
+\Pulkovo 1942\Gauss-Kruger CM 27E.prj,858559,610
+\Pulkovo 1942\Gauss-Kruger CM 51E.prj,860999,610
+\Pulkovo 1942\Gauss-Kruger CM 15E.prj,854272,610
+\Pulkovo 1942\Gauss-Kruger CM 81E.prj,864049,610
+\Pulkovo 1995\Gauss-Kruger CM 21E.prj,709244,610
+\Pulkovo 1995\Gauss-Kruger CM 75E.prj,714734,610
+\Pulkovo 1995\Gauss-Kruger CM 57E.prj,712904,610
+\Pulkovo 1995\Gauss-Kruger CM 45E.prj,711684,610
+\Pulkovo 1995\Gauss-Kruger CM 99E.prj,717174,610
+\Pulkovo 1942\Gauss-Kruger CM 93E.prj,865269,610
+\Pulkovo 1995\Gauss-Kruger CM 33E.prj,710464,610
+\Pulkovo 1942\Gauss-Kruger CM 39E.prj,859779,610
+\Pulkovo 1942\Gauss-Kruger CM 87E.prj,864659,610
+\Pulkovo 1995\Gauss-Kruger CM 63E.prj,713514,610
+\Pulkovo 1942\Gauss-Kruger CM 69E.prj,862829,610
+\Pulkovo 1995\Gauss-Kruger CM 27E.prj,709854,610
+\Pulkovo 1995\Gauss-Kruger CM 51E.prj,712294,610
+\Pulkovo 1942\Gauss-Kruger CM 9E.prj,866489,607
+\NAD83(HARN)\Maryland.prj,1051468,684
+\Egypt Gulf of Suez S-650 TL.prj,25402,365
+\NAD83(HARN)\UTM zone 2S.prj,1117680,630
+\NAD83(CSRS)\MTM zone 7.prj,1152752,625
+\NAD83(CSRS)\MTM zone 6.prj,1152127,625
+\NAD83(CSRS)\MTM zone 5.prj,1151502,625
+\NAD83(CSRS)\MTM zone 4.prj,1150877,625
+\NAD83(CSRS)\MTM zone 3.prj,1150252,625
+\NAD83(CSRS)\MTM zone 9.prj,1154002,625
+\NAD83(CSRS)\MTM zone 8.prj,1153377,625
+\NAD83(CSRS)\UTM zone 7N.prj,1165567,626
+\NAD83(CSRS)\UTM zone 9N.prj,1166819,626
+\NAD83(CSRS)\UTM zone 8N.prj,1166193,626
+\NAD83(CSRS)\MTM zone 10.prj,1149625,627
+\St. Vincent 45\British West Indies Grid.prj,533457,686
+\Pulkovo 1995\3-degree Gauss-Kruger CM 42E.prj,631213,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 48E.prj,772499,628
+------1011496052,1146442845(187)
+\Pulkovo 1995\3-degree Gauss-Kruger CM 45E.prj,631841,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 42E.prj,771243,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 48E.prj,632469,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 45E.prj,771871,628
+\NAD83(CSRS)\UTM zone 12N.prj,1159295,628
+\NAD83(CSRS)\UTM zone 21N.prj,1164940,627
+\NAD83(CSRS)\UTM zone 13N.prj,1159923,628
+\NAD83(CSRS)\UTM zone 20N.prj,1164313,627
+\NAD83(CSRS)\UTM zone 10N.prj,1158039,628
+\NAD83(CSRS)\UTM zone 11N.prj,1158667,628
+\NAD83(CSRS)\UTM zone 16N.prj,1161805,627
+\NAD83(CSRS)\UTM zone 17N.prj,1162432,627
+\NAD83(CSRS)\UTM zone 14N.prj,1160551,627
+\NAD83(CSRS)\UTM zone 15N.prj,1161178,627
+\NAD83(CSRS)\UTM zone 18N.prj,1163059,627
+\NAD83(CSRS)\UTM zone 19N.prj,1163686,627
+\NAD83(HARN)\UTM zone 59S (deprecated).prj,1118310,657
+\Albanian 1987\Gauss-Kruger zone 4.prj,1871326,615
+\Albanian 1987\Gauss Kruger zone 4 (deprecated).prj,1870685,641
+\IGC 1962 6th Parallel South.prj,41848,350
+\NAD83(HARN)\Utah North.prj,1115515,722
+\NAD83(HARN)\Ohio North.prj,1087050,702
+\NAD83(HARN)\Iowa North.prj,1038721,709
+\NAD83(HARN)\Utah South.prj,1116970,710
+\NAD83(HARN)\Ohio South.prj,1087752,700
+\NAD83(HARN)\Iowa South.prj,1039430,700
+\Unknown datum based upon the Bessel Namibia ellipsoid.prj,143593,424
+\Pulkovo 1995\3-degree Gauss-Kruger CM 51E.prj,633097,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 54E.prj,633725,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 57E.prj,634353,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 51E.prj,773127,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 57E.prj,774383,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 54E.prj,773755,628
+\NZGD49\Collingwood Circuit.prj,923699,696
+\Sierra Leone 1924\New War Office Grid.prj,564090,679
+\NZGD49\Poverty Bay Circuit.prj,936949,702
+\MOP78\UTM zone 1S.prj,1477569,581
+\NAD27\UTM zone 8N.prj,1459737,604
+\NAD27\UTM zone 9N.prj,1460341,604
+\NAD27\UTM zone 4N.prj,1456113,604
+\NAD27\UTM zone 5N.prj,1457321,604
+\NAD27\UTM zone 6N.prj,1458529,604
+\NAD27\UTM zone 7N.prj,1459133,604
+\NAD27\UTM zone 1N.prj,1452486,604
+\NAD27\UTM zone 2N.prj,1454905,604
+\NAD27\UTM zone 3N.prj,1455509,604
+\NAD83\UTM zone 8N.prj,1323578,595
+\NAD83\UTM zone 9N.prj,1324173,595
+\NAD83\UTM zone 4N.prj,1320008,595
+\NAD83\UTM zone 5N.prj,1321198,595
+\NAD83\UTM zone 6N.prj,1322388,595
+\NAD83\UTM zone 7N.prj,1322983,595
+\NAD83\UTM zone 1N.prj,1315839,595
+\NAD83\UTM zone 2N.prj,1318818,595
+\NAD83\UTM zone 3N.prj,1319413,595
+\NAD83\MTM zone 15.prj,1253453,594
+\NAD83\MTM zone 14.prj,1252859,594
+\NAD83\MTM zone 17.prj,1254641,594
+\NAD83\MTM zone 16.prj,1254047,594
+\NAD83\MTM zone 11.prj,1251075,596
+\NAD83\MTM zone 10.prj,1250479,596
+\NAD83\MTM zone 13.prj,1252265,594
+\NAD83\MTM zone 12.prj,1251671,594
+\NAD83\Wyoming West Central.prj,1338560,622
+\NAD27\Wyoming West Central.prj,1470058,672
+\NAD83\Wyoming East Central.prj,1337305,638
+\NAD27\Wyoming East Central.prj,1468708,683
+\Karbala 1979 (Polservice).prj,51216,366
+\LGD2006\Libya TM.prj,1537715,637
+\NAD83(HARN)\Idaho East (ftUS).prj,1030553,700
+\Unknown datum based upon the GEM 10C ellipsoid.prj,150610,382
+\ETRS89\ETRS-LCC.prj,1688625,661
+\Bogota 1975\Colombia West zone.prj,1793528,675
+\Pulkovo 1995\3-degree Gauss-Kruger CM 60E.prj,634981,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 63E.prj,635609,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 69E.prj,776895,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 66E.prj,636237,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 63E.prj,775639,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 69E.prj,636865,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 60E.prj,775011,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 66E.prj,776267,628
+\Qatar 1974\Qatar National Grid.prj,605405,634
+\Merchich\Nord Maroc.prj,1504850,648
+\IGN Astro 1960\UTM zone 30N.prj,1610152,617
+\IGN Astro 1960\UTM zone 28N.prj,1608917,618
+\IGN Astro 1960\UTM zone 29N.prj,1609535,617
+\NAD27\MTM zone 4.prj,1415129,603
+\NAD27\MTM zone 5.prj,1415732,603
+\NAD27\MTM zone 6.prj,1416335,603
+\NAD27\MTM zone 1.prj,1413324,601
+\NAD27\MTM zone 2.prj,1413925,601
+\NAD27\MTM zone 3.prj,1414526,603
+\NAD83\MTM zone 8.prj,1258797,594
+\NAD83\MTM zone 9.prj,1259391,594
+\NAD83\MTM zone 4.prj,1256421,594
+\NAD83\MTM zone 5.prj,1257015,594
+\NAD83\MTM zone 6.prj,1257609,594
+\NAD83\MTM zone 7.prj,1258203,594
+\NAD83\MTM zone 1.prj,1249887,592
+\NAD83\MTM zone 2.prj,1255235,592
+\NAD83\MTM zone 3.prj,1255827,594
+\WGS 84\TM 116 SE.prj,273017,603
+\WGS 84\TM 132 SE.prj,273620,603
+\NAD83(HARN)\Wisconsin Central (ftUS).prj,1126962,743
+\Pulkovo 1995\3-degree Gauss-Kruger CM 72E.prj,637493,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 78E.prj,778779,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 75E.prj,638121,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 72E.prj,777523,628
+\Pulkovo 1995\3-degree Gauss-Kruger CM 78E.prj,638749,628
+\Pulkovo 1942\3-degree Gauss-Kruger CM 75E.prj,778151,628
+\Beijing 1954\3-degree Gauss-Kruger CM 78E.prj,1807197,628
+\Beijing 1954\3-degree Gauss-Kruger CM 75E.prj,1806569,628
+\NAD27\Kansas South.prj,1397892,727
+\NAD83\Kansas South.prj,1222005,696
+\NAD83\Kansas North.prj,1221316,689
+\NAD27\Kansas North.prj,1397167,725
+\Xian 1980\3-degree Gauss-Kruger zone 27.prj,182085,616
+\Xian 1980\3-degree Gauss-Kruger zone 37.prj,188248,617
+\NAD83(HARN)\Texas North Central (ftUS).prj,1108078,784
+\NAD83\Montana (ft).prj,1248589,658
+\Gulshan 303\Bangladesh Transverse Mercator.prj,1645011,655
+\Hito XVIII 1963\Argentina zone 2.prj,1634212,621
+\IRENET95\Irish Transverse Mercator.prj,1598287,644
+\Montserrat 1958\British West Indies Grid.prj,1478811,675
+\NAD83\Rhode Island.prj,1290269,618
+\NAD27\Rhode Island.prj,1434888,652
+\NAD27\Wyoming West.prj,1470730,667
+\NAD83\Wyoming West.prj,1339182,622
+\NAD27\Wyoming East.prj,1469391,667
+\NAD83\Wyoming East.prj,1337943,617
+\NAD27\Georgia East.prj,1388533,647
+\NAD83\Georgia East.prj,1205859,612
+\NAD27\Georgia West.prj,1389180,647
+\NAD83\Georgia West.prj,1207127,612
+\Rassadiran\Nakhl e Taqi.prj,602722,784
+\NAD27\Florida East.prj,1386527,652
+\NAD83\Florida East.prj,1201282,617
+\NAD27\Florida West.prj,1387881,652
+\NAD83\Florida West.prj,1204587,617
+\NAD83\Utah Central (ft).prj,1305686,707
+\Xian 1980\3-degree Gauss-Kruger zone 26.prj,181469,616
+\Xian 1980\3-degree Gauss-Kruger zone 36.prj,187631,617
+\NGO 1948 (Oslo)\NGO zone III.prj,982751,669
+\NGO 1948 (Oslo)\NGO zone VII.prj,985453,685
+\NAD83(HARN)\Florida GDL Albers.prj,1019861,685
+\NAD83(HARN)\Wyoming West Central.prj,1133327,650
+\NAD83(HARN)\Wyoming East Central.prj,1132016,666
+\NAD83(HARN)\Arkansas North.prj,1000159,721
+\NAD83(HARN)\Arkansas South.prj,1000880,713
+\Corrego Alegre.prj,18686,322
+\NAD83(HARN)\Michigan North.prj,1057354,722
+\NAD83(HARN)\Michigan South.prj,1059569,711
+\South Georgia 1968.prj,118386,336
+\ETRS89\Poland CS92.prj,1704096,619
+\NAD83\SCoPQ zone 2.prj,1290887,598
+\Pampa del Castillo.prj,84078,336
+\NAD27(CGQ77)\Quebec Lambert.prj,1339804,680
+\Xian 1980\3-degree Gauss-Kruger zone 25.prj,180853,616
+\Xian 1980\3-degree Gauss-Kruger zone 35.prj,187014,617
+\Xian 1980\3-degree Gauss-Kruger zone 45.prj,193184,617
+\Ain el Abd\Bahrain Grid.prj,1872593,600
+\NAD83\Hawaii zone 5.prj,1210229,624
+\Cocos Islands 1965.prj,17690,348
+\NAD83(CSRS)\New Brunswick Stereo.prj,1154627,659
+\NAD83(HARN)\Arizona Central.prj,996937,646
+\NAD83(HARN)\Louisiana South.prj,1046789,700
+\NAD83(HARN)\Louisiana North.prj,1046076,713
+\NAD83(CSRS98)\New Brunswick Stereo (deprecated).prj,1140061,713
+\Xian 1980\3-degree Gauss-Kruger zone 34.prj,186397,617
+\Xian 1980\3-degree Gauss-Kruger zone 44.prj,192567,617
+\South Yemen\Gauss-Kruger zone 8.prj,536779,636
+\South Yemen\Gauss-Kruger zone 9.prj,537415,636
+\NAD83\Hawaii zone 4.prj,1209611,618
+\Kertau (RSO)\RSO Malaya (m).prj,1556558,718
+\Pulkovo 1942(58).prj,90316,350
+\Pulkovo 1942(83).prj,90666,339
+\ISN93\Lambert 1993.prj,1597615,672
+\Selvagem Grande\UTM zone 28N.prj,564769,615
+\Lake\Maracaibo La Rosa Grid.prj,1544127,633
+\Ain el Abd\Aramco Lambert.prj,1871941,652
+\Xian 1980\3-degree Gauss-Kruger zone 33.prj,185781,616
+\Xian 1980\3-degree Gauss-Kruger zone 43.prj,191950,617
+\NAD83\Hawaii zone 3.prj,1208995,616
+\Reunion 1947\TM Reunion.prj,598737,629
+\NAD83(HARN)\Colorado North.prj,1013495,739
+\NAD83(HARN)\Colorado South.prj,1015005,739
+\Egypt 1907\Red Belt.prj,1723500,584
+------1146453883,1275088921(79)
+\GDM2000\East Malaysia BRSO.prj,1656112,707
+\Ayabelle Lighthouse.prj,6431,345
+\NAD83\Oregon South (ft).prj,1284646,695
+\NAD83\Oregon North (ft).prj,1283273,695
+\Xian 1980\3-degree Gauss-Kruger zone 32.prj,185165,616
+\Xian 1980\3-degree Gauss-Kruger zone 42.prj,191333,617
+\NAD83\Hawaii zone 2.prj,1208361,634
+\Segara\NEIEZ.prj,566037,575
+\Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid.prj,146987,438
+\NTF (Paris)\France III (deprecated).prj,969080,715
+\Xian 1980\3-degree Gauss-Kruger zone 31.prj,184549,616
+\Xian 1980\3-degree Gauss-Kruger zone 41.prj,190716,617
+\NZGD49\Mount Eden Circuit.prj,929960,705
+\NZGD49\Mount York Circuit.prj,932081,700
+\NAD83\Connecticut (ftUS).prj,1197953,722
+\MGI (Ferro)\Austria Central Zone (deprecated).prj,1486823,674
+\NAD83\Texas State Mapping System.prj,1304962,724
+\NAD83\Hawaii zone 1.prj,1207739,622
+\S-JTSK (Ferro).prj,106125,309
+\Azores Oriental 1940.prj,7763,348
+\Qatar 1948\Qatar Grid.prj,606039,585
+\NAD27\Arizona East.prj,1367191,647
+\NAD83\Arizona East.prj,1177969,612
+\NAD27\Arizona West.prj,1367838,641
+\NAD83\Arizona West.prj,1179200,606
+\Xian 1980\3-degree Gauss-Kruger zone 30.prj,183933,616
+\Xian 1980\3-degree Gauss-Kruger zone 40.prj,190099,617
+\Minna\Nigeria East Belt.prj,1481986,598
+\Minna\Nigeria West Belt.prj,1483179,597
+\NAD83(HARN)\Florida North (ftUS).prj,1020546,735
+\Nakhl-e Ghanem.prj,76257,321
+\NAD83\New Mexico Central (ftUS).prj,1263731,657
+\NZGD49\Hawkes Bay Circuit.prj,925775,700
+\Leigon\Ghana Metre Grid.prj,1540927,643
+\NAD27\California zone VII (deprecated).prj,1380168,791
+\IGN 1962 Kerguelen\UTM zone 42S.prj,1610769,663
+\NAD83\Arizona East (ft).prj,1177344,625
+\NAD83\Arizona West (ft).prj,1178581,619
+\MGI (Ferro)\Austria Central Zone.prj,1487497,648
+\Hong Kong 1963(67).prj,39513,336
+\NAD83\Maine CS2000 East.prj,1230420,626
+\NAD83\Maine CS2000 West.prj,1231046,626
+\NAD83(HARN)\Virginia North.prj,1120357,717
+\NAD83(HARN)\Virginia South.prj,1121853,730
+\NAD83(HARN)\West Virginia North.prj,1125553,693
+\NAD83\Massachusetts Mainland (ftUS).prj,1235694,745
+\NAD83\Indiana West.prj,1219339,624
+\NAD27\Indiana West.prj,1395095,654
+\NAD83\Indiana East.prj,1217350,624
+\NAD27\Indiana East.prj,1394441,654
+\St. Paul Island.prj,126054,304
+\Selvagem Grande.prj,109873,296
+\ATS77\New Brunswick Stereographic (ATS77).prj,1856126,678
+\NAD83\BC Albers.prj,1181184,640
+\NAD83(HARN)\Missouri West.prj,1066422,649
+\NAD83(HARN)\Missouri East.prj,1065773,649
+\Bern 1898 (Bern).prj,11525,310
+\NGO 1948 (Oslo).prj,78049,360
+\NAD83(HARN)\Pennsylvania North.prj,1096396,720
+\NAD83(HARN)\Pennsylvania South.prj,1097889,732
+\NAD83(HARN)\Kentucky Single Zone (ftUS).prj,1043038,787
+\Douala 1948\AEF west.prj,1743585,635
+\NAD83\Alberta 10-TM (Resource).prj,1175480,615
+\NAD83(HARN)\New York West.prj,1081246,645
+\NAD83(HARN)\New York East.prj,1078395,644
+\Nahrwan 1934\Iraq zone.prj,994375,627
+\NAD27\Oregon South.prj,1432066,713
+\NAD83\Oregon South.prj,1285341,678
+\NAD83\Oregon North.prj,1283968,678
+\NAD27\Oregon North.prj,1431353,713
+\Timbalai 1948\RSO Borneo (ch).prj,519839,784
+\Monte Mario (Rome)\Italy zone 1.prj,1479486,652
+\Monte Mario (Rome)\Italy zone 2.prj,1480138,651
+\Timbalai 1948\RSO Borneo (ft).prj,520623,784
+\NAD83(HARN)\Kentucky South.prj,1045347,729
+\NAD83(HARN)\Kentucky North.prj,1042327,711
+\NAD83(HARN)\New Mexico Central.prj,1073026,641
+\Azores Oriental 1995.prj,8111,319
+\Lisbon (Lisbon)\Portuguese Grid.prj,1530539,641
+------1275413115,1296979267(32)
+\NZGD49\Wellington Circuit.prj,943826,700
+\NAD83(HARN)\Maryland (ftUS).prj,1050739,729
+\MGI\M34 (deprecated).prj,1502871,674
+\MGI\M31 (deprecated).prj,1501549,674
+\MGI\M28 (deprecated).prj,1500227,674
+\ELD79\Libya zone 9.prj,1717465,595
+\ELD79\Libya zone 8.prj,1716870,595
+\CH1903+\LV95.prj,1774499,711
+\ELD79\Libya zone 5.prj,1715086,594
+\NAD83(HARN)\New York Long Island.prj,1079823,733
+\ELD79\Libya zone 7.prj,1716275,595
+\ELD79\Libya zone 6.prj,1715680,595
+\IGC 1962\Congo TM zone 28.prj,1620643,657
+\IGC 1962\Congo TM zone 18.prj,1617358,657
+\IGC 1962\Congo TM zone 24.prj,1619329,657
+\IGC 1962\Congo TM zone 16.prj,1616701,657
+\IGC 1962\Congo TM zone 26.prj,1619986,657
+\IGC 1962\Congo TM zone 14.prj,1616044,657
+\IGC 1962\Congo TM zone 20.prj,1618015,657
+\IGC 1962\Congo TM zone 30.prj,1621300,657
+\IGC 1962\Congo TM zone 12.prj,1615387,657
+\IGC 1962\Congo TM zone 22.prj,1618672,657
+\Timbalai 1948\RSO Borneo (m).prj,521407,743
+\NZGD2000\Wairarapa Circuit 2000.prj,964176,684
+\NZGD2000\Tuhirangi Circuit 2000.prj,961583,673
+\ST84 Ile des Pins\UTM zone 58S.prj,532160,630
+\NAD83(HARN)\Minnesota South.prj,1061705,713
+\NAD83(HARN)\Minnesota North.prj,1060988,717
+\NAD83(HARN)\Utah North (ft).prj,1114770,745
+\NAD83(HARN)\Utah South (ft).prj,1116237,733
+\WGS 84\TM 6 NE.prj,274824,590
+\NAD83(HARN)\Wisconsin Central.prj,1127705,702
+------1297766009,1381581138(147)
+\NZGD2000\North Taieri Circuit 2000.prj,957480,687
+\NAD83(HARN)\Oklahoma North.prj,1089199,706
+\NAD83(HARN)\Oklahoma South.prj,1090667,721
+\Fatu Iva 72\UTM zone 7S.prj,1678278,671
+\Xian 1980\3-degree Gauss-Kruger zone 29.prj,183317,616
+\Xian 1980\3-degree Gauss-Kruger zone 39.prj,189482,617
+\Carthage (Paris)\Tunisia Mining Grid.prj,1775917,634
+\Yemen NGN96.prj,162674,330
+\Hong Kong 1963 Grid System (deprecated).prj,38197,670
+\NAD83(CSRS98)\SCoPQ zone 2 (deprecated).prj,1141524,683
+\NAD83\Wisconsin Central (ftUS).prj,1332451,714
+\Batavia\NEIEZ.prj,1847236,572
+\NAD83\Pennsylvania North.prj,1286751,692
+\NAD27\Pennsylvania North.prj,1432779,728
+\NAD27\Pennsylvania South.prj,1433507,727
+\NAD83\Pennsylvania South.prj,1288187,704
+\NAD83(HARN)\West Virginia South.prj,1126246,716
+\IGN72 Grande Terre.prj,44658,305
+\NAD27\Alabama West.prj,1358666,639
+\NAD83\Alabama West.prj,1168060,604
+\NAD27\Alabama East.prj,1358016,650
+\NAD83\Alabama East.prj,1167445,615
+\NAD83\Utah Central.prj,1306393,686
+\NAD27\Utah Central.prj,1444280,716
+\Xian 1980\3-degree Gauss-Kruger zone 28.prj,182701,616
+\Xian 1980\3-degree Gauss-Kruger zone 38.prj,188865,617
+\NAD83\Texas South Central (ftUS).prj,1302804,754
+\NAD83\Texas North Central (ftUS).prj,1299919,755
+\NAD83(HARN)\Texas North (ftUS).prj,1107333,745
+\MGI\Balkans zone 8.prj,1499566,661
+\KKJ\Finland zone 4.prj,1552677,599
+\KKJ\Finland zone 5.prj,1553276,599
+\MGI\Balkans zone 7.prj,1498218,661
+\KKJ\Finland zone 0.prj,1550881,598
+\MGI\Balkans zone 6.prj,1497557,661
+\KKJ\Finland zone 1.prj,1551479,599
+\MGI\Balkans zone 5.prj,1496896,661
+\KKJ\Finland zone 2.prj,1552078,599
+\NZGD2000\Amuri Circuit 2000.prj,944526,665
+\NZGD2000\Bluff Circuit 2000.prj,945883,663
+\Little Cayman 1961.prj,60180,314
+\NAD83(HARN)\Colorado North (ftUS).prj,1012724,771
+\NAD83(HARN)\Colorado South (ftUS).prj,1014234,771
+\NAD83(HARN)\Delaware (ftUS).prj,1017215,678
+\NAD83\Texas North (ftUS).prj,1299203,716
+\NAD83\Texas South (ftUS).prj,1302054,750
+\Tokyo\Japan Plane Rectangular CS I.prj,503390,611
+\Tokyo\Japan Plane Rectangular CS X.prj,508955,623
+\Tokyo\Japan Plane Rectangular CS V.prj,506477,623
+\ST84 Ile des Pins.prj,127650,302
+\NAD83\Alaska zone 1.prj,1168664,720
+\NAD27\Alaska zone 1.prj,1359980,763
+\NAD83\Alaska zone 10.prj,1169384,680
+\NAD27\Alaska zone 10.prj,1360743,715
+\NAD83\California zone 5 (ftUS).prj,1190734,741
+\NAD83\California zone 4 (ftUS).prj,1189328,727
+\NAD83\California zone 6 (ftUS).prj,1192168,757
+\NAD83\California zone 1 (ftUS).prj,1185000,739
+\NAD83\California zone 3 (ftUS).prj,1187890,743
+\NAD83\California zone 2 (ftUS).prj,1186430,754
+\ELD79\Libya zone 12.prj,1713892,597
+\American Samoa 1962\American Samoa Lambert.prj,1869940,745
+\ID74\UTM zone 47S.prj,1623796,609
+\ID74\UTM zone 49S.prj,1626221,610
+\ID74\UTM zone 48S.prj,1625008,610
+\ID74\UTM zone 54S.prj,1631709,610
+\ID74\UTM zone 51S.prj,1628647,610
+\ID74\UTM zone 50S.prj,1627434,610
+\ID74\UTM zone 53S.prj,1631099,610
+\ID74\UTM zone 52S.prj,1629860,610
+\Cape\UTM zone 35S.prj,1779578,589
+\Cape\UTM zone 34S.prj,1778989,589
+\Cape\UTM zone 36S.prj,1780167,589
+\Tete\UTM zone 37S.prj,523994,586
+\Tete\UTM zone 36S.prj,523408,586
+\GR96\UTM zone 19N.prj,1648827,604
+\GR96\UTM zone 18N.prj,1648223,604
+\GR96\UTM zone 25N.prj,1652451,604
+\GR96\UTM zone 24N.prj,1651847,604
+\GR96\UTM zone 27N.prj,1653659,604
+\GR96\UTM zone 26N.prj,1653055,604
+\GR96\UTM zone 21N.prj,1650035,604
+\GR96\UTM zone 20N.prj,1649431,604
+\GR96\UTM zone 23N.prj,1651243,604
+\GR96\UTM zone 22N.prj,1650639,604
+\GR96\UTM zone 29N.prj,1654867,603
+\GR96\UTM zone 28N.prj,1654263,604
+\ED50\UTM zone 29N.prj,1737727,586
+\ED50\UTM zone 28N.prj,1737140,587
+\ED50\UTM zone 35N.prj,1741241,586
+\ED50\UTM zone 34N.prj,1740655,586
+\ED50\UTM zone 37N.prj,1742413,586
+\ED50\UTM zone 36N.prj,1741827,586
+\ED50\UTM zone 31N.prj,1738899,585
+\ED50\UTM zone 30N.prj,1738313,586
+\ED50\UTM zone 33N.prj,1740069,586
+\ED50\UTM zone 32N.prj,1739484,585
+\ED50\UTM zone 38N.prj,1742999,586
+\FD54\UTM zone 29N.prj,1677696,582
+\ID74\UTM zone 47N.prj,1623194,602
+\ID74\UTM zone 46N.prj,1621957,602
+\ID74\UTM zone 49N.prj,1625618,603
+\ID74\UTM zone 48N.prj,1624405,603
+\ID74\UTM zone 51N.prj,1628044,603
+\ID74\UTM zone 50N.prj,1626831,603
+\ID74\UTM zone 52N.prj,1629257,603
+\Yoff\UTM zone 28N.prj,166090,587
+\Lome\UTM zone 31N.prj,1526197,585
+\Pulkovo 1942(83)\Gauss-Kruger zone 3.prj,737699,667
+\Pulkovo 1942(83)\Gauss-Kruger zone 4.prj,738366,668
+\Pulkovo 1942(83)\Gauss-Kruger zone 5.prj,739034,668
+\Pulkovo 1942(58)\Gauss-Kruger zone 3.prj,742490,679
+\Pulkovo 1942(58)\Gauss-Kruger zone 4.prj,743169,679
+\Pulkovo 1942(58)\Gauss-Kruger zone 5.prj,743848,679
+\Azores Central 1995.prj,7122,316
+\NAD83(HARN)\Wisconsin North.prj,1129171,723
+\NAD83(HARN)\Wisconsin South.prj,1130643,708
+\NAD83\Texas South Central.prj,1303558,709
+\NAD27\Texas South Central.prj,1442816,739
+\NAD27\Texas North Central.prj,1441376,741
+\NAD83\Texas North Central.prj,1300674,711
+\NAD27(CGQ77).prj,73814,315
+\NAD83(HARN)\Minnesota Central.prj,1060280,708
+\South African Coordinate System zone 33.prj,117755,631
+\South African Coordinate System zone 23.prj,114600,631
+\ELD79\Libya zone 13.prj,1714489,597
+\NAD83(HARN)\Illinois West.prj,1033903,662
+\NAD83(HARN)\Illinois East.prj,1033244,659
+\Carthage (Paris).prj,14884,315
+\Kertau (RSO).prj,52166,299
+\GDA94\SA Lambert.prj,1672001,681
+\NAD83(HARN)\Texas South (ftUS).prj,1110298,779
+\NAD83\Ontario MNR Lambert.prj,1281278,666
+\RGPF\UTM zone 7S.prj,592056,616
+\RGPF\UTM zone 6S.prj,591440,616
+\RGPF\UTM zone 5S.prj,590824,616
+\RGPF\UTM zone 8S.prj,592672,616
+\NAD83(HARN).prj,75074,309
+\MAGNA-SIRGAS.prj,64109,338
+\NAD83\Alaska zone 3.prj,1170664,600
+\NAD27\Alaska zone 3.prj,1362093,635
+\NAD83(CSRS98).prj,74736,338
+\NAD83(CSRS).prj,74424,312
+\Kalianpur 1880\India zone III.prj,1577958,679
+\Kalianpur 1975\India zone III.prj,1564730,691
+\ELD79\Libya zone 10.prj,1712698,597
+\ED50(ED77)\UTM zone 38N.prj,1724084,608
+------1381581139,1532393261(137)
+\ED50(ED77)\UTM zone 39N.prj,1724692,608
+\ED50(ED77)\UTM zone 41N.prj,1725908,608
+\ED50(ED77)\UTM zone 40N.prj,1725300,608
+\NAD27\North Dakota North.prj,1427027,725
+\NAD83\North Dakota North.prj,1274995,689
+\NAD83\North Dakota South.prj,1276406,704
+\NAD27\North Dakota South.prj,1427752,740
+\Azores Occidental 1939.prj,7438,325
+\NAD83(HARN)\Massachusetts Mainland.prj,1054411,729
+\GDA94\BCSG02.prj,1663021,622
+\Unknown datum based upon the Airy Modified 1849 ellipsoid.prj,141086,428
+\NAD83\Alaska zone 2.prj,1170064,600
+\NAD27\Alaska zone 2.prj,1361458,635
+\South African Coordinate System zone 31.prj,117124,631
+\South African Coordinate System zone 21.prj,113969,631
+\ELD79\Libya zone 11.prj,1713295,597
+\NAD83(HARN)\California Albers.prj,1001593,685
+\NAD83(HARN)\Texas Centric Albers Equal Area.prj,1105894,719
+\LKS94 (ETRS89).prj,60789,299
+\NAD83(HARN)\New York West (ftUS).prj,1080556,690
+\NAD83(HARN)\New York East (ftUS).prj,1077711,684
+\KUDAMS\KTM.prj,1547230,564
+\NAD83\Alaska zone 5.prj,1171864,600
+\NAD27\Alaska zone 5.prj,1363363,635
+\NAD27(CGQ77)\UTM zone 21N.prj,1348707,631
+\NAD27(CGQ77)\UTM zone 20N.prj,1348076,631
+\NAD27(CGQ77)\UTM zone 17N.prj,1346183,631
+\NAD27(CGQ77)\UTM zone 18N.prj,1346814,631
+\NAD27(CGQ77)\UTM zone 19N.prj,1347445,631
+\Unspecified datum based upon the Clarke 1866 Authalic Sphere.prj,156462,428
+\Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid.prj,145703,440
+\NAD83(HARN)\Michigan South (ft).prj,1058840,729
+\NAD83(HARN)\Michigan North (ft).prj,1056614,740
+\NAD83\Alaska zone 4.prj,1171264,600
+\NAD27\Alaska zone 4.prj,1362728,635
+\NAD83(HARN)\New Hampshire.prj,1071053,649
+\South African Coordinate System zone 27.prj,115862,631
+\South African Coordinate System zone 17.prj,112707,631
+\POSGAR 94\Argentina 3.prj,907058,616
+\POSGAR 94\Argentina 2.prj,906442,616
+\POSGAR 94\Argentina 1.prj,905826,616
+\POSGAR 94\Argentina 7.prj,909522,616
+\POSGAR 94\Argentina 6.prj,908906,616
+\POSGAR 94\Argentina 5.prj,908290,616
+\POSGAR 94\Argentina 4.prj,907674,616
+\NAD27\South Dakota North.prj,1437714,738
+\NAD83\South Dakota North.prj,1292859,702
+\NAD83\South Dakota South.prj,1293561,703
+\NAD27\South Dakota South.prj,1438452,739
+\Antigua 1943\British West Indies Grid.prj,1866523,634
+\Grenada 1953\British West Indies Grid.prj,1646281,663
+\IGN72 Nuku Hiva\UTM zone 7S.prj,1604583,621
+\NAD83\Alaska zone 7.prj,1173064,600
+\NAD27\Alaska zone 7.prj,1364633,635
+\CH1903\LV03.prj,1775210,707
+\Katanga 1955\Katanga TM.prj,1558742,603
+\NAD83(HARN)\Massachusetts Island.prj,1052917,720
+\Lisbon 1890 (Lisbon).prj,59289,328
+\Bogota 1975\UTM zone 17N (deprecated).prj,1794203,656
+\Qornoq 1927\UTM zone 23N.prj,604105,599
+\Indian 1954\UTM zone 47N.prj,1603284,649
+\Qornoq 1927\UTM zone 22N.prj,603506,599
+\Indian 1954\UTM zone 46N.prj,1602635,649
+\Kertau 1968\UTM zone 48N.prj,1555152,639
+\Manoca 1962\UTM zone 32N.prj,1513831,648
+\Indian 1975\UTM zone 47N.prj,1599540,620
+\Indian 1960\UTM zone 48N.prj,1601395,620
+\Indian 1960\UTM zone 49N.prj,1602015,620
+\Indian 1975\UTM zone 48N.prj,1600160,621
+\Kertau 1968\UTM zone 47N.prj,1554514,638
+\Dabola 1981\UTM zone 28N.prj,1766162,644
+\Dabola 1981\UTM zone 29N.prj,1766806,643
+\Indian 1954\UTM zone 48N.prj,1603933,650
+\Bogota 1975\UTM zone 18N.prj,1794859,630
+\NAD83\Alaska zone 6.prj,1172464,600
+\NAD27\Alaska zone 6.prj,1363998,635
+\South African Coordinate System zone 25.prj,115231,631
+\South African Coordinate System zone 15.prj,112076,631
+\Ascension Island 1958.prj,5123,343
+\Azores Occidental 1939\UTM zone 25N.prj,1852885,651
+\Tananarive (Paris)\Laborde Grid.prj,525766,739
+\Batavia (Jakarta).prj,8764,319
+\Tananarive (Paris).prj,137377,342
+\Bogota 1975 (Bogota).prj,12416,323
+\NAD27\BLM 17N (feet) (deprecated).prj,1373836,665
+\NAD27\BLM 16N (feet) (deprecated).prj,1372532,665
+\NAD27\BLM 15N (feet) (deprecated).prj,1371228,665
+\NAD27\BLM 14N (feet) (deprecated).prj,1369924,665
+\NAD83\Alaska zone 9.prj,1174264,600
+\NAD27\Alaska zone 9.prj,1365903,635
+\NAD83(CSRS)\Ontario MNR Lambert.prj,1155286,698
+\NAD83(HARN)\Oklahoma North (ftUS).prj,1088452,747
+\NAD83(HARN)\Oklahoma South (ftUS).prj,1089905,762
+\NAD83(CSRS98)\Prince Edward Isl. Stereographic (NAD83) (deprecated).prj,1140774,750
+\NAD83\Alaska zone 8.prj,1173664,600
+\NAD27\Alaska zone 8.prj,1365268,635
+\POSGAR 98\Argentina 3.prj,902746,616
+\POSGAR 98\Argentina 2.prj,902130,616
+\POSGAR 98\Argentina 1.prj,901514,616
+\POSGAR 98\Argentina 7.prj,905210,616
+\POSGAR 98\Argentina 6.prj,904594,616
+\POSGAR 98\Argentina 5.prj,903978,616
+\POSGAR 98\Argentina 4.prj,903362,616
+\NAD83(HARN)\Florida North.prj,1021281,694
+\Belge 1950 (Brussels).prj,9966,334
+\Pulkovo 1995\Gauss-Kruger 9N (deprecated).prj,699418,629
+\Pulkovo 1942\Gauss-Kruger 9N (deprecated).prj,847513,629
+\Pulkovo 1995\Gauss-Kruger 8N (deprecated).prj,698789,629
+\Pulkovo 1942\Gauss-Kruger 8N (deprecated).prj,846884,629
+\Pulkovo 1995\Gauss-Kruger 5N (deprecated).prj,696902,629
+\Pulkovo 1942\Gauss-Kruger 5N (deprecated).prj,844997,629
+\Pulkovo 1995\Gauss-Kruger 4N (deprecated).prj,696273,629
+\Pulkovo 1942\Gauss-Kruger 4N (deprecated).prj,844368,629
+\Pulkovo 1995\Gauss-Kruger 7N (deprecated).prj,698160,629
+\Pulkovo 1942\Gauss-Kruger 7N (deprecated).prj,846255,629
+\Pulkovo 1995\Gauss-Kruger 6N (deprecated).prj,697531,629
+\Pulkovo 1942\Gauss-Kruger 6N (deprecated).prj,845626,629
+\Pulkovo 1942\Gauss-Kruger 3N (deprecated).prj,843739,629
+\Pulkovo 1942\Gauss-Kruger 2N (deprecated).prj,841213,628
+\Xian 1980\3-degree Gauss-Kruger CM 78E.prj,175957,612
+\Xian 1980\3-degree Gauss-Kruger CM 99E.prj,180241,612
+\Xian 1980\3-degree Gauss-Kruger CM 96E.prj,179629,612
+\Xian 1980\3-degree Gauss-Kruger CM 87E.prj,177793,612
+\Xian 1980\3-degree Gauss-Kruger CM 84E.prj,177181,612
+\Xian 1980\3-degree Gauss-Kruger CM 75E.prj,175345,612
+\Xian 1980\3-degree Gauss-Kruger CM 93E.prj,179017,612
+\Xian 1980\3-degree Gauss-Kruger CM 90E.prj,178405,612
+\Xian 1980\3-degree Gauss-Kruger CM 81E.prj,176569,612
+\NAD83(HARN)\New Mexico East.prj,1074360,651
+\NAD83(HARN)\New Mexico West.prj,1075707,651
+\Deir ez Zor.prj,21189,299
+\LKS94\Lithuania TM.prj,1528686,613
+\Unknown datum based upon the International 1924 ellipsoid.prj,152588,416
+\Dealul Piscului 1933.prj,20233,311
+\NZGD2000\Grey Circuit 2000.prj,948590,674
+\South African Coordinate System zone 29.prj,116493,631
+\South African Coordinate System zone 19.prj,113338,631
+------1532697900,1662674795(158)
+\DHDN\3-degree Gauss zone 4 (deprecated).prj,1748080,639
+\DHDN\3-degree Gauss zone 5 (deprecated).prj,1748719,639
+\DHDN\3-degree Gauss zone 2 (deprecated).prj,1746804,638
+\DHDN\3-degree Gauss zone 3 (deprecated).prj,1747442,638
+\DHDN\3-degree Gauss zone 1 (deprecated).prj,1746166,638
+\NAD83(HARN)\Oregon South (ft).prj,1094205,724
+\NAD83(HARN)\Oregon North (ft).prj,1092775,724
+\NAD83(CSRS)\Alberta 10-TM (Forest).prj,1147658,648
+\Makassar\NEIEZ.prj,1515781,614
+\PDO Survey Datum 1993.prj,84414,321
+\Monte Mario (Rome).prj,71047,314
+\Madrid 1870 (Madrid).prj,63501,321
+\Egypt 1907\Blue Belt.prj,1721714,587
+\NAD83(HARN)\Virginia North (ftUS).prj,1119591,766
+\NAD83(HARN)\Virginia South (ftUS).prj,1121074,779
+\Barbados 1938\Barbados National Grid.prj,1850185,709
+\NAD83(HARN)\Texas South Central (ftUS).prj,1111077,783
+\Maupiti 83\UTM zone 5S.prj,1511960,640
+\Voirol 1875\Nord Algerie (ancienne).prj,498887,686
+\Voirol 1879\Nord Algerie (ancienne).prj,497575,656
+\Azores Central 1948.prj,6776,346
+\Marcus Island 1952.prj,66373,335
+\Easter Island 1967.prj,23351,334
+\SIRGAS 2000\UTM zone 16N.prj,541409,671
+\SIRGAS 2000\UTM zone 17N.prj,542080,671
+\SIRGAS 2000\UTM zone 14N.prj,540067,671
+\SIRGAS 2000\UTM zone 15N.prj,540738,671
+\SIRGAS 2000\UTM zone 12N.prj,538723,672
+\SIRGAS 2000\UTM zone 21N.prj,547476,671
+\SIRGAS 2000\UTM zone 13N.prj,539395,672
+\SIRGAS 2000\UTM zone 20N.prj,546127,671
+\SIRGAS 2000\UTM zone 11N.prj,538051,672
+\SIRGAS 2000\UTM zone 22N.prj,548825,671
+\SIRGAS 2000\UTM zone 18N.prj,543429,671
+\SIRGAS 2000\UTM zone 19N.prj,544778,671
+\SIRGAS 2000\UTM zone 19S.prj,545449,678
+\SIRGAS 2000\UTM zone 18S.prj,544100,678
+\SIRGAS 2000\UTM zone 20S.prj,546798,678
+\SIRGAS 2000\UTM zone 21S.prj,548147,678
+\SIRGAS 2000\UTM zone 22S.prj,549496,678
+\SIRGAS 2000\UTM zone 23S.prj,550174,678
+\SIRGAS 2000\UTM zone 17S.prj,542751,678
+\SIRGAS 2000\UTM zone 24S.prj,550852,678
+\SIRGAS 2000\UTM zone 25S.prj,551530,678
+\Dealul Piscului 1970.prj,20544,310
+\NAD83(HARN)\Kentucky South (ftUS).prj,1044568,779
+\NAD83(HARN)\Kentucky North (ftUS).prj,1041571,756
+\American Samoa 1962\American Samoa Lambert (deprecated).prj,1869177,763
+\MAGNA-SIRGAS\Colombia East zone.prj,1517813,699
+\MAGNA-SIRGAS\Colombia West zone.prj,1519219,699
+\Bogota 1975\Colombia West zone (deprecated).prj,1792827,701
+\Puerto Rico State Plane CS of 1927.prj,89207,788
+\NAD Michigan\Michigan Old Central.prj,1473598,685
+\JGD2000\UTM zone 55N.prj,1595061,627
+\LGD2006\UTM zone 35N.prj,1540283,644
+\Adindan\UTM zone 35N.prj,1891698,590
+\NAD83(HARN)\California zone 2 (ftUS).prj,1003765,783
+\Mauritania 1999\UTM zone 30N (deprecated).prj,1510676,647
+\Mauritania 1999\UTM zone 29N (deprecated).prj,1509392,647
+\Mauritania 1999\UTM zone 28N (deprecated).prj,1508106,648
+\Gandajika 1970.prj,31126,323
+\St. Lucia 1955.prj,125725,329
+\Cape Canaveral.prj,14280,330
+\Mhast (offshore)\UTM zone 32S.prj,1485556,622
+\JGD2000\UTM zone 54N.prj,1594434,627
+\Gandajika.prj,31449,278
+\Kandawala.prj,50889,327
+\LGD2006\UTM zone 34N.prj,1539639,644
+\Rassadiran.prj,93380,321
+\Observatario.prj,81342,296
+\Madzansua.prj,63822,287
+\NAD83(HARN)\California zone 3 (ftUS).prj,1005282,772
+\Pulkovo 1995\3-degree Gauss-Kruger zone 60 (deprecated).prj,676028,659
+\Pulkovo 1942\3-degree Gauss-Kruger zone 60 (deprecated).prj,816058,659
+\NAD83\Nebraska.prj,1259985,652
+\NAD83(HARN)\North Dakota North.prj,1084850,717
+\NAD83(HARN)\South Dakota North.prj,1101459,730
+\NAD83(HARN)\North Dakota South.prj,1086318,732
+\NAD83(HARN)\South Dakota South.prj,1102189,731
+\NAD27\Cuba Sur.prj,1385238,648
+\Ain el Abd.prj,2089,286
+\NAD Michigan\Michigan Central.prj,1471397,762
+\Massawa\UTM zone 37N.prj,1512600,616
+\Adindan\UTM zone 37N.prj,1892878,590
+\NAD83\New York Long Island.prj,1270900,705
+\NAD27\New York Long Island.prj,1424930,728
+\NAD83(HARN)\Kentucky Single Zone.prj,1043825,743
+\NAD27 Michigan.prj,73189,317
+\SAD69\UTM zone 25S.prj,588246,604
+\DGN95\UTM zone 54S.prj,1761103,626
+\SAD69\UTM zone 24S.prj,587014,604
+\Aratu\UTM zone 24S.prj,1865940,583
+\DGN95\UTM zone 47S.prj,1753627,625
+\SAD69\UTM zone 17S.prj,572300,604
+\DGN95\UTM zone 51S.prj,1758606,626
+\SAD69\UTM zone 21S.prj,582100,604
+\RGR92\UTM zone 40S.prj,590189,635
+\DGN95\UTM zone 50S.prj,1757361,626
+\SAD69\UTM zone 20S.prj,579650,604
+\DGN95\UTM zone 53S.prj,1760477,626
+\SAD69\UTM zone 23S.prj,585782,604
+\Aratu\UTM zone 23S.prj,1865357,583
+\DGN95\UTM zone 52S.prj,1759851,626
+\SAD69\UTM zone 22S.prj,584550,604
+\Aratu\UTM zone 22S.prj,1864774,583
+\DGN95\UTM zone 49S.prj,1756116,626
+\SAD69\UTM zone 19S.prj,577200,604
+\DGN95\UTM zone 48S.prj,1754871,626
+\SAD69\UTM zone 18S.prj,574750,604
+\NAD83(HARN)\North Carolina.prj,1083402,712
+\NAD83(HARN)\South Carolina.prj,1100751,708
+\NAD27\UTM zone 15N.prj,1449461,605
+\ELD79\UTM zone 35N.prj,1720431,595
+\NAD83\UTM zone 15N.prj,1312859,596
+\Tokyo\UTM zone 55N.prj,517430,580
+\NAD27\UTM zone 14N.prj,1448856,605
+\ELD79\UTM zone 34N.prj,1719836,595
+\NAD83\UTM zone 14N.prj,1312263,596
+\Tokyo\UTM zone 54N.prj,516850,580
+\NAD27\UTM zone 17N.prj,1450671,605
+\NAD83\UTM zone 17N.prj,1314051,596
+\DGN95\UTM zone 47N.prj,1753009,618
+\NAD27\UTM zone 16N.prj,1450066,605
+\NAD83\UTM zone 16N.prj,1313455,596
+\DGN95\UTM zone 46N.prj,1752391,618
+\NAD27\UTM zone 11N.prj,1447038,606
+\NAD27\UTM zone 21N.prj,1453695,605
+\NAD83\UTM zone 11N.prj,1310472,597
+\NAD83\UTM zone 21N.prj,1317030,596
+\DGN95\UTM zone 51N.prj,1757987,619
+\Tokyo\UTM zone 51N.prj,515110,580
+\Minna\UTM zone 31N.prj,1483776,581
+\SAD69\UTM zone 21N.prj,580875,597
+\CSG67\UTM zone 21N.prj,1767449,628
+\NAD27\UTM zone 60N.prj,1457925,604
+\NAD27\UTM zone 10N.prj,1446432,606
+\NAD27\UTM zone 20N.prj,1453090,605
+\PSD93\UTM zone 40N.prj,888171,613
+\NAD83\UTM zone 60N.prj,1321793,595
+\NAD83\UTM zone 10N.prj,1309875,597
+\NAD83\UTM zone 20N.prj,1316434,596
+\DGN95\UTM zone 50N.prj,1756742,619
+\ATS77\UTM zone 20N.prj,1858109,618
+\SAD69\UTM zone 20N.prj,578425,597
+\Fahud\UTM zone 40N.prj,1679531,582
+\NAD27\UTM zone 13N.prj,1448250,606
+\IGM95\UTM zone 33N.prj,1612055,624
+\ELD79\UTM zone 33N.prj,1719241,595
+\NAD83\UTM zone 13N.prj,1311666,597
+\NAD83\UTM zone 23N.prj,1318222,596
+\Tokyo\UTM zone 53N.prj,516270,580
+\NAD27\UTM zone 12N.prj,1447644,606
+\NAD27\UTM zone 22N.prj,1454300,605
+\IGM95\UTM zone 32N.prj,1611432,623
+\ELD79\UTM zone 32N.prj,1718647,594
+\NAD83\UTM zone 12N.prj,1311069,597
+\NAD83\UTM zone 22N.prj,1317626,596
+\DGN95\UTM zone 52N.prj,1759232,619
+------1662674796,1762678060(118)
+\Tokyo\UTM zone 52N.prj,515690,580
+\Minna\UTM zone 32N.prj,1484357,581
+\SAD69\UTM zone 22N.prj,583325,597
+\CSG67\UTM zone 22N.prj,1768077,628
+\NAD27\UTM zone 59N.prj,1456717,604
+\NAD27\UTM zone 19N.prj,1451881,605
+\PSD93\UTM zone 39N.prj,887558,613
+\NAD83\UTM zone 59N.prj,1320603,595
+\NAD83\UTM zone 19N.prj,1315243,596
+\DGN95\UTM zone 49N.prj,1755497,619
+\ATS77\UTM zone 19N.prj,1857491,618
+\SAD69\UTM zone 19N.prj,575975,597
+\Fahud\UTM zone 39N.prj,1678949,582
+\NAD27\UTM zone 18N.prj,1451276,605
+\NAD83\UTM zone 18N.prj,1314647,596
+\DGN95\UTM zone 48N.prj,1754252,619
+\SAD69\UTM zone 18N.prj,573525,597
+\NAD83(CSRS98)\MTM zone 10 (deprecated).prj,1134627,681
+\Schwarzeck.prj,108354,301
+\ETRS89\TM Baltic93.prj,1705321,613
+\NAD83(HARN)\Michigan Oblique Mercator.prj,1058076,764
+\Adindan\UTM zone 36N.prj,1892288,590
+\NAD83(HARN)\California zone 1 (ftUS).prj,1002278,768
+\ED50\Jordan TM.prj,1731458,586
+\NEA74 Noumea\Noumea Lambert.prj,988777,695
+\GDM2000\Johor Grid.prj,1656819,606
+\WGS 72BE\UTM zone 8S.prj,426516,646
+\WGS 72BE\UTM zone 8N.prj,425877,639
+\JGD2000\UTM zone 51N.prj,1592553,627
+\Palestine 1923\Palestine Grid.prj,915614,699
+\NAD83(HARN)\California zone 6 (ftUS).prj,1009731,786
+\Vientiane 1982.prj,158339,292
+\Palestine 1923.prj,83708,370
+\NAD83(HARN)\Idaho Central (ftUS).prj,1029212,693
+\NAD83(HARN)\Texas Central (ftUS).prj,1104359,795
+\NAD83(HARN)\New York Long Island (ftUS).prj,1079039,784
+\NAD83(HARN)\Maine CS2000 Central.prj,1047489,646
+\NAD83(HARN)\Maine CS2000 West.prj,1048790,655
+\NAD83(HARN)\Maine CS2000 East.prj,1048135,655
+\Hanoi 1972\Gauss-Kruger zone 19.prj,1643743,646
+\Hanoi 1972\Gauss-Kruger zone 18.prj,1643097,646
+\Grand Comoros\UTM zone 38S.prj,1646944,613
+\NAD83(CSRS98)\UTM zone 19N (deprecated).prj,1145615,681
+\NAD83(CSRS98)\UTM zone 18N (deprecated).prj,1144934,681
+\NAD83(CSRS98)\UTM zone 17N (deprecated).prj,1144253,681
+\NAD83(CSRS98)\UTM zone 11N (deprecated).prj,1142207,682
+\NAD83(CSRS98)\UTM zone 20N (deprecated).prj,1146296,681
+\NAD83(CSRS98)\UTM zone 13N (deprecated).prj,1143571,682
+\NAD83(CSRS98)\UTM zone 21N (deprecated).prj,1146977,681
+\NAD83(CSRS98)\UTM zone 12N (deprecated).prj,1142889,682
+\NAD83\Statistics Canada Lambert.prj,1294264,698
+\KOC Lambert.prj,53081,638
+\WGS 72BE\UTM zone 9S.prj,427801,646
+\WGS 72BE\UTM zone 9N.prj,427162,639
+\Batavia\UTM zone 50S.prj,1849589,596
+\ST71 Belep.prj,126704,346
+\ST87 Ouvea.prj,127952,319
+\IGN63 Hiva Oa\UTM zone 7S.prj,1606494,613
+\NAD83\Massachusetts Island (ftUS).prj,1234266,736
+\NAD83(HARN)\Florida West (ftUS).prj,1021975,689
+\NAD83(HARN)\Florida East (ftUS).prj,1018527,689
+\NAD83(HARN)\Indiana West (ftUS).prj,1037365,704
+\NAD83(HARN)\Indiana East (ftUS).prj,1035287,707
+\NAD83(HARN)\Georgia West (ftUS).prj,1024633,685
+\NAD83(HARN)\Georgia East (ftUS).prj,1023309,684
+\JGD2000\UTM zone 53N.prj,1593807,627
+\IGN56 Lifou.prj,43782,284
+\LGD2006\UTM zone 33N.prj,1538995,644
+\NAD83\Texas Central (ftUS).prj,1296344,766
+\Batavia (Jakarta)\NEIEZ (deprecated).prj,1846585,651
+\NAD83(HARN)\California zone 4 (ftUS).prj,1006777,756
+\Hong Kong 1963.prj,39849,310
+\Hong Kong 1980.prj,40873,365
+\IGCB 1955\Congo TM zone 12.prj,1612679,679
+\IGCB 1955\Congo TM zone 14.prj,1613358,679
+\IGCB 1955\Congo TM zone 16.prj,1614037,679
+\NAD83\Michigan Central (ft).prj,1237140,717
+\Nord Sahara 1959\Voirol Unifie Sud.prj,980727,658
+\JGD2000\UTM zone 52N.prj,1593180,627
+\Serindung.prj,110169,283
+\LGD2006\UTM zone 32N.prj,1538352,643
+\Le Pouce 1934\Mauritius Grid.prj,1541570,696
+\PD\83\3-degree Gauss zone 3.prj,912309,603
+\RD\83\3-degree Gauss zone 4.prj,601510,606
+\PD\83\3-degree Gauss zone 4.prj,912912,604
+\RD\83\3-degree Gauss zone 5.prj,602116,606
+\NAD83(HARN)\California zone 5 (ftUS).prj,1008240,770
+\NZGD49\Jacksons Bay Circuit.prj,927165,697
+\TC(1948)\UTM zone 40N.prj,525173,593
+\NAD83\Oklahoma South (ftUS).prj,1279852,733
+\NAD83\Colorado North (ftUS).prj,1195047,742
+\NAD83\Colorado South (ftUS).prj,1196500,742
+\NAD83\Oklahoma North (ftUS).prj,1278456,718
+\Hu Tzu Shan.prj,41238,316
+\WGS 72BE\UTM zone 49N.prj,405293,640
+\WGS 72BE\UTM zone 48N.prj,404006,640
+\WGS 72BE\UTM zone 41N.prj,395011,639
+\WGS 72BE\UTM zone 40N.prj,393726,639
+\WGS 72BE\UTM zone 43N.prj,397581,639
+\WGS 72BE\UTM zone 42N.prj,396296,639
+\WGS 72BE\UTM zone 45N.prj,400151,639
+\WGS 72BE\UTM zone 44N.prj,398866,639
+\WGS 72BE\UTM zone 47N.prj,402721,639
+\WGS 72BE\UTM zone 46N.prj,401436,639
+\WGS 72BE\UTM zone 44S.prj,399505,646
+\WGS 72BE\UTM zone 45S.prj,400790,646
+\WGS 72BE\UTM zone 46S.prj,402075,646
+\WGS 72BE\UTM zone 47S.prj,403360,646
+\WGS 72BE\UTM zone 40S.prj,394365,646
+\WGS 72BE\UTM zone 41S.prj,395650,646
+\WGS 72BE\UTM zone 42S.prj,396935,646
+\WGS 72BE\UTM zone 43S.prj,398220,646
+\WGS 72BE\UTM zone 48S.prj,404646,647
+\WGS 72BE\UTM zone 49S.prj,405933,647
+\WGS 72BE\UTM zone 4S.prj,407219,646
+\WGS 72BE\UTM zone 4N.prj,406580,639
+\Chos Malal 1914\Argentina zone 2.prj,1773878,621
+\NZGD2000\UTM zone 59S.prj,962896,640
+------1762678061,1828984392(174)
+\NZGD2000\UTM zone 58S.prj,962256,640
+\Tahaa 54\UTM zone 5S.prj,529004,593
+\Dealul Piscului 1933\Stereo 33.prj,1764275,656
+\Dealul Piscului 1970\Stereo 70.prj,1763639,636
+\Puerto Rico.prj,89995,321
+\Old Hawaiian.prj,81638,296
+\WGS 72BE\UTM zone 59N.prj,419448,640
+\WGS 72BE\UTM zone 58N.prj,418161,640
+\WGS 72BE\UTM zone 51N.prj,409152,640
+\WGS 72BE\UTM zone 50N.prj,407865,640
+\WGS 72BE\UTM zone 53N.prj,411726,640
+\WGS 72BE\UTM zone 52N.prj,410439,640
+\WGS 72BE\UTM zone 55N.prj,414300,640
+\WGS 72BE\UTM zone 54N.prj,413013,640
+\WGS 72BE\UTM zone 57N.prj,416874,640
+\WGS 72BE\UTM zone 56N.prj,415587,640
+\WGS 72BE\UTM zone 54S.prj,413653,647
+\WGS 72BE\UTM zone 55S.prj,414940,647
+\WGS 72BE\UTM zone 56S.prj,416227,647
+\WGS 72BE\UTM zone 57S.prj,417514,647
+\WGS 72BE\UTM zone 50S.prj,408505,647
+\WGS 72BE\UTM zone 51S.prj,409792,647
+\WGS 72BE\UTM zone 52S.prj,411079,647
+\WGS 72BE\UTM zone 53S.prj,412366,647
+\WGS 72BE\UTM zone 58S.prj,418801,647
+\WGS 72BE\UTM zone 59S.prj,420088,647
+\WGS 72BE\UTM zone 5S.prj,421374,646
+\WGS 72BE\UTM zone 5N.prj,420735,639
+\NAD27\California zone III.prj,1377264,729
+\NAD27\California zone VII.prj,1380959,766
+\Fort Marigot.prj,30504,317
+\NDG (Paris).prj,77158,293
+\NTF (Paris).prj,79982,359
+\ATF (Paris).prj,5466,311
+\NAD83\Arizona Central (ft).prj,1176095,631
+\NAD27\South Carolina South.prj,1436973,741
+\NAD27\South Carolina North.prj,1436247,726
+\NZGD2000\UTM zone 60S.prj,963536,640
+\NZGD2000\Jacksons Bay Circuit 2000.prj,950632,690
+\NZGD2000\Observation Point Circuit 2000.prj,958167,700
+\NAD83(HARN)\New York Central (ftUS).prj,1076358,702
+\NAD83\Kentucky North (ftUS).prj,1223410,727
+\NAD83\Kentucky South (ftUS).prj,1226291,750
+\Pointe Noire\UTM zone 32S.prj,911392,635
+\WGS 72BE\UTM zone 60N.prj,422020,640
+\WGS 72BE\UTM zone 60S.prj,422660,647
+\WGS 72BE\UTM zone 6S.prj,423946,646
+\WGS 72BE\UTM zone 6N.prj,423307,639
+\MOP78.prj,72319,266
+\Fahud.prj,28457,273
+\Greek.prj,34194,271
+\ISN93.prj,46818,304
+\LKS92.prj,60494,295
+\LKS94.prj,61088,305
+\RGF93.prj,94614,315
+\SAD69.prj,106743,287
+\PRS92.prj,88549,358
+\CSG67.prj,19312,319
+\QND95.prj,92444,354
+\Accra.prj,331,287
+\Aratu.prj,4289,266
+\EST97.prj,26385,296
+\RGR92.prj,96226,320
+\Sudan.prj,128271,280
+\AGD84.prj,1785,304
+\NAD27.prj,74129,295
+\GDA94.prj,32010,318
+\IGM95.prj,42550,316
+\EST92.prj,26054,331
+\Minna.prj,70774,273
+\ATS77.prj,5777,309
+\Tokyo.prj,139798,271
+\JAD69.prj,47737,282
+\NAD83.prj,75383,286
+\DGN95.prj,21488,309
+\RD\83.prj,601226,284
+\AGD66.prj,1481,304
+\ELD79.prj,25767,287
+\Mhast.prj,70186,304
+\PD\83.prj,912027,282
+\PZ-90.prj,91577,309
+\Accra\Ghana National Grid.prj,1894058,653
+\Reykjavik 1900.prj,94298,316
+\NAD83(HARN)\Mississippi East (ftUS).prj,1062418,702
+\NAD83(HARN)\Mississippi West (ftUS).prj,1063771,696
+\Kalianpur 1880\India zone 0.prj,1575246,677
+\Kalianpur 1975\India zone I.prj,1562659,689
+\Kalianpur 1962\India zone I.prj,1570094,660
+\Kalianpur 1880\India zone I.prj,1575923,677
+\WGS 72BE\UTM zone 7S.prj,425231,646
+\WGS 72BE\UTM zone 7N.prj,424592,639
+\M'poraloko.prj,62919,296
+\ID74\UTM zone 53N (deprecated).prj,1630470,629
+\ID74\UTM zone 46S (deprecated).prj,1622559,635
+\NAD83\Delaware.prj,1200016,606
+\NAD27\Delaware.prj,1385886,641
+\Egypt Gulf of Suez S-650 TL\Red Belt.prj,1721026,688
+\NAD83\North Carolina (ftUS).prj,1272883,721
+\VN-2000\UTM zone 49N.prj,500845,586
+\Batavia\UTM zone 49S.prj,1848993,596
+\Mount Dillon.prj,72585,304
+\Afgooye\UTM zone 39N.prj,1891087,611
+\Fort Marigot\UTM zone 20N.prj,1674565,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 6.prj,675399,629
+\Pulkovo 1995\3-degree Gauss-Kruger zone 7.prj,679856,629
+\Pulkovo 1942\3-degree Gauss-Kruger zone 8.prj,820515,629
+\Pulkovo 1942\3-degree Gauss-Kruger zone 9.prj,821144,629
+\Pulkovo 1942\3-degree Gauss-Kruger zone 6.prj,815429,629
+\Pulkovo 1942\3-degree Gauss-Kruger zone 7.prj,819886,629
+\Pulkovo 1995\3-degree Gauss-Kruger zone 8.prj,680485,629
+\Pulkovo 1995\3-degree Gauss-Kruger zone 9.prj,681114,629
+\Pulkovo 1942\3-degree Gauss-Kruger zone 40.prj,802769,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 51.prj,809732,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 62.prj,817984,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 15.prj,786963,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 26.prj,793915,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 37.prj,800870,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 41.prj,803402,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 50.prj,809099,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 63.prj,818618,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 14.prj,786331,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 27.prj,794547,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 36.prj,800237,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 42.prj,804035,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 53.prj,810998,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 60.prj,816717,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 17.prj,788227,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 24.prj,792651,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 35.prj,799604,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 59.prj,674766,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 48.prj,667803,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 43.prj,804668,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 52.prj,810365,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 61.prj,817350,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 16.prj,787595,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 25.prj,793283,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 34.prj,798971,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 58.prj,674133,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 49.prj,668436,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 44.prj,805301,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 55.prj,812264,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 11.prj,784435,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 22.prj,791387,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 33.prj,798339,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 39.prj,662106,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 28.prj,655149,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 45.prj,805934,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 54.prj,811631,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 10.prj,783803,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 23.prj,792019,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 32.prj,797707,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 38.prj,661473,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 29.prj,655781,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 46.prj,806567,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 57.prj,813530,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 64.prj,819252,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 13.prj,785699,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 20.prj,790123,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 31.prj,797075,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 19.prj,649461,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 47.prj,807200,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 56.prj,812897,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 12.prj,785067,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 21.prj,790755,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 30.prj,796443,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 18.prj,648829,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 48.prj,807833,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 59.prj,814796,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 17.prj,648197,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 35.prj,659574,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 24.prj,652621,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 53.prj,670968,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 42.prj,664005,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 60.prj,676687,633
+------1828984393,1868900196(186)
+\Pulkovo 1942\3-degree Gauss-Kruger zone 49.prj,808466,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 58.prj,814163,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 16.prj,647565,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 34.prj,658941,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 25.prj,653253,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 52.prj,670335,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 43.prj,664638,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 61.prj,677320,634
+\Pulkovo 1995\3-degree Gauss-Kruger zone 15.prj,646933,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 37.prj,660840,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 26.prj,653885,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 51.prj,669702,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 40.prj,662739,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 62.prj,677954,634
+\Pulkovo 1995\3-degree Gauss-Kruger zone 14.prj,646301,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 36.prj,660207,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 27.prj,654517,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 50.prj,669069,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 41.prj,663372,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 63.prj,678588,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 19.prj,789491,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 13.prj,645669,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 31.prj,657045,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 20.prj,650093,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 57.prj,673500,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 46.prj,666537,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 64.prj,679222,634
+\Pulkovo 1942\3-degree Gauss-Kruger zone 18.prj,788859,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 12.prj,645037,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 30.prj,656413,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 21.prj,650725,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 56.prj,672867,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 47.prj,667170,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 28.prj,795179,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 39.prj,802136,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 11.prj,644405,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 33.prj,658309,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 22.prj,651357,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 55.prj,672234,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 44.prj,665271,633
+\Pulkovo 1942\3-degree Gauss-Kruger zone 29.prj,795811,632
+\Pulkovo 1942\3-degree Gauss-Kruger zone 38.prj,801503,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 10.prj,643773,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 32.prj,657677,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 23.prj,651989,632
+\Pulkovo 1995\3-degree Gauss-Kruger zone 54.prj,671601,633
+\Pulkovo 1995\3-degree Gauss-Kruger zone 45.prj,665904,633
+\Beijing 1954\3-degree Gauss-Kruger zone 30.prj,1815381,632
+\Beijing 1954\3-degree Gauss-Kruger zone 31.prj,1816013,632
+\Beijing 1954\3-degree Gauss-Kruger zone 45.prj,1824872,633
+\Beijing 1954\3-degree Gauss-Kruger zone 32.prj,1816645,632
+\Beijing 1954\3-degree Gauss-Kruger zone 44.prj,1824239,633
+\Beijing 1954\3-degree Gauss-Kruger zone 33.prj,1817277,632
+\Beijing 1954\3-degree Gauss-Kruger zone 43.prj,1823606,633
+\Beijing 1954\3-degree Gauss-Kruger zone 34.prj,1817909,633
+\Beijing 1954\3-degree Gauss-Kruger zone 25.prj,1812221,632
+\Beijing 1954\3-degree Gauss-Kruger zone 42.prj,1822973,633
+\Beijing 1954\3-degree Gauss-Kruger zone 35.prj,1818542,633
+\Beijing 1954\3-degree Gauss-Kruger zone 41.prj,1822340,633
+\Beijing 1954\3-degree Gauss-Kruger zone 36.prj,1819175,633
+\Beijing 1954\3-degree Gauss-Kruger zone 27.prj,1813485,632
+\Beijing 1954\3-degree Gauss-Kruger zone 40.prj,1821707,633
+\Beijing 1954\3-degree Gauss-Kruger zone 37.prj,1819808,633
+\Beijing 1954\3-degree Gauss-Kruger zone 26.prj,1812853,632
+\Beijing 1954\3-degree Gauss-Kruger zone 38.prj,1820441,633
+\Beijing 1954\3-degree Gauss-Kruger zone 29.prj,1814749,632
+\Beijing 1954\3-degree Gauss-Kruger zone 39.prj,1821074,633
+\Beijing 1954\3-degree Gauss-Kruger zone 28.prj,1814117,632
+\JGD2000\Japan Plane Rectangular CS XVI.prj,1590570,659
+\JGD2000\Japan Plane Rectangular CS VII.prj,1584602,673
+\JGD2000\Japan Plane Rectangular CS XII.prj,1587267,662
+\JGD2000\Japan Plane Rectangular CS III.prj,1581273,673
+\JGD2000\Japan Plane Rectangular CS XIV.prj,1588593,659
+\JGD2000\Japan Plane Rectangular CS XIX.prj,1589252,659
+\NTF (Paris)\Lambert zone II.prj,974032,698
+\NTF (Paris)\Lambert zone IV.prj,975431,706
+\La Canoa\UTM zone 18N.prj,1544760,625
+\La Canoa\UTM zone 19N.prj,1545385,625
+\WGS 72BE\UTM zone 19N.prj,362870,640
+\WGS 72BE\UTM zone 18N.prj,361583,640
+\WGS 72BE\UTM zone 11N.prj,352568,641
+\WGS 72BE\UTM zone 10N.prj,351279,641
+\WGS 72BE\UTM zone 13N.prj,355146,641
+\WGS 72BE\UTM zone 12N.prj,353857,641
+\WGS 72BE\UTM zone 15N.prj,357722,640
+\WGS 72BE\UTM zone 14N.prj,356435,640
+\WGS 72BE\UTM zone 17N.prj,360296,640
+\WGS 72BE\UTM zone 16N.prj,359009,640
+\WGS 72BE\UTM zone 14S.prj,357075,647
+\WGS 72BE\UTM zone 15S.prj,358362,647
+\WGS 72BE\UTM zone 16S.prj,359649,647
+\WGS 72BE\UTM zone 17S.prj,360936,647
+\WGS 72BE\UTM zone 10S.prj,351920,648
+\WGS 72BE\UTM zone 11S.prj,353209,648
+\WGS 72BE\UTM zone 12S.prj,354498,648
+\WGS 72BE\UTM zone 13S.prj,355787,648
+\WGS 72BE\UTM zone 18S.prj,362223,647
+\WGS 72BE\UTM zone 19S.prj,363510,647
+\WGS 72BE\UTM zone 1S.prj,364796,646
+\WGS 72BE\UTM zone 1N.prj,364157,639
+\South Yemen.prj,124162,312
+\VN-2000\UTM zone 48N.prj,500259,586
+\Batavia\UTM zone 48S.prj,1848397,596
+\Bukit Rimpah.prj,13053,322
+\Palestine 1923\Israeli CS Grid.prj,914180,702
+\Grand Comoros.prj,33602,290
+\Afgooye\UTM zone 38N.prj,1890476,611
+\Adindan\UTM zone 38N.prj,1893468,590
+\IGN72 Grand Terre\UTM zone 58S (deprecated).prj,1605838,656
+\Douala\UTM zone 32N (deprecated).prj,1744881,618
+\Garoua\UTM zone 33N (deprecated).prj,1673361,619
+\Datum 73\UTM zone 29N.prj,1765575,587
+\NAD83(HARN)\Texas North Central.prj,1108862,739
+\IRENET95\UTM zone 29N.prj,1598931,609
+\Sapper Hill 1943\UTM zone 21S.prj,568487,655
+\Sapper Hill 1943\UTM zone 20S.prj,567832,655
+\La Canoa\UTM zone 20N.prj,1546010,625
+\Zanderij\UTM zone 21N.prj,165471,619
+\Porto Santo.prj,87300,320
+\WGS 72BE\UTM zone 29N.prj,377025,639
+\WGS 72BE\UTM zone 28N.prj,375738,640
+\WGS 72BE\UTM zone 21N.prj,366729,640
+\WGS 72BE\UTM zone 20N.prj,365442,640
+\WGS 72BE\UTM zone 23N.prj,369303,640
+\WGS 72BE\UTM zone 22N.prj,368016,640
+\WGS 72BE\UTM zone 25N.prj,371877,640
+\WGS 72BE\UTM zone 24N.prj,370590,640
+\WGS 72BE\UTM zone 27N.prj,374451,640
+\WGS 72BE\UTM zone 26N.prj,373164,640
+\WGS 72BE\UTM zone 24S.prj,371230,647
+\WGS 72BE\UTM zone 25S.prj,372517,647
+\WGS 72BE\UTM zone 26S.prj,373804,647
+\WGS 72BE\UTM zone 27S.prj,375091,647
+\WGS 72BE\UTM zone 20S.prj,366082,647
+\WGS 72BE\UTM zone 21S.prj,367369,647
+\WGS 72BE\UTM zone 22S.prj,368656,647
+\WGS 72BE\UTM zone 23S.prj,369943,647
+\WGS 72BE\UTM zone 28S.prj,376378,647
+\WGS 72BE\UTM zone 29S.prj,377664,646
+\WGS 72BE\UTM zone 2S.prj,378949,646
+\WGS 72BE\UTM zone 2N.prj,378310,639
+\Loma Quintana.prj,61716,290
+\NAD83\Montana.prj,1249247,640
+\Bern 1898 (Bern)\LV03C.prj,1796097,689
+\TC(1948)\UTM zone 39N.prj,524580,593
+\Arc 1950\UTM zone 35S.prj,1863564,605
+\Arc 1950\UTM zone 34S.prj,1862959,605
+\Arc 1950\UTM zone 36S.prj,1864169,605
+\Arc 1960\UTM zone 35S.prj,1859968,601
+\Arc 1960\UTM zone 37S.prj,1862358,601
+\Arc 1960\UTM zone 36S.prj,1861163,601
+\Arc 1960\UTM zone 35N.prj,1859374,594
+\Arc 1960\UTM zone 36N.prj,1860569,594
+\Arc 1960\UTM zone 37N.prj,1861764,594
+\IGN Astro 1960.prj,43201,300
+\NAD83\Kentucky Single Zone (ftUS).prj,1224819,758
+\Camacupa\UTM zone 33S.prj,1788078,601
+\Camacupa\UTM zone 32S.prj,1787478,600
+\Carthage\UTM zone 32N.prj,1778388,601
+\NTF (Paris)\Lambert Centre France.prj,970515,709
+\Kousseri\UTM zone 33N.prj,1547794,593
+\Pulkovo 1942(83)\Gauss Kruger zone 4 (deprecated).prj,736311,694
+\Pulkovo 1942(83)\Gauss Kruger zone 5 (deprecated).prj,737005,694
+\Pulkovo 1942(83)\Gauss Kruger zone 3 (deprecated).prj,735618,693
+\Pointe Noire.prj,86688,313
+\WGS 72BE\UTM zone 39N.prj,391156,639
+\WGS 72BE\UTM zone 38N.prj,389871,639
+\WGS 72BE\UTM zone 31N.prj,380880,638
+\WGS 72BE\UTM zone 30N.prj,379595,639
+\WGS 72BE\UTM zone 33N.prj,383446,639
+\WGS 72BE\UTM zone 32N.prj,382163,638
+\WGS 72BE\UTM zone 35N.prj,386016,639
+\WGS 72BE\UTM zone 34N.prj,384731,639
+\WGS 72BE\UTM zone 37N.prj,388586,639
+\WGS 72BE\UTM zone 36N.prj,387301,639
+\WGS 72BE\UTM zone 34S.prj,385370,646
+\WGS 72BE\UTM zone 35S.prj,386655,646
+\WGS 72BE\UTM zone 36S.prj,387940,646
+\WGS 72BE\UTM zone 37S.prj,389225,646
+\WGS 72BE\UTM zone 30S.prj,380234,646
+\WGS 72BE\UTM zone 31S.prj,381518,645
+\WGS 72BE\UTM zone 32S.prj,382801,645
+\WGS 72BE\UTM zone 33S.prj,384085,646
+\WGS 72BE\UTM zone 38S.prj,390510,646
+\WGS 72BE\UTM zone 39S.prj,391795,646
+\WGS 72BE\UTM zone 3S.prj,393080,646
+------1868900217,1929733412(219)
+\WGS 72BE\UTM zone 3N.prj,392441,639
+\RT38 5 gon V.prj,100167,584
+\RT90 5 gon V.prj,104636,597
+\RT38 0 gon.prj,97212,580
+\RT90 0 gon.prj,101617,593
+\RT38 5 gon O.prj,99583,584
+\RT90 5 gon O.prj,104039,597
+\NTF (Paris)\Lambert zone I.prj,973335,697
+\WGS 84\SCAR IMW SS34-36.prj,244841,685
+\WGS 84\SCAR IMW SS31-33.prj,244157,684
+\WGS 84\SCAR IMW SS37-39.prj,245526,685
+\WGS 84\SCAR IMW SR33-34.prj,229070,685
+\WGS 84\SCAR IMW SR35-36.prj,229755,685
+\WGS 84\SCAR IMW SR31-32.prj,228386,684
+\WGS 84\SCAR IMW SR37-38.prj,230440,685
+\WGS 84\SCAR IMW SR39-40.prj,231125,685
+\WGS 84\SCAR IMW SQ37-38.prj,216729,685
+\WGS 84\SCAR IMW SQ39-40.prj,217414,685
+\WGS 84\SCAR IMW SV31-40.prj,270553,616
+\WGS 84\SCAR IMW SU31-35.prj,265002,616
+\WGS 84\SCAR IMW SU36-40.prj,265618,616
+\WGS 84\SCAR IMW ST33-36.prj,256499,685
+\WGS 84\SCAR IMW ST37-40.prj,257184,685
+\Azores Central 1995\UTM zone 26N.prj,1853536,639
+\CH1903+.prj,15489,316
+\GDM2000.prj,32328,296
+\JGD2000.prj,48313,316
+\VN-2000.prj,159313,275
+\MGI\M31.prj,1502223,648
+\IKBD-92.prj,45259,317
+\MGI\M34.prj,1503545,648
+\CHTRF95.prj,16415,326
+\LGD2006.prj,57656,334
+\MGI\M28.prj,1500901,648
+\K0 1949.prj,49296,302
+\Batavia.prj,9083,277
+\Massawa.prj,67338,305
+\Samboja.prj,107405,314
+\Afgooye.prj,897,300
+\Adindan.prj,618,279
+\NEA74 Noumea\UTM zone 58S.prj,989472,610
+\Xian 1980\Gauss-Kruger CM 135E.prj,196786,597
+\Xian 1980\Gauss-Kruger CM 105E.prj,193801,597
+\WGS 84\SCAR IMW SS25-27.prj,242786,686
+\WGS 84\SCAR IMW SS28-30.prj,243472,685
+\WGS 84\SCAR IMW SR27-28.prj,227015,686
+\WGS 84\SCAR IMW SR29-30.prj,227701,685
+\WGS 84\SCAR IMW SQ21-22.prj,216043,686
+\WGS 84\SCAR IMW SP23-24.prj,213984,686
+\WGS 84\SCAR IMW SP21-22.prj,213298,686
+\WGS 84\SCAR IMW SV21-30.prj,269936,617
+\WGS 84\SCAR IMW SU26-30.prj,264385,617
+\WGS 84\SCAR IMW SU21-25.prj,263768,617
+\WGS 84\SCAR IMW ST21-24.prj,254443,686
+\WGS 84\SCAR IMW ST25-28.prj,255129,686
+\WGS 84\SCAR IMW ST29-32.prj,255815,684
+\FD58\Iraq zone.prj,1677089,607
+\WGS 84\Australian Antarctic Polar Stereographic.prj,208258,661
+\NAD83\New York East (ftUS).prj,1268874,655
+\NAD83\New York West (ftUS).prj,1271605,661
+\NAD83\South Carolina (ft).prj,1291485,694
+\Hong Kong 1980 Grid System.prj,40159,714
+\Hong Kong 1963 Grid System.prj,38867,646
+\Unknown datum based upon the Clarke 1880 ellipsoid.prj,147425,402
+\WGS 72BE\TM 106 NE.prj,350646,633
+\WGS 84\SCAR IMW SS13-15.prj,240728,686
+\WGS 84\SCAR IMW SS10-12.prj,240041,687
+\WGS 84\SCAR IMW SS16-18.prj,241414,686
+\WGS 84\SCAR IMW SS19-21.prj,242100,686
+\WGS 84\SCAR IMW SR13-14.prj,224270,687
+\WGS 84\SCAR IMW SR15-16.prj,224957,686
+\WGS 84\SCAR IMW SR17-18.prj,225643,686
+\WGS 84\SCAR IMW SR19-20.prj,226329,686
+\WGS 84\SCAR IMW SQ19-20.prj,215357,686
+\WGS 84\SCAR IMW SP19-20.prj,212612,686
+\WGS 84\SCAR IMW SV11-20.prj,269319,617
+\WGS 84\SCAR IMW SU16-20.prj,263151,617
+\WGS 84\SCAR IMW SU11-15.prj,262533,618
+\WGS 84\SCAR IMW ST13-16.prj,253071,686
+\WGS 84\SCAR IMW ST17-20.prj,253757,686
+\Merchich\Sud Maroc.prj,1507460,646
+\NAD27\Maryland.prj,1403583,702
+\NAD83\Maryland.prj,1233610,656
+\Egypt 1907\Purple Belt.prj,1722910,590
+\Kalianpur 1962.prj,50226,317
+\Kalianpur 1937.prj,49912,314
+\Kalianpur 1975.prj,50543,346
+\Kalianpur 1880.prj,49598,314
+\NAD83(HARN)\Nevada East.prj,1069759,647
+\NAD83(HARN)\Nevada West.prj,1070406,647
+\JAD69\Jamaica National Grid.prj,1596339,619
+\NAD83(HARN)\Puerto Rico & Virgin Is..prj,1098621,761
+\Beijing 1954\Gauss-Kruger zone 15.prj,1840421,615
+\Beijing 1954\Gauss-Kruger zone 14.prj,1839806,615
+\Beijing 1954\Gauss-Kruger zone 17.prj,1841651,615
+\Beijing 1954\Gauss-Kruger zone 16.prj,1841036,615
+\Beijing 1954\Gauss-Kruger zone 22.prj,1844730,616
+\Beijing 1954\Gauss-Kruger zone 23.prj,1845346,616
+\Beijing 1954\Gauss-Kruger zone 13.prj,1839191,615
+\Beijing 1954\Gauss-Kruger zone 20.prj,1843498,616
+\Beijing 1954\Gauss-Kruger zone 21.prj,1844114,616
+\Beijing 1954\Gauss-Kruger zone 19.prj,1842882,616
+\Beijing 1954\Gauss-Kruger zone 18.prj,1842266,616
+\Pulkovo 1942\Gauss-Kruger zone 21.prj,874475,616
+\Pulkovo 1942\Gauss-Kruger zone 30.prj,880631,616
+\Pulkovo 1942\Gauss-Kruger zone 12.prj,868326,615
+\Pulkovo 1995\Gauss-Kruger zone 18.prj,722704,616
+\Pulkovo 1942\Gauss-Kruger zone 20.prj,873859,616
+\Pulkovo 1942\Gauss-Kruger zone 31.prj,881247,617
+\Pulkovo 1942\Gauss-Kruger zone 13.prj,868941,615
+\Pulkovo 1995\Gauss-Kruger zone 19.prj,723320,616
+\Pulkovo 1942\Gauss-Kruger zone 23.prj,875707,616
+\Pulkovo 1942\Gauss-Kruger zone 32.prj,881864,617
+\Pulkovo 1942\Gauss-Kruger zone 10.prj,867096,615
+\Pulkovo 1995\Gauss-Kruger zone 29.prj,729480,616
+\Pulkovo 1942\Gauss-Kruger zone 22.prj,875091,616
+\Pulkovo 1942\Gauss-Kruger zone 11.prj,867711,615
+\Pulkovo 1995\Gauss-Kruger zone 28.prj,728864,616
+\Pulkovo 1942\Gauss-Kruger zone 25.prj,876939,616
+\Pulkovo 1942\Gauss-Kruger zone 16.prj,870786,615
+\Pulkovo 1942\Gauss-Kruger zone 24.prj,876323,616
+\Pulkovo 1942\Gauss-Kruger zone 17.prj,871401,615
+\Pulkovo 1942\Gauss-Kruger zone 27.prj,878171,616
+\Pulkovo 1942\Gauss-Kruger zone 14.prj,869556,615
+\Pulkovo 1942\Gauss-Kruger zone 26.prj,877555,616
+\Pulkovo 1942\Gauss-Kruger zone 15.prj,870171,615
+\Pulkovo 1942\Gauss-Kruger zone 29.prj,879403,616
+\Pulkovo 1995\Gauss-Kruger zone 10.prj,717784,615
+\Pulkovo 1995\Gauss-Kruger zone 32.prj,731329,617
+\Pulkovo 1995\Gauss-Kruger zone 23.prj,725784,616
+\Pulkovo 1942\Gauss-Kruger zone 28.prj,878787,616
+\Pulkovo 1995\Gauss-Kruger zone 11.prj,718399,615
+\Pulkovo 1995\Gauss-Kruger zone 22.prj,725168,616
+\Pulkovo 1942\Gauss-Kruger zone 18.prj,872016,616
+\Pulkovo 1995\Gauss-Kruger zone 12.prj,719014,615
+\Pulkovo 1995\Gauss-Kruger zone 30.prj,730096,616
+\Pulkovo 1995\Gauss-Kruger zone 21.prj,724552,616
+\Pulkovo 1942\Gauss-Kruger zone 19.prj,872632,616
+\Pulkovo 1995\Gauss-Kruger zone 13.prj,719629,615
+\Pulkovo 1995\Gauss-Kruger zone 31.prj,730712,617
+\Pulkovo 1995\Gauss-Kruger zone 20.prj,723936,616
+\Pulkovo 1995\Gauss-Kruger zone 14.prj,720244,615
+\Pulkovo 1995\Gauss-Kruger zone 27.prj,728248,616
+\Pulkovo 1995\Gauss-Kruger zone 15.prj,720859,615
+\Pulkovo 1995\Gauss-Kruger zone 26.prj,727632,616
+\Pulkovo 1995\Gauss-Kruger zone 16.prj,721474,615
+\Pulkovo 1995\Gauss-Kruger zone 25.prj,727016,616
+\Pulkovo 1995\Gauss-Kruger zone 17.prj,722089,615
+\Pulkovo 1995\Gauss-Kruger zone 24.prj,726400,616
+\Pulkovo 1942\Gauss-Kruger zone 3.prj,880019,612
+\Pulkovo 1995\Gauss-Kruger zone 9.prj,735006,612
+\Pulkovo 1942\Gauss-Kruger zone 2.prj,873248,611
+\Pulkovo 1995\Gauss-Kruger zone 8.prj,734394,612
+\Pulkovo 1942\Gauss-Kruger zone 5.prj,883093,612
+\Pulkovo 1942\Gauss-Kruger zone 4.prj,882481,612
+\Pulkovo 1942\Gauss-Kruger zone 7.prj,884317,612
+\Pulkovo 1942\Gauss-Kruger zone 6.prj,883705,612
+\Pulkovo 1942\Gauss-Kruger zone 9.prj,885541,612
+\Pulkovo 1942\Gauss-Kruger zone 8.prj,884929,612
+\Pulkovo 1995\Gauss-Kruger zone 7.prj,733782,612
+\Pulkovo 1995\Gauss-Kruger zone 6.prj,733170,612
+\Pulkovo 1995\Gauss-Kruger zone 5.prj,732558,612
+\Pulkovo 1995\Gauss-Kruger zone 4.prj,731946,612
+\NAD83(HARN)\Oregon South.prj,1094929,706
+\NAD83(HARN)\Oregon North.prj,1093499,706
+\NAD83(HARN)\Kansas North.prj,1040130,717
+\NAD83(HARN)\Kansas South.prj,1040847,724
+\IGN53 Mare.prj,43501,281
+\Monte Mario.prj,71361,284
+\NAD83\Massachusetts Island.prj,1235002,692
+\NAD27\Massachusetts Island.prj,1404285,727
+\NAD27\Vermont.prj,1460945,631
+\NAD83\Vermont.prj,1324768,596
+\MGI\Austria Lambert (deprecated).prj,1495406,758
+\Herat North.prj,37271,315
+\Amersfoort.prj,3011,354
+\CI1971.prj,17034,318
+\CI1979.prj,17352,338
+\CH1903.prj,15805,314
+\PSAD56.prj,88907,300
+\S-JTSK.prj,106434,309
+\GGRS87.prj,32624,337
+\NZGD49.prj,80996,346
+\OSGB70.prj,82495,278
+\RGFG95.prj,94929,325
+\ETRS89.prj,28152,305
+\KUDAMS.prj,55245,277
+\WGS 72.prj,161222,262
+\Douala.prj,23068,283
+\Moznet.prj,72889,300
+\Padang.prj,83429,279
+\Lisbon.prj,59906,274
+\WGS 84.prj,161811,292
+\Agadez.prj,1197,284
+\Segara.prj,109319,281
+\REGVEN.prj,93701,310
+\Garoua.prj,31727,283
+\Manoca.prj,66062,311
+\SIRGAS.prj,111444,345
+\Israel.prj,47122,296
+\Segora.prj,109600,273
+\Qornoq.prj,93082,298
+\Bissau.prj,12118,298
+\POSGAR.prj,88232,317
+\Leigon.prj,57351,305
+\Yacare.prj,162376,298
+\MGI (Ferro).prj,68599,327
+\Old Hawaiian\Hawaii zone 4.prj,919601,660
+\Old Hawaiian\Hawaii zone 5.prj,920261,666
+\Old Hawaiian\Hawaii zone 2.prj,918267,676
+\Old Hawaiian\Hawaii zone 3.prj,918943,658
+\Old Hawaiian\Hawaii zone 1.prj,917603,664
+\RGNC 1991\Lambert New Caledonia (deprecated).prj,596015,778
+\Xian 1980\Gauss-Kruger CM 117E.prj,194995,597
+\WGS 84\SCAR IMW SS04-06.prj,238667,687
+\WGS 84\SCAR IMW SS07-09.prj,239354,687
+\WGS 84\SCAR IMW SQ01-02.prj,214670,687
+\WGS 84\SCAR IMW SW01-60.prj,272402,615
+\WGS 84\SCAR IMW SV01-10.prj,268701,618
+------1929798944,2138918423(197)
+\WGS 84\SCAR IMW SU01-05.prj,261297,618
+\WGS 84\SCAR IMW SU06-10.prj,261915,618
+\WGS 84\SCAR IMW ST01-04.prj,251010,687
+\WGS 84\SCAR IMW ST05-08.prj,251697,687
+\WGS 84\SCAR IMW ST09-12.prj,252384,687
+\NAD83(HARN)\Texas South Central.prj,1111860,737
+\St. Kitts 1955.prj,125110,299
+\NTF (Paris)\Lambert Nord France.prj,971925,706
+\Unknown datum based upon the Authalic Sphere.prj,141943,362
+\Porto Santo 1995\UTM zone 28N.prj,910138,619
+\GDM2000\Terengganu Grid.prj,1662417,604
+\Greek (Athens).prj,33892,302
+\Campo Inchauspe\Argentina 1.prj,1780756,612
+\Campo Inchauspe\Argentina 2.prj,1781368,612
+\Campo Inchauspe\Argentina 3.prj,1781980,612
+\Campo Inchauspe\Argentina 4.prj,1782592,612
+\Campo Inchauspe\Argentina 5.prj,1783204,612
+\Campo Inchauspe\Argentina 6.prj,1783816,612
+\Campo Inchauspe\Argentina 7.prj,1784428,612
+\Xian 1980\Gauss-Kruger zone 18.prj,203343,599
+\Xian 1980\Gauss-Kruger zone 19.prj,203942,599
+\Xian 1980\Gauss-Kruger zone 16.prj,202147,598
+\Xian 1980\Gauss-Kruger zone 17.prj,202745,598
+\Xian 1980\Gauss-Kruger zone 14.prj,200951,598
+\Xian 1980\Gauss-Kruger zone 15.prj,201549,598
+\Xian 1980\Gauss-Kruger zone 13.prj,200353,598
+\Palestine 1923\Palestine Belt.prj,914882,732
+\Xian 1980\Gauss-Kruger CM 111E.prj,194398,597
+\Viti Levu 1912.prj,158631,354
+\Viti Levu 1916.prj,158985,328
+\ETRS89\Jersey Transverse Mercator.prj,1699053,657
+\NAD83\Florida North (ftUS).prj,1202555,706
+\NEA74 Noumea.prj,77451,287
+\NAD83(HARN)\Connecticut (ftUS).prj,1015744,751
+\WGS 84\SCAR IMW SS55-57.prj,249638,686
+\WGS 84\SCAR IMW SS52-54.prj,248952,686
+\WGS 84\SCAR IMW SS58-60.prj,250324,686
+\WGS 84\SCAR IMW SR55-56.prj,236609,686
+\WGS 84\SCAR IMW SR51-52.prj,235237,686
+\WGS 84\SCAR IMW SR53-54.prj,235923,686
+\WGS 84\SCAR IMW SR59-60.prj,237981,686
+\WGS 84\SCAR IMW SR57-58.prj,237295,686
+\WGS 84\SCAR IMW SQ55-56.prj,222898,686
+\WGS 84\SCAR IMW SQ51-52.prj,221526,686
+\WGS 84\SCAR IMW SQ53-54.prj,222212,686
+\WGS 84\SCAR IMW SQ57-58.prj,223584,686
+\WGS 84\SCAR IMW SV51-60.prj,271785,617
+\WGS 84\SCAR IMW SU56-60.prj,268084,617
+\WGS 84\SCAR IMW SU51-55.prj,267467,617
+\WGS 84\SCAR IMW ST53-56.prj,259925,686
+\WGS 84\SCAR IMW ST57-60.prj,260611,686
+\NZGD49\North Taieri Circuit.prj,934831,710
+\NAD83\New York Long Island (ftUS).prj,1270145,755
+\NAD83\Virginia South (ftUS).prj,1326790,750
+\NAD83\Virginia North (ftUS).prj,1325364,737
+\Cote d'Ivoire.prj,19008,304
+\Unknown datum based upon the Helmert 1906 ellipsoid.prj,151764,394
+\IGN63 Hiva Oa.prj,44066,290
+\Tananarive.prj,137719,317
+\MGI (Ferro)\Austria East Zone.prj,1488813,642
+\MGI (Ferro)\Austria West Zone.prj,1490123,642
+\Xian 1980\Gauss-Kruger CM 123E.prj,195592,597
+\WGS 84\SCAR IMW SS40-42.prj,246211,685
+\WGS 84\SCAR IMW SS43-45.prj,246896,685
+\WGS 84\SCAR IMW SS49-51.prj,248266,686
+\WGS 84\SCAR IMW SS46-48.prj,247581,685
+\WGS 84\SCAR IMW SR45-46.prj,233180,685
+\WGS 84\SCAR IMW SR41-42.prj,231810,685
+\WGS 84\SCAR IMW SR43-44.prj,232495,685
+\WGS 84\SCAR IMW SR49-50.prj,234551,686
+\WGS 84\SCAR IMW SR47-48.prj,233865,686
+\WGS 84\SCAR IMW SQ45-46.prj,219469,685
+\WGS 84\SCAR IMW SQ41-42.prj,218099,685
+\WGS 84\SCAR IMW SQ43-44.prj,218784,685
+\WGS 84\SCAR IMW SQ49-50.prj,220840,686
+\WGS 84\SCAR IMW SQ47-48.prj,220154,686
+\WGS 84\SCAR IMW SV41-50.prj,271169,616
+\WGS 84\SCAR IMW SU41-45.prj,266234,616
+\WGS 84\SCAR IMW SU46-50.prj,266850,617
+\WGS 84\SCAR IMW ST41-44.prj,257869,685
+\WGS 84\SCAR IMW ST49-52.prj,259239,686
+\WGS 84\SCAR IMW ST45-48.prj,258554,685
+\Lietuvos Koordinoei Sistema 1994 (deprecated).prj,58311,665
+\NAD83(HARN)\South Carolina (ft).prj,1100028,723
+\NAD83(HARN)\North Carolina (ftUS) (deprecated).prj,1081891,761
+\NAD83(HARN)\North Carolina (ftUS).prj,1082652,750
+\NZGD49\Mount Nicholas Circuit.prj,930665,708
+\Unknown datum based upon the Plessis 1817 ellipsoid.prj,154541,395
+\Xian 1980\Gauss-Kruger zone 22.prj,205739,599
+\Xian 1980\Gauss-Kruger zone 23.prj,206338,599
+\Xian 1980\Gauss-Kruger zone 20.prj,204541,599
+\Xian 1980\Gauss-Kruger zone 21.prj,205140,599
+\NTF (Paris)\Lambert Corse.prj,971224,701
+\Katanga 1955\Katanga Lambert.prj,1558078,664
+\Viti Levu 1912\Viti Levu Grid.prj,501431,652
+\NAD27\West Virginia North.prj,1464481,701
+\NAD83\West Virginia North.prj,1331098,665
+\NAD83\West Virginia South.prj,1331763,688
+\NAD27\West Virginia South.prj,1465182,724
+\ED50\3-degree Gauss-Kruger zone 11.prj,1727132,616
+\ED50\3-degree Gauss-Kruger zone 10.prj,1726516,616
+\ED50\3-degree Gauss-Kruger zone 13.prj,1728364,616
+\ED50\3-degree Gauss-Kruger zone 12.prj,1727748,616
+\ED50\3-degree Gauss-Kruger zone 15.prj,1729596,616
+\ED50\3-degree Gauss-Kruger zone 14.prj,1728980,616
+\Hanoi 1972\GK 106 NE.prj,1644389,622
+\Kalianpur 1880\India zone IIb.prj,1577279,679
+\Kalianpur 1937\India zone IIb.prj,1573321,661
+\Kalianpur 1975\India zone IIb.prj,1564039,691
+\ED50\3-degree Gauss-Kruger zone 9.prj,1730212,613
+\WGS 72\UTM zone 8S.prj,495845,579
+\WGS 84\UTM zone 8S.prj,348239,609
+\WGS 72\UTM zone 9S.prj,496996,579
+\WGS 84\UTM zone 9S.prj,349450,609
+\WGS 72\UTM zone 4S.prj,478558,579
+\WGS 84\UTM zone 4S.prj,330052,609
+\WGS 72\UTM zone 5S.prj,491239,579
+\WGS 84\UTM zone 5S.prj,343393,609
+\WGS 72\UTM zone 6S.prj,493543,579
+\WGS 84\UTM zone 6S.prj,345817,609
+\WGS 72\UTM zone 7S.prj,494694,579
+\WGS 84\UTM zone 7S.prj,347028,609
+\WGS 72\UTM zone 1S.prj,440557,579
+\WGS 84\UTM zone 1S.prj,290071,609
+\WGS 72\UTM zone 2S.prj,453236,579
+\WGS 84\UTM zone 2S.prj,303410,609
+\WGS 72\UTM zone 3S.prj,465893,579
+\WGS 84\UTM zone 3S.prj,316727,609
+\Pampa del Castillo\Argentina zone 2.prj,913516,664
+\WGS 72\UTM zone 8N.prj,495273,572
+\WGS 84\UTM zone 8N.prj,347637,602
+\WGS 72\UTM zone 9N.prj,496424,572
+\WGS 84\UTM zone 9N.prj,348848,602
+\WGS 72\UTM zone 4N.prj,477986,572
+\WGS 84\UTM zone 4N.prj,329450,602
+\WGS 72\UTM zone 5N.prj,490667,572
+\WGS 84\UTM zone 5N.prj,342791,602
+\WGS 72\UTM zone 6N.prj,492971,572
+\WGS 84\UTM zone 6N.prj,345215,602
+\WGS 72\UTM zone 7N.prj,494122,572
+\WGS 84\UTM zone 7N.prj,346426,602
+\WGS 72\UTM zone 1N.prj,439985,572
+\WGS 84\UTM zone 1N.prj,289469,602
+\WGS 72\UTM zone 2N.prj,452664,572
+\WGS 84\UTM zone 2N.prj,302808,602
+\WGS 72\UTM zone 3N.prj,465321,572
+\WGS 84\UTM zone 3N.prj,316125,602
+\GDM2000\Sembilan and Melaka Grid.prj,1661783,634
+\Deir ez Zor\Levant Zone.prj,1762365,635
+\NZGD49\Mount Pleasant Circuit.prj,931373,708
+\Kalianpur 1880\India zone IIa.prj,1576600,679
+\Kalianpur 1962\India zone IIa.prj,1570754,662
+\Kalianpur 1975\India zone IIa.prj,1563348,691
+\GDA94\Geoscience Australia Lambert.prj,1663643,703
+\Nord Sahara 1959\UTM zone 29N.prj,977567,626
+\Nord Sahara 1959\UTM zone 31N.prj,978819,625
+\Nord Sahara 1959\UTM zone 30N.prj,978193,626
+\Nord Sahara 1959\UTM zone 32N.prj,979444,625
+\NAD83(HARN)\Texas Central.prj,1105154,740
+\NAD83(HARN)\Idaho Central.prj,1029905,648
+\Bogota 1975\Colombia East Central zone (deprecated).prj,1790754,717
+\NAD83\Kentucky North (deprecated).prj,1222701,709
+\NAD83\North Dakota North (ft).prj,1274288,707
+\NAD83\North Dakota South (ft).prj,1275684,722
+\NAD83\Kentucky Single Zone.prj,1225577,714
+\Makassar (Jakarta)\NEIEZ (deprecated).prj,1515088,693
+\NAD83(HARN)\Colorado Central (ftUS).prj,1011254,751
+\NAD Michigan\Michigan West.prj,1475028,671
+\NAD Michigan\Michigan East.prj,1472159,683
+\Deir ez Zor\Syria Lambert.prj,1763000,639
+\Unknown datum based upon the Clarke 1858 ellipsoid.prj,144017,412
+\Xian 1980\Gauss-Kruger CM 129E.prj,196189,597
+\Azores Central 1948\UTM zone 26N.prj,1854175,669
+\NAD83\Oregon Lambert (ft).prj,1281944,674
+\NAD83\Michigan North (ft).prj,1238557,711
+\NAD83\Michigan South (ft).prj,1240697,700
+\Unknown datum based upon the Bessel 1841 ellipsoid.prj,142777,400
+\Pulkovo 1942(58)\Poland zone I.prj,745954,700
+\NAD Michigan\Michigan North.prj,1472842,756
+\NAD Michigan\Michigan South.prj,1474283,745
+\GDM2000\Perak Grid.prj,1659967,605
+\GDM2000\PahangGrid.prj,1658650,606
+\NAD83\Michigan Oblique Mercator.prj,1239962,735
+\ATF (Paris)\Nord de Guerre.prj,1858727,647
+\Tokyo\Japan Plane Rectangular CS XVIII.prj,514493,617
+\NTF (Paris)\Lambert Sud France.prj,972631,704
+\Locodjo 1965\TM 5 NW.prj,1526782,628
+\Abidjan 1987\TM 5 NW.prj,1895296,634
+\NAD83(HARN)\Massachusetts Island (ftUS).prj,1052152,765
+\GDM2000\Kedah and Perlis Grid.prj,1657425,613
+\Phoenix Islands 1966.prj,85383,342
+\NAD83(HARN)\Washington North (ftUS).prj,1122583,757
+\NAD83(HARN)\Washington South (ftUS).prj,1124052,773
+\NAD83\Idaho Central (ftUS).prj,1210853,664
+\Unknown datum based upon the Struve 1860 ellipsoid.prj,154936,393
+\Unknown datum based upon the Clarke 1866 ellipsoid.prj,144429,404
+\QND95\Qatar National Grid.prj,604704,701
+

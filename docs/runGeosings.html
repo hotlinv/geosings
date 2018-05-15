@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		GeoSings主控脚本介绍
+	</title>
+	<style type="text/css">
+		@import url("css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		GeoSings主控脚本runGeoSings.py介绍
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;脚本runGeosings是整个GeoSings产品的主控脚本。你可以用他来控制整个工程。可以用来运行主程序，生成API文档，察看API文档，管理工程，打开编辑源码，或者生成tags文件来在gnu编辑器里进行函数补全等等工作。通过这一个脚本可以完成上面的所有任务。所以管理整个GeoSings是很轻松的一件事。
+</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;启动控制台后，提示行会有这样一行信息：<br />
+<br />
+select a operator as following: {app|doc|mkdoc|mktags|prj|webpub|weblc|initdb|dbshell}<br />
+input here :<br />
+<br />
+这是所有的runGeosings脚本可以完成的操作，包括app,doc,mkdoc,mktags,prj,webpub,weblc,initdb,dbshell，下面是这几个命令的解释:
+<table class='fun_table'>
+	<tr class="fun_tab_head"> 
+		<th width="30%" class="fun_tab_head">命令名</th>
+		<th width="70%" class="fun_tab_head">命令操作行为</th>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">app</td>
+		<td class="fun_tab_data">运行火尖枪主应用程序</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">doc</td>
+		<td class="fun_tab_data">察看帮助文档</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">mkdoc</td>
+		<td class="fun_tab_data">自动生成API帮助文档</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">mktags</td>
+		<td class="fun_tab_data">生成用于vim的补全数据库</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">prj</td>
+		<td class="fun_tab_data">运行项目管理程序</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">wepub</td>
+		<td class="fun_tab_data">在http://yourip:8000上发布“风火轮”服务</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">weblc</td>
+		<td class="fun_tab_data">在http://localhost:8000上发布“风火轮”服务</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">initdb</td>
+		<td class="fun_tab_data">初始化“风火轮”后台数据库</td>
+	</tr>
+	<tr>
+		<td class="fun_tab_data">dbshell</td>
+		<td class="fun_tab_data">用python操作“风火轮”后台数据库</td>
+	</tr>
+</table>
+
+</p>
+<p>
+一些解释：
+<ol type="1">
+	<li>
+		mktags操作只对gnu的编辑器如vim，Emacs等来说有用，对于其他编辑器并没有太大用处。把mktags归在runGeoSings脚本中只是让ProjCtrl调用vim使用tags方便。
+	</li>
+	<br />
+	<li>
+		mkdoc操作可以自动生成api文档。命令生成有几个步骤，<br />
+		第一步：<br />
+		<br />
+		quiet? (n/y) :<br />
+		<br />
+		问的是是否打印生成步骤，默认是打印。<br />
+		<br />
+		all? (y/n) :<br />
+		<br />
+		问的是要不要生成所有的api文档。默认是全部生成，生成后退出程序，如果选择否，则会分开询问。根据选择生成相应软件包的api文档。<br />
+		如果选择了不全部生成，则会有三个询问，分别是<br />
+		<br />
+		make core? (y/n) :<br />
+		make ui? (y/n) :<br />
+		make tools? (y/n) :<br />
+		<br />
+		根据选择生成各个所需模块或者不生成指定模块。
+	</li>
+	<br />
+	<li>
+		webpub和weblc命令是用于调试的。用的是Django的内部服务器。要发布到apache，那还要做很多工作。
+	</li>
+</ol>
+</p>
+<hr /><!--"----------------------------------------"-->
+<br />
+<table id='etab'>
+	<td id='etit'>geosings, 命令列表</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+</body>
+</html>
+

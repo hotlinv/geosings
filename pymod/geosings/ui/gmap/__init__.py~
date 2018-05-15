@@ -1,0 +1,393 @@
+# -*- coding: utf-8 -*-
+"""
+该模块定义地理画板控件
+
+ - writer:linux_23; create: 2008.4.9; version:1; 创建
+
+"""
+
+import wx,math,ogr
+from copy import deepcopy
+
+from geosings.core.gssconst import *
+from geosings.core.system import ScreenPToGeoP,choose
+from geosings.core.GeoRect import GeoRect
+from geosings.core.Map import Map as GSSMap
+from geosings.core.system.GLog import *
+
+from geosings.ui.gmap.LayerRender import *
+from geosings.ui.gmap.GOperHandler import *
+
+
+
+class MapCanvas(wx.Panel):
+    """主画板类
+    """
+    def __init__(self, parent):
+        """初始化
+        @type parent: wxCtrl
+        @param parent: 父控件
+        @type mainctrl: wxCtrl
+        @param mainctrl: 主程序
+        @type oparea: wxCtrl
+        @param oparea: 输出控件
+        """
+        wx.Panel.__init__(self,parent,-1,style=wx.WANTS_CHARS)
+        self.parent = parent
+        #self.mode = ModeKey.NoneMode
+        self.map = GSSMap()
+
+        cursor = wx.StockCursor(wx.CURSOR_CROSS)
+        self.SetCursor(cursor)
+
+        self.rd = 1 # 是否需要重绘?
+
+        # Bind event handle to Function
+        self.Bind(wx.EVT_PAINT, self.__OnPaint)
+        self.Bind(wx.EVT_CHAR, self.__OnChar)
+        self.Bind(wx.EVT_LEFT_DOWN, self.__OnLeftDown)
+        self.Bind(wx.EVT_LEFT_UP, self.__OnLeftUp)
+        self.Bind(wx.EVT_MOTION, self.__OnMotion)
+        self.Bind(wx.EVT_SIZE, self.__ReSize)
+        self.Bind(wx.EVT_IDLE, self.__OnIdle)
+
+        self.LABEL_ALONE = False
+
+        self.operh = []
+        self.moperh = None#保存operh中管mode的handler
+
+        self.geoext = None#GeoRect(0,0,1,1)#用来计算绘制的地理范围
+
+        self.__do_layout()
+        self.InitBuffer()
+
+    def InitBuffer(self):
+        """因为采用双缓存，所以要对缓存进行初始化
+        """
+        size = self.GetClientSize()
+        self.buffer = wx.EmptyBitmap(size.width, size.height)
+        dc = wx.BufferedDC(None, self.buffer)
+        #dc.SetBackground(wx.Brush(self.GetBackgroundColour()))
+        if GSSCONF["CANV_BACKGROUND_COLOR"]:
+            dc.SetBackground(wx.Brush(GSSCONF["CANV_BACKGROUND_COLOR"]))
+        dc.Clear()
+        self.PrepareDC(dc)
+        #self.DrawLines(dc)
+        self.Draw(dc)
+        self.rd = 0
+
+    def RegHandler(self, handler):
+        debug("regHandler %s", handler)
+        if isinstance(handler,ModeOperHandler):
+            if self.moperh is not None:
+                self.operh.remove(self.moperh)
+            self.moperh = handler
+        if handler is not None:
+            self.operh.append(handler)
+
+    def __do_layout(self):
+        """对画板内的空间分布进行排列
+        """
+        #self.oparea.InitLayout()
+        self.Layout()
+
+    def __OnPaint(self, evt):
+        """需要重绘时响应的事件
+        @type evt: wxEvent
+        @param evt: wxEVT_PAINT事件
+        """
+        dc = wx.BufferedPaintDC(self,self.buffer)
+
+    def __GetRender(self, layer):
+        if layer.render:
+            return layer.render
+        elif layer.type == DataSetType.Vector:
+            return VectorRender(layer)
+        elif layer.type == DataSetType.Raster:
+            return RasterRender(layer)
+        else:
+            return None
+
+    def __ExtRect(self, rect, width, height):
+        """用长宽比来调整第一个矩形形状(中心固定)
+        """
+        rw = rect.GetWidth()
+        rh = rect.GetHeight()
+        midx, midy = rect.GetMiddlePoint()
+        if rw/rh > width*1.0/height:#按宽调整
+            newh = height*1.0/width*rw
+            neww = rw
+        else:#按高调整
+            neww = width*1.0/height*rh
+            newh = rh
+        return [midx-neww/2.0,midy+newh/2.0, \
+                midx+neww/2.0,midy-newh/2.0]
+
+
+    def Draw(self, dc, geoext=None, all=False):
+        """进行绘制操作时的主要函数
+        @type dc: wxDC
+        @param dc: 绘制环境
+        @type all: bool
+        @param all: 要不要绘制所有范围(默认为否)
+        """
+        rect = self.GetClientRect()
+        for oper in self.operh:
+            oper.OnBDraw(dc)
+        try:
+            if self.map.GetLayerCount():
+                if self.geoext is None:
+                    self.geoext = GeoRect(0,0,1,1)
+                    self.geoext.Set(self.map.allGeoExt)
+                ge = self.__ExtRect(self.geoext, \
+                        rect.GetWidth(),rect.GetHeight())
+                self.geoext.ReSet(ge[0],ge[1],ge[2],ge[3])
+                dc.BeginDrawing()
+                #dc.SetDeviceOrigin(0,rect.GetHeight()-20)
+                debug("draw geoext: %s", self.geoext)
+                if not self.LABEL_ALONE:
+                    labelRender = LabelRender()
+                for layer in self.map.layers:
+                    if layer.visual:
+                        render = self.__GetRender(layer)
+                        if self.LABEL_ALONE:
+                            labelRender = LabelRender()
+                        render.labelCanvas = labelRender
+                        render.Draw(dc, rect, self.geoext)
+                        if self.LABEL_ALONE:
+                            labelRender.Draw(dc, rect, self.geoext)
+                if not self.LABEL_ALONE:
+                    labelRender.Draw(dc,rect,self.geoext)
+        except (Exception,e):
+            error("draw except! %s", e)
+        for oper in self.operh:
+            oper.OnEDraw(dc)
+            info('OnEDraw')
+        dc.EndDrawing()
+
+    def SendMessage(self,msg):
+        """画布要向外发送信息
+        @type msg: str
+        @param msg: 向外发送的信息
+        """
+        from geosings.ui.core.Brain import msgParser
+        msgParser.SendMsg(msg)
+        result = msgParser.result
+        if result==ActionResult.UpdateAll:
+            #self.Refresh()
+            self.ReDraw()
+        else: return result
+
+    def SendOrder(self,order,*arrs):
+        """画布要向外发送的命令
+        @type order: str
+        @param order: 向外发送的命令
+        """
+        from geosings.ui.core.Brain import msgParser
+        msgParser.SendOrder(order,arrs)
+        result = msgParser.result
+        if result==ActionResult.UpdateAll:
+            #self.Refresh()
+            self.ReDraw()
+        else: return ActionResult.Failuse
+
+    #def SetMode(self,mode):
+    #    """将画布设置成某个状态
+    #    @type mode: ModeKey
+    #    @param mode: 要将画布设置的状态
+    #    """
+    #    self.mode = mode
+    #    if mode == ModeKey.InfoMode:
+    #        self.ShowFTable(True)
+    #    else:
+    #        self.ShowFTable(False)
+    #    self.SetFocus()
+
+            
+    def ReDraw(self):
+        """重新绘制当前屏幕的区域
+        """
+        self.rd = 1
+        self.InitBuffer()
+        self.Refresh(True)
+        #self.ReDrawLayer()
+
+    def __OnIdle(self,evt):
+        """没有操作时进行的响应
+        @type evt: wxEvent
+        @param evt: EVT_IDLE事件
+        """
+        #print self.rd
+        if self.rd:
+            self.InitBuffer()
+            self.Refresh(True)
+
+    def __ReSize(self,evt):
+        """窗口重新设置大小时的响应
+        @type evt: wxEvent
+        @param evt: EVT_SIZE事件
+        """
+        #self.ReDraw()
+        self.rd = 1
+        #self.ReDraw()
+        self.Layout() #重新排列上面的组件
+
+    def __OnChar(self, evt):
+        """键盘响应
+        @type evt: wxEvent
+        @param evt: wxEVT_CHAR事件
+        """
+        #self.mainctrl.EvtOrder(evt)        
+        for oper in self.operh:
+            oper.OnChar(evt)
+
+    def __OnLeftDown(self, evt):
+        """鼠标左键按下的响应函数
+        @type evt: wxEvent
+        @param evt: 鼠标事件
+        """
+        for oper in self.operh:
+            oper.OnLeftDown(evt)
+
+    def __OnLeftUp(self, evt):
+        """鼠标松开的时候的响应
+        @type evt: wxEvent
+        @param evt: 鼠标事件
+        """
+        for oper in self.operh:
+            oper.OnLeftUp(evt)
+
+    def __OnMotion(self, evt):
+        """鼠标移动的相应事件
+        @type evt: wxEvent
+        @param evt: 鼠标事件
+        """
+        for oper in self.operh:
+            oper.OnMotion(evt)
+    
+    def WinkFeatures(self,features):
+        """闪动某（些）要素
+        @type features: list
+        @param features: 要闪动的要素集合
+        """
+        dc = wx.ClientDC(self)
+        fc = FeaturesRender(features)
+        fc.SetWink(10)
+        fc.BindAimFoo(self.Aim)
+        rect = self.GetClientRect()
+        igeoext = self.geoext
+        fc.Draw(dc,rect,igeoext)
+    
+    def Aim(self, sth):
+        """倏地瞄准某个点
+        @type sth: list
+        @param sth: 要瞄准的点(或者矩形),矩形四个元素，点是两个元素
+        """
+        import time
+        dc = wx.ClientDC(self)
+        dcrect = self.GetClientRect()
+        left,right=dcrect.GetLeft(),dcrect.GetRight()
+        top,bottom=dcrect.GetTop(),dcrect.GetBottom()
+        if len(sth)==2:
+            px,py = sth[0],sth[1]
+        elif len(sth)==4:
+            px,py = sth[0]+sth[2]/2,sth[1]+sth[3]/2
+        else:
+            return
+        point = [px,py]
+        if not (left<px<right and top<py<bottom):
+            return
+        hw = max(px-left,right-px)
+        hh = max(py-top,bottom-py)
+        hl = max(hw,hh)#计算一个要过渡的矩形范围
+
+        hllen=50 #要移动的线的一半长度
+
+        xmove = hl/20.0 #每次移动多少
+
+        relen = 12#四角框的长度
+
+        dc.SetPen(wx.GREEN_PEN)
+
+        if wx.Platform == "__WXGTK__":
+            dc.SetLogicalFunction(wx.XOR)
+            pen2 = wx.Pen(wx.WHITE,2,wx.SOLID)
+            dc.SetPen(pen2)
+            self.__DrawAimLines(dc,point,hl,hllen)
+            if len(sth)==4:
+                re = self.__ScaleRect(sth, 20-1)
+                self.__DrawAimRect(dc,re,0,relen)
+            for i in range(20):
+                for k in range(20):
+                    self.__DrawAimLines(dc,point,hl,hllen)
+                if len(sth)==4:
+                    re = self.__ScaleRect(sth,20-1-i)
+                    self.__DrawAimRect(dc,re,0,relen)
+                hl-=xmove
+                for k in range(20):
+                    self.__DrawAimLines(dc,point,hl,hllen)
+                if len(sth)==4 :
+                    if i <19:
+                        re2 = self.__ScaleRect(sth,20-i-2)
+                    else:
+                        re2 = self.__ScaleRect(sth,20-i-1)
+                    self.__DrawAimRect(dc,re2,0,relen)
+            dc.SetLogicalFunction(wx.COPY)
+        else:
+            dc.SetLogicalFunction(wx.XOR)
+            self.__DrawAimLines(dc,point,hl,hllen)
+            if len(sth)==4:
+                re = self.__ScaleRect(sth, 20-1)
+                self.__DrawAimRect(dc,re,0,relen)
+            for i in range(20):
+                self.__DrawAimLines(dc,point,hl,hllen)
+                if len(sth)==4:
+                    re = self.__ScaleRect(sth,20-1-i)
+                    self.__DrawAimRect(dc,re,0,relen)
+                hl-=xmove
+                self.__DrawAimLines(dc,point,hl,hllen)
+                if len(sth)==4 :
+                    if i <19:
+                        re2 = self.__ScaleRect(sth,20-i-2)
+                    else:
+                        re2 = self.__ScaleRect(sth,20-i-1)
+                    self.__DrawAimRect(dc,re2,0,relen)
+                time.sleep(0.02)
+            dc.SetLogicalFunction(wx.COPY)
+
+
+    def __DrawAimLines(self, dc, point, hl, hllen):
+        dc.DrawLine(point[0]-hl-hllen-1,point[1],point[0]-hl+hllen,point[1])
+        dc.DrawLine(point[0]+hl-hllen,point[1],point[0]+hl+hllen+1,point[1])
+        dc.DrawLine(point[0],point[1]-hl-hllen-1,point[0],point[1]-hl+hllen)
+        dc.DrawLine(point[0],point[1]+hl-hllen,point[0],point[1]+hl+hllen+1)
+
+    def __DrawAimRect(self, dc, rect, hl, hllen):
+        dc.DrawLine(rect[0],rect[1],rect[0]+hllen,rect[1])
+        dc.DrawLine(rect[0],rect[1],rect[0],rect[1]+hllen)
+        dc.DrawLine(rect[0]+rect[2],rect[1],rect[0]+rect[2]-hllen,rect[1])
+        dc.DrawLine(rect[0]+rect[2],rect[1],rect[0]+rect[2],rect[1]+hllen)
+        dc.DrawLine(rect[0],rect[1]+rect[3],rect[0]+hllen,rect[1]+rect[3])
+        dc.DrawLine(rect[0],rect[1]+rect[3],rect[0],rect[1]+rect[3]-hllen)
+        dc.DrawLine(rect[0]+rect[2],rect[1]+rect[3],rect[0]+rect[2]-hllen,rect[1]+rect[3])
+        dc.DrawLine(rect[0]+rect[2],rect[1]+rect[3],rect[0]+rect[2],rect[1]+rect[3]-hllen)
+
+    def __ScaleRect(self, rect, i):
+        step = 5
+        return [rect[0]-i*(step), rect[1]-i*(step),
+                rect[2]+step*i*2, rect[3]+step*i*2]
+     
+if __name__=="__main__":
+    app = wx.PySimpleApp(0)
+    mainframe = wx.Frame(None, -1, "")
+    geoCanvas = MapCanvas(mainframe)
+    geoCanvas.RegHandler(RectHandler(geoCanvas))
+    sizermain = wx.BoxSizer(wx.VERTICAL)
+    sizermain.Add(geoCanvas, 1, wx.EXPAND, 1)
+    mainframe.SetAutoLayout(True)
+    mainframe.SetSizer(sizermain)
+    mainframe.Layout()
+    mainframe.SetSize((600,400))
+    app.SetTopWindow(mainframe)
+    mainframe.Show()
+    app.MainLoop()

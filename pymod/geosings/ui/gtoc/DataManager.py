@@ -1,0 +1,227 @@
+﻿# -*- coding: utf-8 -*-
+"""
+该模块定义图层列表的树控件的包装，是对MyMulitTreeCtrl的包装
+是主程序实际使用的控件
+"""
+import wx
+from geosings.ui.core.Document import *
+
+from MyMulitTreeCtrl import TreeItemPanel,MyMTreePanel
+
+import geosings.core.system.UseGetText
+from geosings.ui.SymbolSelector import SymbolPanel
+
+from geosings.ui.commondlg.HyperLinkPanel import HyperLinkDlg
+
+class LayerItem(TreeItemPanel):
+    """图层的拖动控件
+    """
+    def __init__(self,parent, layer, *args,**kwds):
+        """初始化控件
+        @type parent: wxCtrl
+        @param parent: 父控件
+        @type name: str
+        @param name: 图层名
+        """
+        TreeItemPanel.__init__(self,parent,*args,**kwds)
+        self.layer = layer
+        self.sizer = wx.BoxSizer(wx.HORIZONTAL)
+        self.check = wx.CheckBox(self,-1,layer.name)
+        if layer.type == DataSetType.Vector:
+            self.symbolp = SymbolPanel(self,layer.symbol,-1,size=(30,20)) 
+        else:
+            self.symbolp = SymbolPanel(self,{'type':'raster'},-1,size=(30,20))
+        self.symbolp.RegSymbolChanged(self.PostRedrawMap)
+        #self.__DrawSymbol()
+        self.sizer.Add((5,40))
+        self.sizer.Add(self.symbolp,0,wx.ALIGN_CENTER_VERTICAL, 0)
+        self.sizer.Add((5,40))
+        self.sizer.Add(self.check,0,wx.ALIGN_CENTER_VERTICAL ,0)
+        self.SetSizer(self.sizer)
+        self.Layout()
+
+        from geosings.core.system.GssConfDict import GSSMSGS,GSSCONF
+        links = [
+            {'name':_("info"),'foo':GSSMSGS["MSG_KEY_INFO"],'tooltip':u"统计这个图层"},
+            {'name':u"放大到图层",'foo':GSSMSGS["MSG_KEY_ZOOM_TO_LAYER"],'tooltip':u"放大到这个图层范围"},
+            {'name':u"标注",'end':self.PostRedrawMap,'foo':GSSMSGS["MSG_KEY_LABEL"],'tooltip':u"给这个图层添加标注"},
+            ]
+        self.dlg = HyperLinkDlg(self,self.layer.name, links)
+        self.dlg.Show(False)
+
+        self.check.Bind(wx.EVT_CHECKBOX,self.OnCheck)
+        self.check.Bind(wx.EVT_RIGHT_DOWN,self.OnRDown)
+        self.Bind(wx.EVT_RIGHT_DOWN, self.OnRDown)
+
+        #self.symbolp.Bind(wx.EVT_IDLE, self.OnPaint)
+    def OnCheck(self,evt):
+        """选择一个图层使其可见或不可见
+        @type evt: wxEvent
+        @param evt: 选择事件
+        """
+        #debug("checked item:",evt.IsChecked())
+        self.PostVisible(evt.IsChecked())
+    def SetVisible (self,vornot):
+        """设置图层可见或不可见(用于外部设置)
+        @type vornot: bool
+        @param vornot: 可见或者不可见
+        """
+        self.check.SetValue(vornot)
+    def PostVisible (self,vornot):
+        """发送设置图层可见或者不可见的命令
+        @type vornot: bool
+        @param vornot: 可见或者不可见
+        """
+        self.GetParent().VisualLayer(self,vornot)
+    def PostRedrawMap(self):
+        """抛出通知重绘地图控件
+        """
+        self.GetParent().PostRedrawMap()
+
+    def OnRDown(self, evt):
+        if not self.dlg.IsShown():
+            self.dlg.Show(True)
+            w,h = self.GetClientSize()
+            x,y = self.ClientToScreenXY(w,0)
+            self.dlg.Move((x,y))
+
+class DataManagerCtrl(MyMTreePanel):
+    """数据管理控件
+    """
+    def __init__(self, parent, canvas):
+        """初始化控件
+        @type parent: wxCtrl
+        @param parent: 父控件
+        @type canvas: MapCanvas
+        @param canvas: 实际绘制数据的控件
+        """
+        MyMTreePanel.__init__(self, parent, -1)
+        self.canvas = canvas
+        self.root = self.AddRoot(_("DataSets"))
+
+        self.Bind(wx.EVT_CHAR, self.OnChar)
+        self.map = canvas.map
+
+        self.UpdateAll()
+
+    def Select(self,itemid,ShiftDown=False):
+        """选择一个图层
+        @type itemid: id,int
+        @param itemid: 选择某个控件的id，或者控件在列表中的索引
+        @type ShiftDown: bool
+        @param ShiftDown: Shift是否按下，（是否多选 ）
+        """
+        if type(itemid)==int: #如果是int索引型的，就把它转化成控件id
+            item = itemid
+            try:
+                #debug( self.idtree)
+                itemid = self.idtree[itemid].keys()[0]
+            except:
+                pass
+        else: #id类型
+            item = self._GetWhereById(itemid)
+
+        MyMTreePanel.Select(self,itemid,ShiftDown)
+        if not ShiftDown : #单选
+            self.map.SelectLayers([item])
+        else: #复选
+            items = self.map.GetSelectedLayersItems()
+            if item in items:
+                items.remove(item)
+            else:
+                items.append(item)
+            self.map.SelectLayers(items)
+
+    def PostRedrawMap(self):
+        """重绘地图控件，相当于刷新
+        """
+        self.canvas.ReDraw()
+
+    def MoveFromTo(self,fromwhere,towhere):
+        """把一个图层从一个位置移动到另一个位置
+        @type fromwhere: int
+        @param fromwhere: 从第几个位置
+        @type towhere: int
+        @param towhere: 移动到第几个位置
+        """
+        MyMTreePanel.MoveFromTo(self,fromwhere,towhere)
+        self.map.MoveFromTo(fromwhere,towhere)
+        self.canvas.ReDraw()
+
+    #def SelectLayer(self):
+    #    """选择图层(联系控件的选择和Document的选择)
+    #    """
+    #    items = self.GetSelections()
+    #    self.map.SelectedLayer(items)
+
+    def OnChar(self, evt):
+        """键盘相应函数
+        @type evt: wxEvent
+        @param evt: 按键事件
+        """
+        #self.canvas.EvtOrder(evt) 
+        info('no char in DataManager!')
+
+    def AddDataSet(self,layer,visual=0):
+        """添加一个数据集
+        @type name: L{geosings.core.Layer.Layer}
+        @param name: 数据集
+        @type visual: bool
+        @param visual: 数据集可视化与否,默认否
+        """
+        layerItem = LayerItem(self,layer)
+        layerItem.SetVisible(visual)
+        self.Insert(0,layerItem)
+        self.Layout()
+        self.Refresh()
+        self.__ReHighLight()
+
+    def RemoveDataSet(self,index):
+        """移除一个数据集
+        @type index: int
+        @param index: 移除数据集的索引
+        """
+        if index<0:
+            return
+        self.PopItem(index)
+        self.Refresh()
+
+    def VisualLayer(self,child,vornot):
+        """使一个图层（不）可视
+        @type child: item
+        @param child: 可视化设置的图层的控件
+        @type vornot: bool
+        @param vornot: 可视化与否
+        """
+        where = self._GetWhere(child)
+        if vornot:
+            self.map.VisibleLayer(where,True)
+        else:
+            self.map.VisibleLayer(where,False)
+        self.canvas.ReDraw()
+
+    def __ReHighLight(self):
+        """重设高亮
+        """
+        items = self.map.GetSelectedLayersItems()
+        #debug( u'高亮',items)
+        for i in items:
+            self.Select(i)
+    
+    def UpdateAll(self):
+        """更新整个控件
+        """
+        #self.DeleteChildren(self.root)
+        #debug('update layers ctrl',"#"*30)
+        self.RemoveAll()
+        self.Layout()
+        for ds in self.map.GetLayers():
+            if ds is not None:
+                #self.AddDataSet(ds.name,ds.GetTypeName(),ds.visual)
+                self.AddDataSet(ds, ds.visual)
+
+        #重设高亮
+        self.__ReHighLight()
+
+        self.Refresh()
+        self.Layout()

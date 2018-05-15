@@ -1,0 +1,43 @@
+package geosings2
+{
+	import flash.display.CapsStyle;
+	import flash.display.Graphics;
+	import flash.display.JointStyle;
+	import flash.display.LineScaleMode;
+	
+	import mx.containers.Canvas;
+
+
+	public class Map extends Canvas
+	{
+		private var map:Canvas;
+		
+		public function getDC():Graphics{
+			return map.graphics;
+		}
+		
+		public function Map()
+		{
+			//TODO: implement function
+			super();
+			map = new Canvas();
+			map.width=this.width;
+			map.height=this.height;
+			//Alert.show("");
+			map.setStyle("backgroundColor","#ffffff");
+			this.addChild(map);
+			
+			var dc: Graphics = getDC();
+			dc.clear();
+			dc.lineStyle(10, 0xFFD700, 10, false, LineScaleMode.VERTICAL,
+                               CapsStyle.NONE, JointStyle.MITER, 10);
+
+
+			dc.moveTo(0,0);
+			dc.lineTo(300,300);
+			dc.drawCircle(0,33,33);
+			this.setFocus();
+		}
+		
+	}
+}

@@ -1,0 +1,78 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+该模块定义搜索面板
+
+ - writer:linux_23; create: Sat Sep 22 08:42:21 2007 ; version:1; 创建
+"""
+import wx
+from geosings.ui.commondlg.HListPanel import HListPanel
+import geosings.core.system.UseGetText
+
+class SearchPanel(wx.ScrolledWindow):
+    """搜索面板
+    """
+    def __init__(self, *args, **kwds):
+        """初始化面板
+        """
+        kwds["style"] = wx.TAB_TRAVERSAL
+        wx.ScrolledWindow.__init__(self, *args, **kwds)
+
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
+        self.sizer1 = wx.BoxSizer(wx.HORIZONTAL)
+        self.searchStrField = wx.TextCtrl(self,-1)
+        self.sizer1.Add(self.searchStrField, 1, wx.EXPAND, 0)
+        self.searchBut = wx.Button(self, -1, "->", size=(25,25))
+        self.searchBut.Bind(wx.EVT_BUTTON, self.OnSearch)
+        self.sizer1.Add(self.searchBut)
+        self.sizer1.Add((20,20))
+
+        self.sizer.Add(self.sizer1, 0, wx.EXPAND, 0)
+        self.sizer.Add(wx.StaticText(self,-1,_("Search Result")+":"), \
+            0, wx.EXPAND, 0)
+
+        self.found = HListPanel(self, None)
+        self.sizer.Add(self.found, 1, wx.EXPAND, 0)
+
+        self.SetSizer(self.sizer)
+        self.SetBackgroundColour(wx.WHITE)
+
+        #设置滚动条
+        self.EnableScrolling(True,True)
+        self.SetVirtualSize((100, 100))
+        self.SetScrollRate(20,20)
+
+        self.SetAutoLayout(True)
+        self.Layout()
+
+
+    def OnSearch(self, evt):
+        if self.searchStrField.GetValue() == "":
+            self.found.SetRecordset([["aaaa","ttt","",self.Print],
+                ['bbb','bbt',"",self.Print]])
+            return
+        from geosings.ui.Action import Search as ActSearch
+        ActSearch(self.searchStrField.GetValue())
+
+    def Print(self, a):
+        print a
+
+    def SetResult(self,features):
+        from geosings.ui.PyMainPanel import GetMainPanel
+        #组织搜索数据集
+        rs = []
+        keys = features.keys()
+        for k in keys:
+            fs = features[k]
+            rs.extend([["feature_"+str(f.GetFID()), \
+                    '%s : %s' % (_("Layer"),k), "", \
+                    (lambda x:lambda evt:GetMainPanel().canvas.WinkFeatures([x]))(f)] \
+                    for f in fs])
+
+        self.found.SetRecordset(rs)
+
+        self.Layout()
+
+if __name__=="__main__":
+    from geosings.ui.commondlg.TestFrame import RunTest
+    RunTest(SearchPanel,-1)

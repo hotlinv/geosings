@@ -1,0 +1,24 @@
+package geosings2
+{
+	import flash.display.Graphics;
+	import mx.containers.Canvas;
+	
+
+	public class MapCtrl extends Window
+	{
+		private var map:MapCanv;
+		
+		public function MapCtrl()
+		{
+			//TODO: implement function
+			super();
+			map = new MapCanv();
+			map.width=this.width;
+			map.height=this.height;
+			//Alert.show("");
+			setStyle("backgroundColor","#ffffff");
+			addChild(map);
+		}
+		
+	}
+}

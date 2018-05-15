@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		导出地图
+	</title>
+	<style type="text/css">
+		@import url("../css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		导出地图
+	</h1>
+<a href="../index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+<p>九形提供导出地图的功能。有两种导出效果，一种是导出当前屏幕上的地图效果到一张图像上(使用的是:exp命令)，一种是导出当前屏幕分辨率的整张地图效果到一张图像上（使用的是:expall命令）。导出的地图图像格式是GTiff，暂时仅支持该格式。
+</p>
+<p>导出当前屏幕分辨率的地图，就是把当前窗口绘制的图像导出成一张GTiff的图像，并且带地理信息。现在屏幕上画着什么，导出的图片就是什么样，没有变化，因为用的是同一套绘图程序和逻辑。导出命令像这样：
+</p>
+<p><b><font color="red">:exp e:/gisdata/gtif/screen.tif</font></b>
+</p>
+
+<p>导出当前屏幕分辨率的整张地图，就是把整个地图范围按照当前窗口分辨率绘制导出成一张GTiff的图像，并且带地理信息。注意，现在屏幕上画着什么，导出的图片可能会有变化，因为标注可能是按照整张图像范围来排列的，所以建议不要在配置了标注后再导出，可能不是你要的效果。当然除了标注位置外，其他的变化还是不大的。导出命令像这样：
+</p>
+<p><b><font color="red">:expall e:/gisdata/gtif/all.tif</font></b>
+</p>
+<p>因为导出的是整张地图，是从矢量到栅格数据，矢量是无限放大的，而栅格却是随着放大数据量呈级数增长的，所以如果你放矢量图到一个bt的程度，再用expall导出整张地图，恐怕你的硬盘会吃不消。</p>
+
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, 导出地图</td>
+	<td id='ereta'><a href='../index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		自动安装
+	</title>
+	<style type="text/css">
+		@import url("css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		自动安装
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+<p>
+对于windows用户来说，九形提供了一批自动安装脚本，可以自动下载和安装所需的软件包和依赖包。这对于没有apt或者yum等等网上安装系统的window用户来说是一种福音。鉴于最近的国外网站的龟速，我把所有依赖打包后上传到项目地址上了。而所有的依赖都是从项目地址上下载到本地并用ez_setup.py脚本安装的。如果今后国外网站速度上去了，我可能会放开让ez_setup直接在python的PIPy网站上搜索并下载最新的软件包。然后自动更新安装。
+</p>
+<p>
+当然，首先你需要一个Python（版本必须是2.4，如果不是这个版本，请阅读下一章详细的<a href="setup.html">安装手册</a>），这是没说的。因为不能默认为您安装Python，因为有可能您已经安装了Python2.4，或者您安装有ArcGIS9.1。Python2.4和ArcGIS9.1的Python2.1冲突。所以您需要新建一个windows用户，只为新建的用户单独安装Python（注意，不要选择为所有的用户安装Python）。这仅仅是对于ArcGIS9.1用户来说的。如果你是ArcGIS9.2以上版本或者ArcGIS8以下版本或者根本不用ArcGIS的用户，您根本不用操这份心，你就一路next然后finish吧。
+</p>
+<p>有了python解释器，就可以打开九形根目录下的install目录，双击里面的setup.bat文件，然后就等待吧。在安装过程中间有可能弹出对话框提示安装wxpython，不要管他，一路next。
+</p>
+<p>安装结束会有这样一行提示
+</p>
+<p>
+ok! enjoy your geosings. restart computer, then run runGeosings.py and type app now! 
+</p>
+<p>
+很好，现在重启机器吧！或者不用重启也好。只要把环境变量刷新一下，使其生效就可以了。
+</p>
+<p>谢谢您使用九形GIS平台，你可以把它当成一个玩具，祝你玩得开心！
+</p>
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, 自动安装</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

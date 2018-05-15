@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:dialog="../dialogs/*"
+	width="100%" height="100%">
+		<mx:VBox x="10" y="0" height="100%" width="254" horizontalAlign="center" verticalAlign="middle">
+			<mx:HBox width="100%" horizontalAlign="center">
+				<mx:Label text="登录：" fontSize="12"/>
+				<mx:TextInput width="136"/>
+			</mx:HBox>
+			<mx:Spacer/>
+			<mx:HBox width="100%" horizontalAlign="center" verticalAlign="middle">
+				<mx:Label text="密码：" fontSize="12"/>
+				<mx:TextInput width="136"/>
+			</mx:HBox>
+			<mx:Spacer height="30"/>
+			<mx:Button label="登陆" fontSize="12"/>
+		</mx:VBox>
+</mx:Canvas>

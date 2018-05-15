@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2006-11-04 09:59+中国标准时间\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=gb2312\n"
+"Content-Transfer-Encoding: cp936\n"
+"Generated-By: pygettext.py 1.5\n"
+
+msgid "no error"
+msgstr "没有错误"
+
+msgid "can't find specify file"
+msgstr "找不到指定文件"
+
+msgid "fail to open file"
+msgstr "不能打开文件"
+
+msgid "no found the order"
+msgstr "没有这个命令"
+
+msgid "no found the field"
+msgstr "没有这个字段"
+
+msgid "no found the layer"
+msgstr "没有这个图层"
+
+msgid "document no saved"
+msgstr "文档还未保存"
+
+msgid "invalide geometry"
+msgstr "不合法的几何形状"
+
+msgid "unknown dataset format"
+msgstr "不支持的数据集格式"
+
+msgid "unsupport this operator"
+msgstr "不支持的操作"

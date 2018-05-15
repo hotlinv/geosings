@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Window 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:gss2="geosings2.*"
+	width="700" height="500"
+	layout="absolute" 
+	initialize="init(Object);"
+	
+	>
+	<mx:Script>
+	<![CDATA[
+		import mx.containers.Canvas;
+		
+		import mx.controls.Alert;
+		public var parentWindow:Object;
+		public function init(parentWindow:Object):void{
+			this.parentWindow = parentWindow;
+		}
+		
+		/**
+		* 自定义open()打开窗口并且保存调用此方法的对象
+		*/
+		public function advOpen(winname:String,openWindowActive:Boolean = true):void{
+			
+			this.open(openWindowActive);
+			
+			var canv: Canvas = new Canvas();
+			canv.label=winname;
+			tabbox.addChild(canv);
+		}
+		
+		
+	]]>
+	</mx:Script>
+	<mx:VDividedBox height="100%" width="100%" paddingLeft="15" paddingBottom="15" paddingRight="15" paddingTop="15">
+		<mx:Canvas label="Tab 1" width="100%" height="100%">
+		<mx:VBox width="100%" height="100%">
+		<mx:TabNavigator width="100%" id="tabbox">
+			<!--mx:Canvas label="Panel 1" backgroundColor="haloOrange" width="100%" height="100%">
+				
+			</mx:Canvas>
+			<mx:Canvas label="Panel 2" backgroundColor="haloOrange" width="100%" height="100%">
+				
+			</mx:Canvas-->
+		</mx:TabNavigator>
+		
+		<mx:Canvas width="100%" height="100%">
+			<gss2:Map x="0" y="0" width="100%" height="100%"/>
+		</mx:Canvas>
+		
+		</mx:VBox>
+		</mx:Canvas>
+		<mx:TextArea width="100%"/>
+	</mx:VDividedBox>
+	
+</mx:Window>

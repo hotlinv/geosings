@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	 initialize="init();">
+<mx:Script>
+	<![CDATA[
+		
+		public function init():void{
+		var gc: Graphics = map.graphics;
+			gc.beginFill(0xFFCC00);
+gc.drawCircle(40, 40, 40);
+
+		}
+	]]>
+</mx:Script>
+	<mx:Canvas x="68" y="75" width="200" height="200" id="map">
+	</mx:Canvas>
+	
+</mx:Application>

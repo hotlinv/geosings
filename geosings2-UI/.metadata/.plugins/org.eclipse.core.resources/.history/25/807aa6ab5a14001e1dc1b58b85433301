@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml"
+	 xmlns:panels="panels.*"
+	 title="geosings2" 
+	 paddingBottom="0" paddingLeft="0" paddingRight="0" 
+	 layout="absolute" width="274" >
+	<panels:LoginPanel id="loginPanel"/>
+</mx:WindowedApplication>

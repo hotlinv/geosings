@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+  
+
+
+  
+  
+  
+  <title>九形工具集&ldquo;混天凌&rdquo;介绍</title>
+  <style type="text/css">
+@import url("css/function.css");
+  </style>
+</head>
+
+
+<body>
+
+
+
+<h1 id="htitle">九形工具集&ldquo;混天凌&rdquo; </h1>
+
+
+
+<a href="index.html">返回主索引</a>
+<hr><!--"----------------------------------------"--><br>
+
+
+
+<p>
+九形附带了一系列的工具集合，在形式上类似ESRI的ArcTools或者ArcToolBox。包括了一系列实用程序集合。是GIS分析和处理的核心。
+也是九形后期的重点。</p>
+
+
+
+<p>为什么给它起名为&ldquo;混天凌&rdquo;呢？&ldquo;混天凌&rdquo;是一根飘带，无形无迹，软软弱弱，为人忽视，但是却威
+力无穷，翻江倒海，上天入地无所不能，冷不丁给一下谁也受不了。实用工具集不比主程序，那么引人注目，但是，工具集却是地图界面最大的补充，甚至可以在一
+些应用中完全独立使用，拆开能用，合起来也能用，能力绝对是超乎想像的。故名之&ldquo;混天凌&rdquo;。</p>
+
+<p>想GIS界大家做这做那，还不是完全就是完善自己的实用工具集而已？是时候系统一下了。这是最有创意最有挑战性最能出知识产权的一块。做不好的大家笑笑，做好了大家受益，何乐不为？</p>
+
+
+
+<h2>启动</h2>
+
+
+<p>有几种方法可以启动"混天凌"。</p>
+
+
+
+<ul>
+
+
+
+  <li>在你启动九形主程序的时候，会发现在数据集列表旁边就集成了工具集的标签页，这样你就可以直接使用。</li>
+
+  <li>当然，你可以独立运行&ldquo;混天凌&rdquo;，而不需要运行较为庞大的九形主程序。你可以直接运行$GEOSINGS_HOME/pymod/geosings/tools/gsstoolsapp.py</li>
+
+
+
+  <li>也可以启动$GEOSINGS_HOME/bin下的gssapp.py文件并在后面加上参数tools，或者lin就可以(大
+小写可以不分)，如：./gssapp.py tools或者python f:/geosings/bin/gssapp.py lin。</li>
+
+
+
+  <li>当然你也可以在主控制台runGeosings.py中启动。只要输入tools就可以了。</li>
+
+
+
+</ul>
+
+
+
+<p>
+这样你就启动了混天凌。主界面如下：</p>
+
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="image/lin.jpg"></p>
+
+
+<p>里面是实用工具集。当然现在的工具还非常少。但是慢慢会多起来的。</p>
+
+
+<h2>工具列表</h2>
+
+
+下面是混天凌中的所有工具列表：<br>
+
+
+<br>
+
+
+<h3>＋数据转换工具(Data Convertor)</h3>
+
+<p>&nbsp;|- <a href="tools_docs/raster2vrml.html">栅格图层转换到VRML</a>(Raster to VRML)</p>
+
+
+<p>&nbsp;|- <a href="tools_docs/ogr2mysql.html">矢量图层导入MySQL</a>(Ogr to MySQL)</p>
+
+<p>&nbsp;|- <a href="tools_docs/ogr2pgsql.html">矢量图层导入PostgreSQL(PostGIS)</a>(Ogr to PostgreSQL)</p>
+
+<h3>＋数据操作(Data Operator)</h3>
+
+<p>&nbsp;|- <a href="tools_docs/split_raster.html">切割影像</a>(Split Raster)</p>
+
+<p>&nbsp;|- <a href="tools_docs/resize_raster.html">缩放影像</a>(Resize Raster)</p>
+
+<h3>＋报表工具(Report)</h3>
+
+
+<p>&nbsp;|- <a href="tools_docs/ReportLayerInfo.html">导出图层信息</a>(Export Layer's Info)</p>
+
+<h3>＋空间参考(SpatialReference)</h3>
+
+<p>&nbsp;|- <a href="tools_docs/exp_pg_srs.html">导出PostGIS的所有预定义空间参考</a>(Export PostGIS SpatialReference)</p>
+
+<p>&nbsp;|- <a href="tools_docs/set_coor_sys.html">设置数据集的坐标系统</a>(Set coordinate system to dataset)</p>
+
+<p>&nbsp;|- <a href="tools_docs/project.html">投影转换</a>(Project)</p>
+
+<br>
+
+
+<h2>定制&ldquo;混天凌&rdquo;</h2>
+
+
+混天凌也是通过配置命令来配置的。默认的配置文件在geosings.tools.ToolsSettings，包括登记函数的定义，以及初始化定义。<br>
+
+
+<br>
+
+
+这个配置模块是通过在GSSCONF["GSS_TOOLS_CONF"]中配置一个列表来定义整个&ldquo;混天凌&rdquo;的树结构以及程序关联。所以只要能控制GSSCONF的地方就可以定制&ldquo;混天凌&rdquo;。这样，你也可以在.gssrc中配置以达到控制&ldquo;混天凌&rdquo;目录树的结构的目的，通过配置，可以定制自己的工具集外观。<br>
+
+
+<br>
+
+
+<h3>配置列表结构</h3>
+
+首先，你需要登记所有的工具名称和命令名。使用regTool函数，后面跟着两个参数，一个是工具名称，一个是工具模块命令。函数返回登记成功的工具名称。<br><br>
+
+然后根据返回的名称登记菜单,登记函数是regToolMenu后面跟着菜单路径和可用的工具名称。路径是用列表来表示的。一个文件夹就用一个列表项来表示。如果不存在，函数会自动添加，如果存在了，就会自动覆盖（所以要小心！）。后面的工具名称需要用regTool登记过的。没有登记的不行。当然可以在不相同的路径下定义相同工具，这个没有任何冲突（这也是设计GSSCONF["GSS_TOOLS_OPER"] 的原因）。<br><br>
+
+
+它所用的登记代码可能是这样：<br><br>
+
+_r2v = regTool("Raster To VRML","Raster2VrmlUI")<br>
+_o2m = regTool("Ogr to MySQL","Ogr2ogr4intoMySQLUI")<br>
+_o2pg = regTool("Ogr to PostgresSQL","Ogr2ogr4intoPGUI")<br>
+_sras = regTool("Split Raster","RasterSplitterUI")<br>
+_rr = regTool("Resize Raster","RasterResizerUI")<br>
+_el = regTool("Export Layer's Info",'ReportLayerInfoUI')<br>
+_epgsr = regTool("Export PostGIS SpatialReference","PostGISSrsExpUI")<br>
+_scs = regTool("Set coordinate system to dataset","SetCoorSysUI")<br>
+_prj = regTool("Project","ProjectUI")<br>
+<br>
+#print GSSCONF["GSS_TOOLS_OPER"]<br>
+<br>
+GTM_DATACONV = "Data Convertor"<br>
+GTM_DATAOPER = "Data Operator"<br>
+GTM_REPORT = "Report"<br>
+GTM_SR = "SpatialReference"<br>
+<br>
+regToolMenu([GTM_DATACONV], _r2v)<br>
+regToolMenu([GTM_DATACONV], _o2m)<br>
+regToolMenu([GTM_DATACONV], _o2pg)<br>
+regToolMenu([GTM_DATAOPER], _sras)<br>
+regToolMenu([GTM_DATAOPER], _sras)<br>
+regToolMenu([GTM_REPORT], _el)<br>
+regToolMenu([GTM_SR], _epgsr)<br>
+regToolMenu([GTM_SR], _scs)<br>
+regToolMenu([GTM_SR], _prj)<br>
+<br>
+
+(因为每次添加工具后，配置都会不一样，所以要看完整配置还是到那个文件中去找，这里文档只是说明结构)<br>
+
+菜单字典中登记的名称是英文也没有关系，如果你要自动转换到中文，就在<br><b>$GEOSINGS_HOME/pymod/geosings/locale/zh_CN 下修改geosings.po，</b><br>添加gettext翻译对应。<br>
+
+<br>
+
+定制后的GSSCONF["GSS_TOOLS_CONF"]结构可能像这样<br><br>
+
+GSSCONF["GSS_TOOLS_CONF"] = [<br>
+
+
+&nbsp;&nbsp;&nbsp; {"Data Convertor":[<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {"Raster to VRML":"Raster2VrmlUI"},<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {"Ogr to MySQL":"Ogr2ogr4intoMySQLUI"},<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]<br>
+
+
+&nbsp;&nbsp;&nbsp; },<br>
+
+
+&nbsp;&nbsp;&nbsp; {"Report":[<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {"Export Layer's Info":'ReportLayerInfoUI'}<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]<br>
+
+
+&nbsp;&nbsp;&nbsp; }<br>
+
+
+]<br><br>
+
+
+总得结构是一个列表，其中按造顺序排列了几个子菜单树。子菜单树的表达形式是一个字典。健是菜单树根结点名，值如果是下一级子菜单，就是一个列表；如果菜单是可运行的实用工具程序，则值就是这个实用工具的GUI工具名称（处于tools/ui目录下的同名的python程序）。<br>
+<br>
+<h2>工具面板结构</h2>
+混天凌里面的工具面板结构是统一布局的。所有的工具都是由4个部分组成的。<br>
+<br>
+例如：<br>
+<br>
+<img style="width: 400px; height: 492px;" alt="" src="image/ogr2ogr4intomysqlui.JPG"><br>
+<br>
+可以看到主面板有几个部分组成，几个部分都有静态框框住。<br>
+<br>
+一个是Input（输入）。它负责所有的输入图层，具体的介绍在<a href="tools_docs/inputPanel.html">这里</a>。<br>
+<br>
+下面一个是Control(控制)，所有的实用工具的控制参数都由这个面板来定义。<br>
+<br>
+一个是Output(输出)，处理所有输出选择，对它也有专门的<a href="tools_docs/outputPanel.html">介绍</a>。<br>
+<br>
+最后被一根横向分割线分割开的是一个过程打印输出框，可以把过程中的一些信息打印出来，通过打印输出，可以了解处理结果和一些过程信息。<br>
+<br>
+点击"确定"，可以开始运行工具，点击"放弃"则退出GUI。<br>
+<br>
+这个布局对话框是由<a href="gss_ui/geosings.ui.commondlg.ToolDlgTemplate-module.html">geosings.ui.commondlg.ToolDlgTemplate</a>下的两个类控制的。所有的控制参数面板都是继承于<a href="gss_ui/geosings.ui.commondlg.ToolCtrlBasePanel.ToolCtrlBasePanel-class.html">geosings.ui.commondlg.ToolCtrlBasePanel.ToolCtrlBasePanel</a>类，它提供了一个可以控制的基础面板。
+
+
+<hr><!--"----------------------------------------"--><br>
+
+
+
+<table id="etab">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <td id="etit">geosings, 九形工具集</td>
+
+
+
+      <td id="ereta"><a href="index.html">返回主目
+录</a></td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+</body>
+</html>

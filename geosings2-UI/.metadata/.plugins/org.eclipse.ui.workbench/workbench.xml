@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="57" y="15">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="206" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Flex Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TalkDlg.mxml" partName="TalkDlg.mxml" path="D:/projs/geosings/geosings2-UI/geosings2/src/geosings2/dialogs/TalkDlg.mxml" title="TalkDlg.mxml" tooltip="geosings2/src/geosings2/dialogs/TalkDlg.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/geosings2/src/geosings2/dialogs/TalkDlg.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainPanel.mxml" partName="MainPanel.mxml" path="D:/projs/geosings/geosings2-UI/geosings2/src/geosings2/MainPanel.mxml" title="MainPanel.mxml" tooltip="geosings2/src/geosings2/MainPanel.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/geosings2/src/geosings2/MainPanel.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FriendsPanel.mxml" partName="FriendsPanel.mxml" path="D:/projs/geosings/geosings2-UI/geosings2/src/geosings2/FriendsPanel.mxml" title="FriendsPanel.mxml" tooltip="geosings2/src/geosings2/FriendsPanel.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/geosings2/src/geosings2/FriendsPanel.mxml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MapCanv.as" partName="MapCanv.as" path="D:/projs/geosings/geosings2-UI/geosings2/src/geosings2/MapCanv.as" title="MapCanv.as" tooltip="geosings2/src/geosings2/MapCanv.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/geosings2/src/geosings2/MapCanv.as"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="507"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MapCtrl.mxml" partName="MapCtrl.mxml" path="D:/projs/geosings/geosings2-UI/geosings2/src/geosings2/MapCtrl.mxml" title="MapCtrl.mxml" tooltip="geosings2/src/geosings2/MapCtrl.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/geosings2/src/geosings2/MapCtrl.mxml"/>
+</editor>
+</editors>
+<views>
+<view id="com.adobe.flexbuilder.navigator" partName="Flex Navigator ">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element=".*" isEnabled="false"/>
+<filter element=".flexProperties" isEnabled="true"/>
+<filter element=".actionScriptProperties" isEnabled="true"/>
+<filter element=".project" isEnabled="true"/>
+<filter element=".settings" isEnabled="true"/>
+<filter element=".flexLibProperties" isEnabled="true"/>
+<filter element=".DS_Store" isEnabled="true"/>
+</filters>
+<expanded>
+<element path="/geosings2"/>
+<element path="/geosings2/src"/>
+<element path="/geosings2/src/geosings2"/>
+<element path="/geosings2/src/geosings2/dialogs"/>
+<element path="/test"/>
+<element path="/test/src"/>
+</expanded>
+<selection>
+<element path="/geosings2/src/geosings2/MapCtrl.mxml"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState columnWidth0="854" columnWidth1="126" columnWidth2="191" columnWidth3="63" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.adobe.flexbuilder.editors.mxml.ui.perspectives.DevelopmentPerspectiveFactory" id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development" label="Flex Development"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editors.common.modeswitch"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.upgrade"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.ui.OpenStartPage"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.dbwizard.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.navigate"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.ws.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.launch"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editors.actionscript.ui.NavigationActions"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.components.ComponentsView"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.inspector.view.PropertiesView"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.states.StatesView"/>
+<show_view_action id="com.adobe.flexbuilder.navigator"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLApplication"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLComponent"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLModule"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.wizards.NewActionScriptFile.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.classWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.interfaceWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.css.wizards.NewCSSFile"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.newproject"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.NewActionScriptProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.FlexLibraryProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development"/>
+<perspective_action id="com.adobe.flexbuilder.debug.ui.perspectives.debug"/>
+<perspective_action id="com.adobe.flash.profiler.ui.ProfilingPerspective"/>
+<view id="com.adobe.flexbuilder.navigator"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@1e7d12b" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.29924813"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5a58e0">
+<folder activePageID="com.adobe.flexbuilder.navigator" appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.navigator" label="Flex Navigator "/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5a58e0">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21985815" ratioLeft="279" ratioRight="990" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5a58e0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@79df9" ratio="0.7075743" ratioLeft="738" ratioRight="305" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.editors.mxml.states.StatesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1959b32" ratio="0.25" ratioLeft="176" ratioRight="528" relationship="4" relative="org.eclipse.ui.internal.ViewStack@79df9">
+<folder appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.editors.mxml.inspector.view.PropertiesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e7d12b" ratio="0.75338346" ratioLeft="501" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="outlineHolder" ratio="0.5" ratioLeft="352" ratioRight="352" relationship="4" relative="org.eclipse.ui.internal.ViewStack@5a58e0">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.adobe.flexbuilder.editors.mxml.components.ComponentsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/geosings2/src/geosings2/MainPanel.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/geosings2/src/geosings2/dialogs/TalkDlg.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/geosings2/src/geosings2/MapCtrl.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/geosings2/src/geosings2/MapCanv.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/geosings2/src/geosings2/MapCtrl.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/geosings2/src/geosings2/FriendsPanel.mxml"/>
+</editors>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="160" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="TalkDlg.mxml" index="1">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="MainPanel.mxml" index="0">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="TalkDlg.mxml" index="1">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="MainPanel.mxml" index="0">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="347" y="38"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.as" index="2">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="166" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="266" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="193" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="219" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="176" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MainPanel.mxml" index="0">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="TalkDlg.mxml" index="1">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="FriendsPanel.mxml" index="5">
+<position info="not_deleted" x="1986" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="TalkDlg.mxml" index="1">
+<position info="not_deleted" x="1210" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+<item historyLabel="MapCtrl.mxml" index="4">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item active="true" historyLabel="MapCanv.as" index="3">
+<position info="not_deleted" x="611" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1e7d12b"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MapCtrl.mxml" tooltip="geosings2/src/geosings2/MapCtrl.mxml">
+<persistable path="/geosings2/src/geosings2/MapCtrl.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MapCanv.as" tooltip="geosings2/src/geosings2/MapCanv.as">
+<persistable path="/geosings2/src/geosings2/MapCanv.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="geosings2.mxml" tooltip="geosings2/src/geosings2.mxml">
+<persistable path="/geosings2/src/geosings2.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="test.mxml" tooltip="test/src/test.mxml">
+<persistable path="/test/src/test.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="Map.as" tooltip="geosings2/src/geosings2/Map.as">
+<persistable path="/geosings2/src/geosings2/Map.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="FriendsPanel.mxml" tooltip="geosings2/src/geosings2/FriendsPanel.mxml">
+<persistable path="/geosings2/src/geosings2/FriendsPanel.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainPanel.mxml" tooltip="geosings2/src/geosings2/MainPanel.mxml">
+<persistable path="/geosings2/src/geosings2/MainPanel.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MyWindow.as" tooltip="geosings2/src/geosings2/dialogs/MyWindow.as">
+<persistable path="/geosings2/src/geosings2/dialogs/MyWindow.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="geosings2-app.xml" tooltip="geosings2/src/geosings2-app.xml">
+<persistable path="/geosings2/src/geosings2-app.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="InfoDlg.mxml" tooltip="geosings2/src/geosings2/dialogs/InfoDlg.mxml">
+<persistable path="/geosings2/src/geosings2/dialogs/InfoDlg.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Map.mxml" tooltip="geosings2/src/geosings2/Map.mxml">
+<persistable path="/geosings2/src/geosings2/Map.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="MapCanvas.as" tooltip="geosings2/src/geosings2/MapCanvas.as">
+<persistable path="/geosings2/src/geosings2/MapCanvas.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TalkPanel.mxml" tooltip="geosings2/src/panels/TalkPanel.mxml">
+<persistable path="/geosings2/src/panels/TalkPanel.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TalkDlg.mxml" tooltip="geosings2/src/dialogs/TalkDlg.mxml">
+<persistable path="/geosings2/src/dialogs/TalkDlg.mxml"/>
+</file>
+</mruList>
+</workbench>

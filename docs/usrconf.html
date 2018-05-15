@@ -1,0 +1,1382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+  
+
+
+  
+  
+  
+  <title>配置文件的威力</title>
+  <style type="text/css">
+@import url("css/function.css");
+  </style>
+</head>
+
+
+<body>
+
+
+
+<h1 id="htitle"> 配置文件的威力 </h1>
+
+
+
+<a href="index.html">返回主索引</a>
+<hr><!--"----------------------------------------"-->
+<p>九形是可以让用户使用配置文件的。虽然Python本来就是文本，而且九形的许可允许你可以任意修改配置文本，但是直接在脚本中修改对
+于后期配置来说是很不方便的（修改脚本需要对源码极其熟悉），也是很不安全的。所以让外部可以修改内部配置是一个很好的想法。</p>
+
+
+
+<h2>配置文件
+</h2>
+
+
+
+<p>九形的配置文件是在HOME环境变量所指路径下，如果是windows系统，并且没有设置HOME的环境变量，那么配置文件就在用户的
+配置路径下（C:\Documents and
+Settings\用户名），会有一个.geosings目录，配置文件就在其中（linux下以点开头的目录是默认系统隐藏的，需要用ls -a
+察看，或者在文件浏览器中设置显示隐藏目录。）.geosings目录下有一个.gssrc文件（windows下可以用_gssrc文件，因为
+windows普通新建文件名不可以以点开头，除非用vim或者emacs等gnu软件创建或者编程创建）这就是我们的配置文件。
+</p>
+
+
+
+<p>在九形中，所有的配置都存储在__builtin__.__dict__这个内置全局字典中的。因为对于Python来说。赋值相当于
+重新分配内存。只
+有通过全局的字典，才可以保证要存储的配置其能够被成功得修改，而不会因为对象的重新分配而丢失。对于全局字典的操作，被定义在
+geosings.core.GssConfDict
+模块中。其中有个GSSCONF变量就代表了__builtin__.__dict__这个内置全局字典，你可以在任何地方通过导入该模块后使用
+GSSCONF["key"]这样的定义方式进行对九形配置的修改。修改对于全局立即生效。而在geosings.core.RunSysConf模块中
+定义了一个函数RunSysConf，这个函数就是读取九形的配置文件，根据配置文件进行对九形主程序配置而使用的。在九形主程序中，已经调用了这个函
+数。但是在各个模块单独使用的时候，默认是不进行九形配置读取的。所以如果要在脱离九形运行环境进行单独模块运行时，就需要判断是否需要根据需求加载配置
+文件（或者使用自己的配置文件）。
+</p>
+
+
+
+<p>九形的配置文件其实就是一个python文件。而且在九形中就是直接把这个文件当成py文件加载运行的。所以python的语法在文件
+中
+都允许。可以直接当成写python那样写这个配置文件。当然要做到控制程序内部还是要遵循一定的规矩的。</p>
+
+
+
+<p>前面说到所有的配置实际上都是保存在一个叫__builtin__.__dict__的全局内置字典中的。为了好引用，把这个字典的名
+字重新命名为GSSCONF，所以我们可以通过GSSCONF["key"]这种格式来进行配置的存取。</p>
+
+
+
+<p>比如要设置gdalinfo程序的目录（如果你的gdalinfo程序不在PATH目录下）可以这样设置：</p>
+
+
+
+<p>GSSCONF["GDALINFO_APP"] = "f:/gdalwin32/bin/gdalinfo.exe"</p>
+
+
+
+<p>因为程序中的所有gdalinfo路径都是从GSSCONF字典的"GDALINFO_APP"键指向的值来引用的。所以只要这样设
+置，就可以在所有用到gdalinfo程序路径的地方用你自己指定的路径来调用gdalinfo程序（默认是直接调用gdalinfo，如果你没有把
+gdalinfo放在PATH下，在程序运行过程中就有可能出错）。通过上面这样指定路径，你就可以在任何位置调用你的gdalinfo程序。而不需要放
+在默认的PATH目录下 （甚至你可以考虑调用不同版本的gdalinfo，当然这要和你的gdal1*.dll相对应）。</p>
+
+
+
+<h2>对程序界面的配置</h2>
+
+
+
+<p>对于程序界面，可以配置的key字符串如下： </p>
+
+
+
+<table class="fun_table">
+
+
+
+  <tbody>
+
+
+
+    <tr class="fun_tab_head">
+
+
+
+      <th class="fun_tab_head" width="30%">属性名</th>
+
+
+
+      <th class="fun_tab_head" width="70%">值规定</th>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">CANV_OP_MSG_NUM</td>
+
+
+
+      <td class="fun_tab_data">在主窗口中显示的操作信息的条目个数，默认是6，您可以这样
+设置<br>
+
+
+
+GSSCONF["CANV_OP_MSG_NUM"]=4<br>
+
+
+
+就会看到主窗口操作信息显示条目少了两条。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">HAS_MODE_LABEL</td>
+
+
+
+      <td class="fun_tab_data">在主窗口中要不要显示模式状态。默认是不要（False，当
+然你可以设置为0或者None等等），您可以这样设置<br>
+
+
+
+GSSCONF["HAS_MODE_LABEL"]=True<br>
+
+
+
+就会看到主窗口会显示当前模式状态。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">HAS_TOOLBAR_TEXT</td>
+
+
+
+      <td class="fun_tab_data">在工具栏中要不要显示简单解释性文字。默认是要（True，
+当然你可以设置为1等等），您可以这样设置<br>
+
+
+
+GSSCONF["HAS_TOOLBAR_TEXT"]=False<br>
+
+
+
+就会看到工具栏只显示一个图标而没有文字。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">TOOLBAR_BITMAP_WIDTH,<br>
+
+
+
+TOOLBAR_BITMAP_HEIGHT,<br>
+
+
+
+TOOLBAR_BITMAP_SIZE</td>
+
+
+
+      <td class="fun_tab_data">工具栏中图标的大小。默认是22*22，您如果要改变，则最
+好三个同时改变。比如这样：<br>
+
+
+
+import wx<br>
+
+
+
+GSSCONF["TOOLBAR_BITMAP_WIDTH"] = 32<br>
+
+
+
+GSSCONF["TOOLBAR_BITMAP_HEIGHT"] = 32<br>
+
+
+
+GSSCONF["TOOLBAR_BITMAP_SIZE"] = wx.Size(TOOLBAR_BITMAP_WIDTH,<br>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;TOOLBAR_BITMAP_HEIGHT)<br>
+
+
+
+就会看到工具栏只图标大了不少。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">GDALINFO_APP<br>
+
+
+
+OGRINFO_APP<br>
+
+
+
+OGR2OGR_APP</td>
+
+
+
+      <td class="fun_tab_data">设置GDAL/OGR工具程序的指向路径。通过这样的指示，
+可以在非PATH路径中调用gdalinfo，
+ogr2ogr，ogrinfo等等工具程序了。默认状态下，这三个程序都必须放在PATH路径中，不然在运行一些程序的是否会出现错误，或者没有反映。<br>
+
+
+
+GSSCONF["GDALINFO_APP"] = "/path/to/gdal/bin/gdalinfo"<br>
+
+
+
+GSSCONF["OGRINFO_APP"] = "/path/to/gdal/bin/ogrinfo"<br>
+
+
+
+GSSCONF["OGR2OGR_APP"] = "/path/to/gdal/bin/ogr2ogr"<br>
+
+
+
+当然不能照抄上面的，要根据自己的情况设置。如果不设置，就要把几个程序都拷贝到PATH路径下。<br>
+
+
+
+      <br>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">GSS_TOOLS_CONF</td>
+
+
+
+	  <td class="fun_tab_data">配置实用工具集的配置字符串，具体细节看<a href="tools.html">这里</a>。</td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<h3>设置菜单和工具栏</h3>
+
+
+
+<p>当然配置文件最主要的目的就是为了设置工具栏和菜单栏。您可以改变菜单栏和工具栏的布局以及它们的响应函数。</p>
+
+
+
+<h4>添加/修改函数
+</h4>
+
+
+
+<p>添加（修改）菜单栏和工具栏使用的是两个函数，SetMenuBar和SetToolBar。参数解释如下：</p>
+
+
+
+<p>
+<!--SetMenuBar('DataSet/Open',UI_TYPE_BUTTON,ID_Open,OPEN_H_STR,EDIT_MSG)<br /-->def
+SetMenuBar(path,type,Id,helpstr,foo):<br>
+
+
+
+</p>
+
+
+
+<p>第一个参数是菜单路径(弹出菜单路径用'/'来分割)，第二个是菜单形式。第三个是菜单对应ID，第四个是菜单的解释文字，第五个是菜
+单的响应命令(响应函数)<br>
+
+
+
+</p>
+
+
+
+<p><!--SetToolBar('Open',UI_TYPE_BUTTON,ID_Open,OPEN_H_STR,EDIT_MSG)<br /-->
+def SetToolBar(name,type,Id,helpstr,foo,img=TOOLBAR_BITMAP_DEFPATH):
+</p>
+
+
+
+<p>第一个参数是工具名，第二个是工具类型，第三个是工具对应ID，第四个是工具解释性文字，第五个是工具响应函数(响应命令名)。第六个
+可选，是指定工具使用的图标，如果不指定，就使用和命令名同名的gif图像作为图标。<br>
+
+
+
+</p>
+
+
+
+<p>菜单（工具）类型现在支持这么几种选择：
+</p>
+
+
+
+<table class="fun_table">
+
+
+
+  <tbody>
+
+
+
+    <tr class="fun_tab_head">
+
+
+
+      <th class="fun_tab_head" width="30%">工具类型</th>
+
+
+
+      <th class="fun_tab_head" width="70%">解释</th>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">UI_TYPE_BUTTON</td>
+
+
+
+      <td class="fun_tab_data">这是普通的效果，就是按动菜单（工具）然后执行命令的效果。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">UI_TYPE_RADIO</td>
+
+
+
+      <td class="fun_tab_data">这是多选一菜单的效果，就是几个菜单项只能选择一个执行的效
+果。</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">UI_TYPE_SEPARATOR</td>
+
+
+
+      <td class="fun_tab_data">这是菜单分割符，在设定菜单分割符类型后还需要把菜单名设置
+成四个横杆"----"</td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<p>解释性文字预定义了这么几个：
+</p>
+
+
+
+<table class="fun_table">
+
+
+
+  <tbody>
+
+
+
+    <tr class="fun_tab_head">
+
+
+
+      <th class="fun_tab_head" width="30%">解释名</th>
+
+
+
+      <th class="fun_tab_head" width="70%">解释字符串</th>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">OPEN_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Open a prj file</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">SAVE_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Save a prj file</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">TABLE_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Show DataSet Attribute Table</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">EXIT_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Exit the application</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">NOMODE_H_STR</td>
+
+
+
+      <td class="fun_tab_data">no mode</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">PANMODE_H_STR</td>
+
+
+
+      <td class="fun_tab_data">pan mode</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">ZOOMIN_H_STR</td>
+
+
+
+      <td class="fun_tab_data">zoomin mode</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">ZOOMOUT_H_STR</td>
+
+
+
+      <td class="fun_tab_data">zoomout mode</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">INFO_H_STR</td>
+
+
+
+      <td class="fun_tab_data">info mode</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">ADD_LAYER_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Add a Layer</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">REMOVE_LAYER_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Remove a layer</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">FULL_H_STR</td>
+
+
+
+      <td class="fun_tab_data">Show the full layer</td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<h4>修改工具栏提示信息（气球窗口提示）</h4>
+
+
+
+<p>您可以修改工具栏在气球窗口中的提示信息。修改方法如下： </p>
+
+
+
+<p>GSSCONF["OPEN_H_STR"] =&nbsp;"Open a project configure
+file" </p>
+
+
+
+<p>当然这些字符串有在后期经过gettext处理，翻译成了中文。所以您如果改变了这些文字，您还需要修改locale目录下的
+geosings.po文件并生成对应的mo文件才可以看到中文改变效果。不过英文修改效果是立竿见影的。</p>
+
+
+
+<h4>设置响应函数</h4>
+
+
+
+<p>菜单的响应命令（响应函数）可以九形一个已定义的命令名，或者是一个用户自定义的函数。
+</p>
+
+
+
+<p>比如全图的命令是这样定义的：<br>
+
+
+
+SetToolBar('Full',UI_TYPE_BUTTON,ID_Full,FULL_H_STR,"f")
+</p>
+
+
+
+<p>如果您要添加自定义的函数可以这样定义：<br>
+
+
+
+from geosings.ui.UISettings import SetToolBar<br>
+
+
+
+from geosings.ui.core.UIConst import *<br>
+
+
+
+def Hello():<br>
+
+
+
+&nbsp;&nbsp;&nbsp; print("hello")<br>
+
+
+
+SetToolBar('Hello',UI_TYPE_BUTTON,700,"test user function",Hello)<br>
+
+
+
+<br>
+
+
+
+</p>
+
+
+
+<p>这样会在工具栏上多一个Hello的工具，点击就会在后台打印一个Hello的字符串。</p>
+
+
+
+<h2>修改命令名和键位
+</h2>
+
+
+
+九形允许修改它的命令名称。如果你觉得那些命令名称你记不住或者不好记，或者你是个左撇子，对我这个右撇子设定的模式键位感到很别扭，
+影响了按键效率，你尽可以改掉它们。换成好记的名称或者顺手的键位。
+<p>注意:设置命令名(键位)是使用 <big style="color: rgb(255, 0, 0);"><span style="font-weight: bold;">GSSMSGS</span></big> 而不是使用GSSCONF。可以设置的命令名(键位)名称如下：<br>
+
+
+
+<br>
+
+
+
+</p>
+
+
+
+<table class="fun_table">
+
+
+
+  <tbody>
+
+
+
+    <tr class="fun_tab_head">
+
+
+
+      <th class="fun_tab_head" width="30%">可修改的命令</th>
+
+
+
+      <th class="fun_tab_head" width="10%">对应命令</th>
+
+
+
+      <th class="fun_tab_head" width="60%">解释</th>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_EDIT</td>
+
+
+
+      <td class="fun_tab_data">:e</td>
+
+
+
+      <td class="fun_tab_data">编辑一个工程文件</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_EXIT</td>
+
+
+
+      <td class="fun_tab_data">:q</td>
+
+
+
+      <td class="fun_tab_data">退出程序</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_OPEN</td>
+
+
+
+      <td class="fun_tab_data">:o</td>
+
+
+
+      <td class="fun_tab_data">添加一个图层</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_SAVE</td>
+
+
+
+      <td class="fun_tab_data">:save</td>
+
+
+
+      <td class="fun_tab_data">保存工程文件</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_TABLE</td>
+
+
+
+      <td class="fun_tab_data">:tab</td>
+
+
+
+      <td class="fun_tab_data">打开属性列表</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_CLOSE</td>
+
+
+
+      <td class="fun_tab_data">:r</td>
+
+
+
+      <td class="fun_tab_data">移除一个图层</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_VISIBLE</td>
+
+
+
+      <td class="fun_tab_data">:v</td>
+
+
+
+      <td class="fun_tab_data">使得一个图层可见</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_UVISIBLE</td>
+
+
+
+      <td class="fun_tab_data">:v!</td>
+
+
+
+      <td class="fun_tab_data">使得一个图层不可见</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_TOP</td>
+
+
+
+      <td class="fun_tab_data">:top</td>
+
+
+
+      <td class="fun_tab_data">把一个图层移动到最上层</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_HELP</td>
+
+
+
+      <td class="fun_tab_data">:h</td>
+
+
+
+      <td class="fun_tab_data">显示帮助中心</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_INFO</td>
+
+
+
+      <td class="fun_tab_data">:i</td>
+
+
+
+      <td class="fun_tab_data">显示图层信息报表</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+      <td class="fun_tab_data">MSG_KEY_LABEL</td>
+
+      <td class="fun_tab_data">:lab</td>
+
+      <td class="fun_tab_data">标注指定图层</td>
+
+    </tr>
+
+    <tr>
+      <td class="fun_tab_data">MSG_KEY_ULABEL</td>
+      <td class="fun_tab_data">:lab!</td>
+      <td class="fun_tab_data">取消某个图层的标注</td>
+    </tr>
+    <tr>
+      <td class="fun_tab_data">MSG_KEY_EXPORTMAP</td>
+      <td class="fun_tab_data">:exp</td>
+      <td class="fun_tab_data">导出屏幕范围地图</td>
+    </tr>
+    <tr>
+      <td class="fun_tab_data">MSG_KEY_EXPORTMAP_ALL</td>
+      <td class="fun_tab_data">:expall</td>
+      <td class="fun_tab_data">导出屏幕分辨率的整幅地图</td>
+    </tr>
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_FULL</td>
+
+
+
+      <td class="fun_tab_data">f</td>
+
+
+
+      <td class="fun_tab_data">全图显示图层</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_NOMODE</td>
+
+
+
+      <td class="fun_tab_data">n</td>
+
+
+
+      <td class="fun_tab_data">无模式</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_PANMODE</td>
+
+
+
+      <td class="fun_tab_data">t</td>
+
+
+
+      <td class="fun_tab_data">切换到漫游模式</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_ZOOMINMODE</td>
+
+
+
+      <td class="fun_tab_data">Z</td>
+
+
+
+      <td class="fun_tab_data">切换到放大模式</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_ZOOMOUTMODE</td>
+
+
+
+      <td class="fun_tab_data">z</td>
+
+
+
+      <td class="fun_tab_data">切换到缩小模式</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_INFOMODE</td>
+
+
+
+      <td class="fun_tab_data">q</td>
+
+
+
+      <td class="fun_tab_data">切换到信息模式</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_DRAW</td>
+
+
+
+      <td class="fun_tab_data">d</td>
+
+
+
+      <td class="fun_tab_data">重绘图层</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_LEFT</td>
+
+
+
+      <td class="fun_tab_data">h</td>
+
+
+
+      <td class="fun_tab_data">图层向上移动一点</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_RIGHT</td>
+
+
+
+      <td class="fun_tab_data">l</td>
+
+
+
+      <td class="fun_tab_data">图层向右移动一点</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_DOWN</td>
+
+
+
+      <td class="fun_tab_data">j</td>
+
+
+
+      <td class="fun_tab_data">图层向下移动一点</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td class="fun_tab_data">MSG_KEY_UP</td>
+
+
+
+      <td class="fun_tab_data">k</td>
+
+
+
+      <td class="fun_tab_data">图层向左边移动一点</td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<h3>修改命令名</h3>
+
+
+
+<p>可以这样设置，把添加一个图层的命令从:o变成:add（事实上开始我也想这么设）。
+</p>
+
+
+
+<p>GSSMSGS["MSG_KEY_OPEN"] = ':add'
+</p>
+
+
+
+<p>这样就可以使用:add来打开一个图层，像使用:o一样使用:add。而:o将不再能够使用。</p>
+
+
+
+<h3>修改成左手鼠标右手键盘习惯的键位</h3>
+
+
+
+<p>我这里使用的键位是右手鼠标左手键盘的习惯。但是很多人习惯用左手鼠标，右手键盘操作。没问题。完全可以通过修改GSSMSGS来达到
+更改鼠标使用习惯的
+目的，而且一经修改，永久生效，只要你的.gssrc（_gssrc）文件没有丢失，就可以一直按照你自己的键位习惯来使用九形。<br>
+
+
+
+</p>
+
+
+
+<p>例如可以这样配置：<br>
+
+
+
+<br>
+
+
+
+GSSMSGS["MSG_KEY_PANMODE"] = 'p'<br>
+
+
+
+GSSMSGS["MSG_KEY_ZOOMINMODE"] = 'i'<br>
+
+
+
+GSSMSGS["MSG_KEY_ZOOMOUTMODE"] = "o"<br>
+
+
+
+GSSMSGS["MSG_KEY_INFOMODE"] = "u"<br>
+
+
+
+GSSMSGS["MSG_KEY_DRAW"] = "m"<br>
+
+
+
+</p>
+
+
+
+<p>这样就可以使用p做漫游，i做放大，o做缩小，u做点查询，m做重绘，各个操作都可以根据个人喜好来定。</p>
+
+
+
+<hr><!--"----------------------------------------"--><br>
+
+
+
+<table id="etab">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <td id="etit">geosings, 配置文件的威力</td>
+
+
+
+      <td id="ereta"><a href="index.html">返回主目
+录</a></td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+</body>
+</html>

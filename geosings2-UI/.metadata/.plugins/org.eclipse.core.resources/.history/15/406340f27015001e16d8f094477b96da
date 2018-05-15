@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+	<mx:Canvas x="68" y="75" width="200" height="200">
+	</mx:Canvas>
+	
+</mx:Application>

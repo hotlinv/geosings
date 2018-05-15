@@ -1,0 +1,266 @@
+﻿# -*- coding: utf-8 -*-
+
+"""
+定义程序的主面板
+"""
+import wx
+
+from geosings.ui.gmap import MapCanvas, OperHandler, CharHandler
+from geosings.ui.gtoc.DataManager import DataManagerCtrl
+from geosings.ui.SearchPanel import SearchPanel
+
+from geosings.ui.core.UIConst import *
+from geosings.ui.core.Document import *
+from geosings.ui.core.wxKeyParser import *
+from geosings.ui.commondlg.FeatureTabPanel import FeatureTabPanel
+from geosings.tools.GTTreePanel import GTTreePanel
+
+from Action import *
+from InputArea import InputArea
+from OutputArea import OutputArea
+from geosings.ui.gctrl.OutputArea import MapCanvasOutputArea
+from geosings.core.system.GLog import *
+
+
+class MainPanel(wx.Panel):
+    """程序主面板
+    """
+    class UpdatePanelHandler(OperHandler):
+        def __init__(self, ctrl):
+            OperHandler.__init__(self, ctrl)
+        def OnChar(self, evt):
+            self.ctrl.UpdateUI()
+    class FocusHandler(OperHandler):
+        def __init__(self, ctrl):
+            OperHandler.__init__(self, ctrl)
+        def OnLeftDown(self, evt):
+            self.ctrl.SetFocus()
+    def __init__(self, *args, **kwds):
+        """初始化面板
+        """
+        kwds["style"] = wx.TAB_TRAVERSAL
+        wx.Panel.__init__(self, *args, **kwds)
+
+        self.spwin = wx.SplitterWindow(self, -1, style=wx.SP_3D|wx.SP_BORDER)
+        #self.DataArea = DataListCtrl(self.spwin,self)
+        self.nb = wx.Notebook(self.spwin,  -1, size=(21,21),
+                #style=
+                             #wx.NB_TOP # | wx.NB_MULTILINE
+                             #wx.NB_BOTTOM
+                             #wx.NB_LEFT
+                             #wx.NB_RIGHT
+                             )
+        self.canvas = MapCanvas(self.spwin)#,self,self.CanvasOutput)
+        self.canvas.RegHandler(CharHandler(self.canvas))
+        self.canvas.RegHandler(MainPanel.UpdatePanelHandler(self))
+        self.canvas.RegHandler(MainPanel.FocusHandler(self))
+        self.canvas.RegHandler(MainPanel.FocusHandler(self.canvas))
+
+        self.output = MapCanvasOutputArea()
+        self.output.RegCtrl(self.canvas)
+        self.output.InitLayout()
+
+        self.DataArea = DataManagerCtrl(self.nb,self.canvas)
+        #self.spwin.win = self.DataArea
+        self.nb.AddPage(self.DataArea,_("Layers"))
+
+        self.Tools = GTTreePanel(self.nb, -1)
+        self.nb.AddPage(self.Tools, _("Tools"))
+
+        self.searchPanel = SearchPanel(self.nb,-1)
+        self.nb.AddPage(self.searchPanel, _("Search"))
+        
+        self.infoPanel = FeatureTabPanel(self.nb,False,-1)
+        self.nb.AddPage(self.infoPanel, _("Attribute"))
+
+        self.OutputArea = OutputArea(self)
+        self.OutputArea.mouseHandler.SetCanvas(self.canvas)
+        self.canvas.RegHandler(self.OutputArea.mouseHandler)
+
+        self.InputArea = InputArea(self, -1, "", style=wx.NO_BORDER)
+
+        self.toolbar = self.GetParent().GetToolBar
+        self.menubar = self.GetParent().GetMenuBar
+
+        self.__set_properties()
+        self.__do_layout()
+
+        self.SetMode(ModeKey.NoneMode)
+        self.canvas.SetFocus()
+
+    def __set_properties(self):
+        """设置属性
+        """
+        # begin wxGlade: MyPanel.__set_properties
+        #self.OutputArea.Enable(False)
+        self.InputArea.Enable(False)
+        # end wxGlade
+
+    def __do_layout(self):
+        """设置布局
+        """
+        # begin wxGlade: MyPanel.__do_layout
+        sizer_1 = wx.BoxSizer(wx.VERTICAL)
+        
+        self.spwin.SplitVertically(self.nb, self.canvas, 152)
+        sizer_1.Add(self.spwin, 1, wx.EXPAND, 0)
+        sizer_1.Add(self.OutputArea, 0, wx.EXPAND|wx.ADJUST_MINSIZE, 0)
+        sizer_1.Add(self.InputArea, 0, wx.EXPAND|wx.ADJUST_MINSIZE, 0)
+        self.SetAutoLayout(True)
+        self.SetSizer(sizer_1)
+        sizer_1.Fit(self)
+        sizer_1.SetSizeHints(self)
+        # end wxGlade
+
+    def EnableInput(self,able):
+        """使得输入（不）可用
+        @type able: bool
+        @param able: 使输入（不）可用
+        """
+        self.InputArea.Enable(able)
+        #print able
+        if able==True:
+            #print 'T'
+            self.InputArea.SetFocus()
+            self.InputArea.WriteText(':')
+        else:
+            #print 'F'
+            self.canvas.SetFocus()
+            self.InputArea.SetValue('')
+    def ExecMsg(self,msg):
+        """执行消息
+        @type msg: str
+        @param msg: 要执行的消息
+        """
+        if msg != '' and msg is not None:
+            try:
+                result = self.canvas.SendMessage(msg)
+            except GssException, e:
+                self.OutputMsg(e.GetMessage())
+                error(e.GetMessage())
+                return
+            if result==ActionResult.Failuse:
+                errmsg = mainDocument.ErrNo
+                self.OutputMsg(errmsg[1])
+            else:
+                self.UpdateDataList()
+
+    def OutputMsg(self,msg):
+        """输出消息
+        @type msg: str
+        @param msg: 输出的消息
+        """
+        self.OutputArea.SetMsg(msg)
+
+    #def PrintMouse(self,x,y):
+    #    """打印鼠标位置
+    #    @type x,y: number
+    #    @param x,y: 鼠标位置
+    #    """
+    #    self.OutputArea.PrintMouse( x,y )
+
+    def UpdateDataList(self):
+        """更新数据列表
+        """
+        self.DataArea.UpdateAll()
+
+    def SetMode(self,mode,updateToolAndMenu=True):
+        """设置模式
+        @type mode: L{geosings.ui.UIConst.ModeKey}
+        @param mode: 模式
+        @type updateToolAndMenu: bool
+        @param updateToolAndMenu: 是否要更新Toolbar和Menubar
+        """
+        #self.canvas.SetMode(mode)
+        debug("set mode")
+        hclass = GSSCONF['HANDLER_CONF'][mode]
+        if hclass is not None:
+            hobj = hclass(self.canvas)
+        else:
+            from geosings.ui.gmap.GOperHandler import NoModeHandler
+            hobj = NoModeHandler(self.canvas)
+        self.canvas.RegHandler(hobj)
+        self.UpdateUI()
+
+    def UpdateUI(self):
+        mode = self.canvas.moperh.GetMode()
+        self.OutputArea.PrintMode(modeMap[mode])
+        self.output.SetMode(modeMap[mode])
+        #if updateToolAndMenu:
+        tb = self.toolbar()
+        if tb is not None: tb.SetMode(mode)#self.GetParent().optid)
+        mb = self.menubar()
+        if mb is not None: mb.SetMode(mode)#self.GetParent().optid)
+        #print mode
+
+    def ReDrawCanvas(self):
+        """重新绘制画板
+        """
+        self.canvas.ReDraw()
+
+    #def EvtOrder(self,evt):
+    #    """键盘事件引发事件的分发函数
+    #    @type evt: wxEvent
+    #    @param evt: 键盘事件
+    #    """
+    #    kp = KeyParser(evt)
+    #    keycode = kp.keycode
+    #    keyname = kp.keyname
+    #    self.SentOrder(keyname,keycode)
+
+    def SentOrder(self, keyname="", keycode=0):
+        """命令分发
+        """
+        for oper in self.canvas.operh:
+            if isinstance(oper,CharHandler): 
+                oper.SentOrder(keyname, keycode)
+        self.UpdateUI()
+
+    #def SentOrder(self,keyname="",keycode=0):
+    #    """命令分发
+    #    @type keyname: str
+    #    @param keyname: 命令名
+    #    @type keycode: int
+    #    @param keycode: 命令码
+    #    """
+    #    #from UISettings import MSGKEY
+    #    from geosings.core.system.GssConfDict import GSSMSGS as MSGKEY
+    #    if keycode==58:# ':' input the order
+    #        self.EnableInput(True)
+    #    elif keycode==27 or keyname==MSGKEY["MSG_KEY_DRAW"]:
+    #        self.canvas.ReDraw()
+    #    elif keyname==MSGKEY["MSG_KEY_FULL"]:
+    #        self.canvas.ZoomToAll()
+    #    elif keyname==MSGKEY["MSG_KEY_MODE_PAN"] \
+    #            or keyname==MSGKEY["MSG_KEY_LEFT"] \
+    #            or keyname==MSGKEY["MSG_KEY_RIGHT"] \
+    #            or keyname==MSGKEY["MSG_KEY_UP"] \
+    #            or keyname==MSGKEY["MSG_KEY_DOWN"]:
+    #        self.SetMode(ModeKey.PanMode)
+    #        if keyname!=MSGKEY["MSG_KEY_MODE_PAN"]:
+    #            self.canvas.Pan(keyname)
+    #    elif keyname==MSGKEY["MSG_KEY_MODE_ZOOMIN"]: #大写表示放大
+    #        self.SetMode(ModeKey.ZoomInMode)
+    #    elif keyname==MSGKEY["MSG_KEY_MODE_ZOOMOUT"]: #小写表示缩小
+    #        self.SetMode(ModeKey.ZoomOutMode)
+    #    elif keyname == MSGKEY["MSG_KEY_MODE_NO"]:
+    #        self.SetMode(ModeKey.NoneMode)
+    #    elif keyname == MSGKEY["MSG_KEY_MODE_INFO"]:
+    #        self.SetMode(ModeKey.InfoMode)
+    #    elif keyname == MSGKEY["MSG_KEY_AIM"]:
+    #        self.canvas.Aim((133,170,150,100))
+
+mainPanel = None
+
+def CreateMainPanel(*args,**kwds):
+    """创建主面板
+    """
+    global mainPanel
+    mainPanel = MainPanel(*args,**kwds)
+    return mainPanel
+
+def GetMainPanel():
+    """获取主面板
+    """
+    global mainPanel
+    return mainPanel

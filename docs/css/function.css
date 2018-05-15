@@ -1,0 +1,83 @@
+table.fun_table
+{
+  margin-left:30px;
+  background-color: #F4EEFD;
+  width : 800px;
+}
+#htitle
+{
+	text-align: center;
+}
+table.fun_tab_desc
+{
+  background-color: #F4EEFD;
+  border-width : 1px;
+  border-style : solid;
+  padding : 7px;
+  text-indent : 4;
+  font-weight : bold;
+}
+
+tr.fun_tab_head
+{
+  background-color: #D9C0F2;
+}
+th.fun_tab_head
+{
+  border-color : black;
+  border-width : 1px;
+  border-top-style : solid; 
+  border-bottom-style:solid
+}
+
+td.fun_tab_data
+{
+  vertical-align:top;
+  background-color: #F4EEFD;
+  border-color : #D9C0FF;
+  border-top-width : 1px;
+  border-top-style : solid; 
+}
+td.fun_desc
+{
+}
+
+
+table.tab_parameter
+{
+   margin-left:50px;
+  width : 750px;
+}
+
+td.tab_parameter_name
+{
+  vertical-align:top;
+  font-weight : bold;
+  width : 18%
+}
+
+td.tab_parameter_desc
+{
+  
+}
+
+#etab
+{
+	width: 100%;
+}
+
+#ereta
+{
+	width: 50%;
+	text-align: right;	
+}
+
+#etit
+{
+	width: 50%;
+	text-align: left; 
+}
+
+
+
+

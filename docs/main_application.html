@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+  
+  
+  <title>数据模型</title>
+  <style type="text/css">
+    @import url("css/function.css");
+  </style>
+</head>
+
+
+
+<body>
+
+
+ 
+
+
+<h1 id="htitle">geosings, 主程序操作说明</h1>
+ 
+<a href="index.html">返回主索引</a>
+<hr><!--"----------------------------------------"-->
+<h1><a href="geosings_main_application"></a>主程序操作说明</h1>
+
+<p>"九形"的主程序叫&ldquo;火尖枪&rdquo;。名字取于哪吒手中的主要武器－－那条红缨枪。长枪的设计是简洁明了的且威力强大。虽然貌不
+惊人且不那么易学易用，但是练好了管用高效，出招令人防不胜防，真是居家旅行，杀人越货必备良&hellip;&hellip;^_^
+呵呵，扯远了。不过九形的主程序就是这个设计思路。一要简洁，二要潜在地强大。
+</p>
+
+<p>
+geosings的主程序看起来像下面这样。<br>
+
+</p>
+
+<center>
+<img src="image/main_application.png" name="img_main_application" alt="main_app" align="middle" height="570" width="730">
+</center>
+
+<p>
+这是一个仿gvim的界面，操作也比较相似。
+</p>
+
+
+<p>可以看到，整个界面被分成四个大的部分。其中，A区域是主窗口，里面显示实际地图和一些信息。B区域是数据列表，可以通过操作数据列表来达到添加删
+除调整数据集顺序等操作。C区域是状态栏。显示当前的一些状态信息。而D区域是命令输入栏。可以通过输入命令来控制和操纵整个应用程序（包括主程序界面和
+其中的数据）
+</p>
+
+<p>
+后续版本可能添加可定制的菜单和工具栏，但肯定不会是主要操作方式。因为菜单和工具栏的添加肯定会增加gui设置的复杂度。令整个框架臃肿和难以扩展。
+</p>
+
+
+<p>主程序延续了gvim的操作习惯甚至键位。下面是操作指南：
+</p>
+
+<h2>geosings主程序键位表</h2>
+
+(以下的键位在geosings.ui.PyMainPanel.MainPanel.EvtOrder方法中调用，默认值可以在<a href="gss_ui/geosings.ui.MsgKeyWord.MsgManager-class.html">geosings.ui.MsgKeyWord.MsgManager</a>找到，注意，命令分大小写)<br>
+<br>
+另外，还需要注意的是，这些命令<span style="color: rgb(255, 0, 0); font-weight: bold;">可以被修改</span>，可以按造你自己的习惯定制。具体方法请察看<a href="usrconf.html">这里</a>。<br>
+
+<table class="fun_table">
+
+  <tbody>
+    <tr>
+
+    <td class="fun_tab_data" width="10%">ESC</td>
+
+    <td class="fun_tab_data" width="90%">在任何时候按下ESC键，就可以把焦点转移到全局。</td>
+
+  </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">:</td>
+
+    <td class="fun_tab_data" width="90%">在默认情况下，命令输入区域都是不可编辑的。只有在焦点全局的情况下，按下了":"键，这时输入区域才会变为可编辑状态，等待输入。您这时可以输入<a href="order.html">控制命令</a>，将可以控制应用程序做出反映。如果在这时按下Esc键，焦点也会返回全局，并且清空命令区域中输入的命令，将区域重新变成不可写状态。如果把命令行删除，焦点也会返回全局。</td>
+
+  </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">d</td>
+
+    <td class="fun_tab_data" width="90%">取义于"draw"。在地理区域不动的状态下重新绘制当前的主窗口。</td>
+
+  </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">f</td>
+
+    <td class="fun_tab_data" width="90%">取义于"full"。显示全图。</td>
+
+  </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">n</td>
+
+    <td class="fun_tab_data" width="90%">取义于"no mode"。没有任何<a href="main_application.html#0001">模式</a>，也是程序初始状态模式。
+  </td>
+    </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">t</td>
+
+    <td class="fun_tab_data" width="90%">取义于"to"。切换到漫游<a href="main_application.html#0001">模式</a>，切换到漫游模式后，你可以用鼠标在主窗口单击，使鼠标点击的位置移动到窗口中心（类似mapserver，grass和pci的漫游模式）。
+  </td>
+    </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">Z</td>
+
+    <td class="fun_tab_data" width="90%">取义于"Zoom"。大写是说明放大。切换到放大<a href="main_application.html#0001">模式</a>，切换到放大模式后，你可以用鼠标在主窗口拖动出一个矩形，使矩形内的内容被放大到主窗口的程度。或者单击会扩大到原来的两倍。
+  </td>
+    </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">z</td>
+
+    <td class="fun_tab_data" width="90%">取义于"zoom"。小写是说明缩小。切换到缩小<a href="main_application.html#0001">模式</a>，切换到缩小模式后，你可以用鼠标在主窗口拖动出一个矩形，使主窗口的内容缩小到这个矩形的程度。或者单击会缩小到原来的两倍。
+  </td>
+    </tr>
+
+  <tr>
+
+    <td class="fun_tab_data" width="10%">q</td>
+
+    <td class="fun_tab_data" width="90%">取义于"query"。切换到选择询问<a href="main_application.html#0001">模式</a>，并且打开一个要素查询结果窗口。
+  </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<h2>备注</h2>
+
+<a name="0001"></a>
+  <b>模式：</b>
+在很多GIS软件中都有鼠标模式。即现在鼠标可以干什么。比如在放大的时候就只能放大，要漫游就需要有漫游开关，切换到漫游模式。本软件有几个模式
+&ldquo;无模式&rdquo;，&ldquo;漫游模式&rdquo;，&ldquo;放大模式&rdquo;，&ldquo;缩小模式
+&rdquo;，分别用n,t,Z,z键来控制切换。<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<hr><!--"----------------------------------------"-->
+<br>
+
+<table id="etab">
+
+	<tbody>
+    <tr>
+      <td id="etit">geosings, 主程序操作说明</td>
+
+	<td id="ereta"><a href="index.html">返回主目录</a></td>
+
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

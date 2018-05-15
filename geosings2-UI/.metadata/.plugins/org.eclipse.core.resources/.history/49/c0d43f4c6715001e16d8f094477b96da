@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%">
+
+<mx:Script>
+<![CDATA[
+	import mx.controls.Alert;
+
+	import mx.collections.XMLListCollection;
+	import geosings2.dialogs.TalkDlg;
+	
+	[Embed(source="../resources/images/geosings.png")]
+	[Bindable]
+	public var Image1:Class; 
+	
+	[Bindable]
+            private var company:XML =
+
+              <list>
+                <department title="Finance" code="200">
+                    <employee name="John H"/>
+                    <employee name="Sam K"/>
+                </department>
+                <department title="Operations" code="400">
+                    <employee name="Bill C"/>
+                    <employee name="Jill W"/>
+                </department>                    
+                <department title="Engineering" code="300">
+                    <employee name="Erin M"/>
+                    <employee name="Ann B"/>
+                </department>                                
+              </list>;
+            
+            [Bindable]
+
+            private var companyData:XMLListCollection = new XMLListCollection(company.department);
+            
+            private var parentWin:MainPanel;
+            public function setParent(parentWin:MainPanel):void{
+            	this.parentWin = parentWin;
+            }
+            
+            private function treeLabel(item:Object):String
+            {
+				
+                var node:XML = XML(item);
+               // Alert.show(node.localName());
+                if( node.localName() == "department" )
+
+                    return node.@title;
+                else
+                    return node.@name;
+            }
+            private function itemdclick(event:Event):void
+            {
+            	var node:XML = XML(tree.selectedItem);
+                //Alert.show(node.@name);
+                var win1:TalkDlg = this.parent.parent.getTalkDlg();
+				win1.advOpen(node.@name);
+				win1.move(500,50)
+            }
+            private function addEmployee():void
+
+            {
+                var newNode:XML = <employee/>;
+                //newNode.@name = empName.text;
+                var dept:XMLList =company.department.(@title == "Operations");
+                if( dept.length() > 0 ) {
+
+                    dept[0].appendChild(newNode);
+                    //empName.text = "";
+                }
+            }
+
+            private function removeEmployee():void
+            {
+                var node:XML = XML(tree.selectedItem);
+                if( node == null ) return;
+                if( node.localName() != "employee" ) return;
+            
+                var children:XMLList = XMLList(node.parent()).children();
+                for(var i:Number=0; i < children.length(); i++) {
+
+                    if( children[i].@name == node.@name ) {
+                        delete children[i];
+                    }
+
+                }
+            }
+
+
+]]>
+ 
+</mx:Script>
+
+	<mx:VBox x="0" y="0" width="100%" height="100%">
+		<mx:HBox width="100%">
+			<mx:Image source="{Image1}"/>
+			<mx:Label text="Label" width="100%" height="100%"/>
+		</mx:HBox>
+		<mx:Tree id="tree"  width="100%" height="100%" 
+			dataProvider="{companyData}" 
+			labelFunction="treeLabel"
+			itemDoubleClick="itemdclick(event)"
+ doubleClickEnabled="true"></mx:Tree>
+	</mx:VBox>
+	
+</mx:Canvas>

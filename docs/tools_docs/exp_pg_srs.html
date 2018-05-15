@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>导出PostGIS的所有预定义空间参考的wkt表达</title>
+
+
+  <style type="text/css">
+@import url("../css/function.css");
+  </style>
+</head>
+
+
+
+<body>
+
+<h1 id="htitle"> 导出PostGIS的所有预定义空间参考的wkt表达 </h1>
+
+<a href="../index.html">返回主索引</a>
+<hr><!--"----------------------------------------"-->
+<p>PostGISSrsExp是一个把PostGIS所有空间参考导出的工具。该工具由linux_23(李林)编写。</a>。</p>
+
+<p>实用类：<a href="../gss_tools/geosings.tools.PostGISSrsExp.PostGISSrsExp-class.html">geosings.tools.PostGISSrsExp.PostGISSrsExp</a></p>
+
+<p>UI控制面板类：<span style="text-decoration: underline;"><a href="../gss_tools/geosings.tools.ui.PostGISSrsExpUI.PostGISSrsExpUI-class.html">geosings.tools.ui.PostGISSrsExpUI.PostGISSrsExpUI</a></span><a href="../gss_tools/geosings.tools.ui.Ogr2ogr4intoMySQLUI-module.html"></a></p>
+
+<p>运行主界面如下：</p>
+
+<p><img style="width: 400px; height: 492px;" alt="" src="../image/exp_pg_srs.jpg"></p>
+
+<p>主界面分为四个部分。一个是图层输入面板，一个是控制参数面板，一个是图层输出面板。一个是过程输出显示面板。</p>
+
+<p><a href="inputPanel.html">图层输入面板</a>和<a href="outputPanel.html">图层输出面板</a>的介绍可以看链接文档。最主要的核心在于控制
+面板。</p>
+
+<h2>控制面板参数</h2>
+
+
+<p></p>
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="width: 192px;">PostgreSQL主程序路径<br>
+      </td>
+
+      <td style="width: 402px;">psql所在的路径（可选）<br>
+		这个是设置PostgreSQL主程序路径，以便程序可以认到psql程序。如果你将PostgreSQL的bin目录设置成PATH，系统可以自动认到的话，就可以放空这个选项。如果没有，就填入那个bin目录的路径。
+	</tr>
+
+    <tr>
+      <td style="width: 192px;">主机<br>
+      </td>
+      <td style="width: 402px;">主机名（可选）<br>
+		这个是设置PostgreSQL所在主机，默认是本机，可以不填。
+	</tr>
+
+    <tr>
+      <td style="width: 192px;">端口号<br>
+      </td>
+      <td style="width: 402px;">端口号（可选）<br>
+		这个是设置PostgreSQL所在主机的服务端口号，默认是PG默认的端口，如果没有改变，可以不填。
+	</tr>
+
+    <tr>
+      <td style="width: 192px;">用户名<br>
+      </td>
+      <td style="width: 402px;">用户名<br>
+		这个是设置PostgreSQL操作用户用户名（必须填写）。
+	</tr>
+
+    <tr>
+      <td style="width: 192px;">密码<br>
+      </td>
+      <td style="width: 402px;">操作密码<br>
+		这个是设置PostgreSQL操作用户所用密码（必须填写）。
+	</tr>
+
+    <tr>
+      <td style="width: 192px;">PostGIS数据库名<br>
+      </td>
+      <td style="width: 402px;">空间参考存在的数据库（有建立PostGIS模板的数据库）<br>
+		没有默认（必须填写）。
+	</tr>
+
+  </tbody>
+</table>
+
+<h2>输出</h2>
+
+
+<p>请注意：我们将把空间参考导出到一个目录中，不需要设置文件名。但是如果你设置了输出文件名，将只导出一个包含所有空间参考的文件(还包含epsg和proj表示)。</p>
+
+<p></p>
+
+<hr><!--"----------------------------------------"--><br>
+
+<table id="etab">
+
+  <tbody>
+
+    <tr>
+
+      <td id="etit">geosings, RasterSpliter</td>
+
+      <td id="ereta"><a href="../index.html">返回主目
+录</a></td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+</body>
+</html>

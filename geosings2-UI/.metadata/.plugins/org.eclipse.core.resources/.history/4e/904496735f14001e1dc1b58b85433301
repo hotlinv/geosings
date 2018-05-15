@@ -1,0 +1,14 @@
+package dialogs
+{
+	import mx.core.Window;
+
+	public class MyWindow extends Window
+	{
+		public function MyWindow()
+		{
+			//TODO: implement function
+			super();
+		}
+		
+	}
+}

@@ -1,0 +1,106 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+"""
+该模块定义九形workstation
+
+ - writer:linux_23; create: 2008.4.10; version:1; 创建
+
+"""
+import threading, wx
+from geosings.ui.gmap import MapCanvas, OperHandler, CharHandler
+from geosings.core.system.GLog import *
+
+app = wx.PySimpleApp(0)
+class WorkStation(threading.Thread):
+    def __init__(self):
+        threading.Thread.__init__(self)
+        self.frame = mainframe = wx.Frame(None, -1, "")
+        self.canvas = MapCanvas(mainframe)
+        self.canvas.RegHandler(CharHandler(self.canvas))
+        sizermain = wx.BoxSizer(wx.VERTICAL)
+        sizermain.Add(self.canvas, 1, wx.EXPAND, 1)
+        mainframe.SetAutoLayout(True)
+        mainframe.SetSizer(sizermain)
+        mainframe.Layout()
+        mainframe.SetSize((600,400))
+
+    def run(self):
+        print '\n*******************************************'
+        print '*         cool geosings workstation       *'
+        print '*******************************************\n'
+        app.SetTopWindow(self.frame)
+        self.frame.Show()
+        app.MainLoop()
+        print 'exit workstation...\n'
+
+    def GetCanvas(self):
+        return self.canvas
+
+    def __getattr__(self, name):
+        """让用户可以透过线程层调用canvas的函数或方法
+        """
+        return getattr(self.canvas, name)
+
+    def exit(self, exitsys=False):
+        if not self.isAlive():
+            if exitsys:
+                from sys import exit
+                exit(0)
+            else:
+                return
+
+        self.canvas.Destroy()
+        self.frame.Show(False)
+        self.frame.DestroyChildren()
+        self.frame.Destroy()
+        self.app.ExitMainLoop()
+        if exitsys:
+            from sys import exit
+            exit(0)
+
+#ws = WorkStation()
+
+class WS:
+    def __init__(self):
+        pass
+    def callws(self):
+        frame = mainframe = wx.Frame(None, -1, "")
+        self.canvas = canvas = MapCanvas(mainframe)
+        canvas.RegHandler(CharHandler(canvas))
+        sizermain = wx.BoxSizer(wx.VERTICAL)
+        sizermain.Add(canvas, 1, wx.EXPAND, 1)
+        mainframe.SetAutoLayout(True)
+        mainframe.SetSizer(sizermain)
+        mainframe.Layout()
+        mainframe.SetSize((600,400))
+        self.frame = mainframe
+        app.SetTopWindow(frame)
+        frame.Show()
+        app.MainLoop()
+    def __getattr__(self, name):
+        """让用户可以透过线程层调用canvas的函数或方法
+        """
+        return getattr(self.canvas, name)
+
+    def resize(self, size):
+        """重新调整窗口大小
+        """
+        self.frame.SetSize(size)
+        self.frame.Layout()
+
+    def start(self):
+        ws = threading.Thread(target=self.callws,args = [])
+        ws.start()
+
+def screen2img(canvas, oTifPath):
+    from geosings.ui.core.wxDC import MemDCClass
+    map = canvas.map
+    rect = canvas.GetClientRect()
+    dcobj = MemDCClass(rect.GetWidth(),rect.GetHeight())
+    dc = dcobj.GetMemDC()
+    canvas.Draw(dc, canvas.geoext)
+    dcobj.SaveImage(oTifPath)
+    dcobj.SaveGeoInfo(canvas.geoext,oTifPath)
+
+ws = WS()
+

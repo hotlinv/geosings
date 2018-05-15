@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	 initialize="init();">
+	 
+	 <mx:Style>
+	 	
+	 	.map{
+	 		backgroundColor:#ffffff;
+	 	}
+	 </mx:Style>
+<mx:Script>
+	<![CDATA[
+		
+		public function init():void{
+		var gc: Graphics = map.graphics;
+		
+		gc.beginFill(0xFFCC00);
+		gc.drawCircle(-40, 0, 40);
+
+		}
+	]]>
+</mx:Script>
+<mx:Canvas width="100%" height="100%">
+	<mx:Canvas x="68" y="75" width="200" height="200" id="map" styleName="map">
+	</mx:Canvas>
+	</mx:Canvas>
+	
+</mx:Application>

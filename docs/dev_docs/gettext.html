@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		i18n
+	</title>
+	<style type="text/css">
+		@import url("../css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		i18n
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+<p>九形是支持gettext的。也就是支持多语言版本。也就是你可以把菜单，界面等定义为中文界面或者其他语言的界面。而且你可以不用更改代码。就算是使用非源码版的系统，你也可以轻松定义自己的界面用语。
+</p>
+
+<p>gettext的原理很简单，就是把一个字符串代替成另外语言的字符串而已（这些字符串的对应关系是用一个文件来定义的）。在$GEOSINGS_HOME/pymod/geosings/locale目录下有个zh_CN的目录(这个目录下放着中文界面翻译字符串对)。这里面放着四个文件。geosings.po、geosings.mo、gsserr.mo以及gsserr.po。其中po扩展名定义的就是不同语言字符串的翻译对应关系。打开它，就会发现有一大堆的对应表。其中msgid一般是英文界面，而msgstr就是对应中文解释。在程序作用下就会自动把英文的界面用中文来代替。这样就完成了多语言版本的工作。而两个mo文件就是对po文件的编译，相当于一个数据库。一般来说，二进制操作总是比字符串处理来得快速。所以编译成一个mo会提高界面语言替代的速度。
+</p>
+
+<p>可以看到，我们把gettext工作分别放在两个文件中处理。geosings处理界面的i18n，gsserr处理出错信息的i18n，为了让我们可以有更好的错误界面，我单独设置了gsserr模块。
+</p>
+
+<p>要提醒的是，在po文件中的字符对应关系没有逻辑上的必然联系(也就是说如果你乱翻译，系统也不会报错，只不过是字符串替代)。所以你要改成个搞笑版也是很容易的（不妨改改看:)）。不过改好后，你需要重新编译对应的mo文件，使得界面可以认到你的改动。不会？没关系。在locale文件夹下有一个locale_install.py文件，运行它，就可以进行自动编译了（windows和linux都可以正常编译）。不过<b>注意:</b>编译前需要你<b>手动删除对应的mo文件</b>，不然程序查找存在mo文件，就会<b>自动略过，不进行编译</b>！
+</p>
+
+<p>处理i18n的脚本在geosigns.core.UseGetText中，如果你要在扩展九形功能的时候想使用九形的gettext系统把界面翻译成中文。那么好了，只要做两步，一步在你的py文件头上添加<br>
+<p><b>import geosings.core.UseGetText</b></p>
+然后把你要翻译的文本写成这样：<br>
+<p><b>print _("asdfsadf") #asdfsadf需要定义在geosings.po文件中</b></p>
+或者这样：<br>
+<p><b>print E("asdfasdf") #asdfasdf需要定义在gsserr.po文件中</b></p>
+总之_()这种形式是需要把翻译对定义在geosings.po文件中，E()这种形式是需要把翻译对定义在gsserr.po文件中的。比如你这样定义geosings.po<br>
+<p>
+<b>msgid "asdfsadf"<br></b>
+<b>msgstr "哇，九形好好玩！"<br></b>
+</p>
+于是使用print _("asdfsadf")就会打印出“哇，九形好好玩”这几个字<br>
+什么？不行？检查下你的geosings.po有没有那对msgid,msgstr，然后再删掉你的geosings.mo，运行locale_install.py
+</p>
+
+<p>最后，gettext默认是选择你的系统locale名来进行翻译配置的(locale.getdefaultlocale()[0])，你如果不喜欢，比如你要在英文系统上用中文的九形，你就不得不配置你的.gssrc，让GSSCONF["LOCALE"]="zh_CN"，另外你准备翻译你的界面为其他文字(现在只有中文简体)，比如火星文:)，你就在你的locale文件夹下添加一个火星的目录(必须和火星locale名一致)，然后编写自己的两个po文件，然后编译成mo。打开九形，你现在可以和火星的朋友讨论一下深奥的GIS问题了！
+</p>
+
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, i18n</td>
+	<td id='ereta'><a href='../index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

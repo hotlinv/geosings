@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		风火轮数据生成
+	</title>
+	<style type="text/css">
+		@import url("css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		“风火轮”数据的生成
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+<h3>风轮的数据生成</h3>
+<p>风轮数据生成分为两种，一种是矢量数据生成。一种是栅格数据生成。使用到了两个脚本。都在funhoo的tool文件夹下。一个叫InitRasterPyramid.py,一个叫MakeShpPyramid.py。生成栅格数据是用InitRasterPyramid模块中的RasterPyramidBuilder类。矢量数据生成其实是使用PILImgDC类。而MakeShpPyramid实际上只是展示一下使用方法而已。两个脚本都可以设置A值，使得RGBA颜色透明。所以可以多层叠加。栅格是使用如下面的两句:<br />
+builder.SetA(255)<br />
+builder.SetColorModel('RGBA')<br />
+矢量是使用如下面的两句:<br />
+dc.SetFillColour((100,100,0,100))<br />
+dc.SetColorModel('RGBA')<br />
+</p>
+<p>用脚本生成数据后，都是一个个单独的文件夹。把文件夹放到funhoo的install.py提示输入的数据路径下，然后还要做一步，就是在数据路径下添加一个文件layers.conf(注意文件名一定要用layers.conf)，里面的内容就是几个要显示的图层名，并用回车分割。
+</p>
+<p>这样还不算完，还需要生成一个空间投影坐标描述（wkt）文件。这个可以使用tool文件夹下的ProjCSExporter模块中的ExportProjCS类生成。你可以使用任何一个你需要显示的栅格图层来生成投影描述（这个文件是必须的，并且文件名一定要用layers.prj）。
+</p>
+<p>需要解释的是，现在InitRasterPyramid还只能处理8位RGB3波段的图像。其他图像还没法处理。而且MakeShpPyramid只能处理线和面类型图层，对于点图层还没有实现。
+</p>
+<h3>火轮的数据生成</h3>
+<p>火轮暂时没有数据生成步骤，不过需要在数据文件路径下添加一个叫"3d"的文件夹罢了。
+</p>
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, 风火轮数据生成</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

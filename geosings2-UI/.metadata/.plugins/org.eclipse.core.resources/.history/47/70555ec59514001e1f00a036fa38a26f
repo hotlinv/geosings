@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%">
+	<mx:VBox width="100%" height="100%">
+		<mx:HTML width="100%" height="304"/>
+		<mx:HSlider width="100%"/>
+		<mx:RichTextEditor  width="100%" title="Title">
+		</mx:RichTextEditor>
+	</mx:VBox>
+	
+	
+</mx:Canvas>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>导出PostGIS的所有预定义空间参考的wkt表达</title>
+
+
+  <style type="text/css">
+		@import url("../css/function.css");
+  </style>
+</head>
+
+
+
+<body>
+
+<h1 id="htitle"> 导出PostGIS的所有预定义空间参考的wkt表达 </h1>
+
+<a href="../index.html">返回主索引</a>
+<hr><!--"----------------------------------------"-->
+<p>SetCoorSys是一个设置矢量栅格数据空间参考的工具（不是配准，只是设置坐标系）。该工具由linux_23(李林)编写。</a>。</p>
+
+<p>实用类：<a href="../gss_tools/geosings.tools.SetCoorSys-module.html">geosings.tools.SetCoorSys.*</a></p>
+
+<p>UI控制面板类：<span style="text-decoration: underline;"><a href="../gss_tools/geosings.tools.ui.SetCoorSysUI.SetCoorSysUI-class.html">geosings.tools.ui.SetCoorSysUI.SetCoorSysUI</a></span><a href="../gss_tools/geosings.tools.ui.Ogr2ogr4intoMySQLUI-module.html"></a></p>
+
+<p>运行主界面如下：</p>
+
+<p><img style="width: 400px; height: 492px;" alt="" src="../image/setcoorsys.jpg"></p>
+
+<p>主界面分为四个部分。一个是图层输入面板，一个是控制参数面板，一个是图层输出面板。一个是过程输出显示面板。</p>
+
+<p><a href="inputPanel.html">图层输入面板</a>和<a href="outputPanel.html">图层输出面板</a>的介绍可以看链接文档。最主要的核心在于控制
+面板。</p>
+
+<h2>控制面板参数</h2>
+
+
+<p></p>
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="width: 192px;">坐标系统文件<br>
+      </td>
+
+	  <td style="width: 402px;">坐标系统的wkt表达文件（Prj文件）<br>
+		  在$GSS_HOME的srs目录下有PostGIS中预定义所有的坐标系统文件（需要用7zip解压），其中包含了大多数常用的坐标系统，几乎够用了。
+	  </td>
+
+	</tr>
+
+  </tbody>
+</table>
+
+<h2>输出</h2>
+
+
+<p>请注意：由于矢量数据不支持直接设置坐标系统，所以只能使用拷贝数据集来做，所以我们需要把设置了坐标系统的文件直接拷贝到另外一个文件夹下。这里的输入可以使用多个图层，输出只要指定与输入图层所在文件夹不同的文件夹就可以。不需要指定输出数据集名称（指定了也没用）。输出是和输入不同文件夹下的同名文件。如果输入和输出指定同一个文件夹，则会出错。</p>
+
+<p></p>
+
+<hr><!--"----------------------------------------"--><br>
+
+<table id="etab">
+
+  <tbody>
+
+    <tr>
+
+      <td id="etit">geosings, RasterSpliter</td>
+
+      <td id="ereta"><a href="../index.html">返回主目
+录</a></td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+</body>
+</html>

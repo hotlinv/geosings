@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>
+  	安装
+  </title>
+	<style type="text/css">
+        @import url("css/function.css");
+    </style>
+</head>
+<body>
+    <h1 id='htitle'>geosings，安装</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+<h2>安装</h2>
+因为九形是用Python语言写成的，所以首先不用说了，安装九形首先需要安装<a href="#python">Python2.4解释器</a>。这里需要提醒<b>注意</b>的是：安装<b>ArcGIS9.1</b>的用户，因为ArcGIS9.1使用了Python2.1解释器和相应的Pywin32模块作为一个小功能模块，而九形使用的是Python2.4版本，解释器版本转换是需要修改注册表的。为了避免麻烦，可以新建一个用户，然后用新用户登陆，在安装Python2.4解释器的时候，选择只为当前用户安装选项，这样就不会影响到同机的ArcGIS9.1。另外，如果你使用的是ArcGIS8或者更早的版本，就不用关心上面所写的事情，因为ArcGIS9.1版本前根本不用Python。而如果你是ArcGIS9.2的用户，你也不用关心。因为ArcGIS9.2用得就是Python2.4版本的解释器，和九形用的是同一个版本。而且九形不用Pywin32的模块，所以和ArcGIS9.2不冲突。当然其他不用Python的GIS软件就完全不用担心任何事情。下载，双击，next吧！
+  <br />
+  <h3>安装核心模块</h3>
+  <p>核心模块需要安装以下几个软件包：
+  <br /><a href="#pygdal">PyGDAL2.4.3</a>, <a href="#PIL">PIL</a>, <a href="#numeric">Numeric</a>
+  </p>
+  <p>在安装了这几个Python软件包后，只要设置环境变量PYTHONPATH指向geosings目录下的pymod目录就可以了。这样，你就可以在python程序中使用核心模块了，注意，是核心模块，没有GUI界面，你可以将其作为开发包来用。设置环境变量可以参考<a href="tips.html#set">这里</a>。
+  </p>
+  <h3>主界面火尖枪的安装</h3>
+  <p>在安装核心模块后，是不能运行主界面的。九形采用wxwidgets作为默认界面，所以你需要安装<a href="#wx">wxpython软件包</a>。(当然如果你觉得wx的界面不好看，qt或许更好，你可以帮忙开发qt界面)，安装了wxpython界面库后，才可以运行geosings的主界面"火尖枪"。
+  </p>
+  <br />
+  <h2>其他安装</h2>
+  <br />
+  <h3>API文档生成</h3>
+  <p>九形是自动生成API文档的，如javadoc和doxygen那样。当然在打包的时候可能已经生成后再打包。不过你也可以自己生成。九形采用epydoc来生成API文档。如果你要自己生成文档，则需要安装<a href="#epydoc">epydoc</a>。生成方法是运行runGeosings.py然后键入命令mkdoc生成文档，具体操作请察看<a href="runGeosings.html">这里</a>。</p>
+  <br />
+  <h3>风火轮网络应用安装</h3>
+  <p>安装风火轮，要让风火轮能使用，你需要安装下面几个软件包：<br />
+  <a href="#pysqlite">pysqlite2</a>,<a href="#django">django</a>(如果你只想体验平面2D地图，这两个就够了)<br />
+  <a href="#pyopengl">PyOpenGL</a>,<a href="#ctypes">ctypes</a>(如果你想体验3D地图，除了上面两个包，还要这两个)<br />
+  </p>
+  <p>只要运行funhoo目录下的install.py脚本就可以完成安装。它主要做两件事。一个是生成funhoo.config文件。这个文件是定义funhoo的数据所在路径。一个是生成后台数据库。脚本运行后首先会提示你要输入数据存放的路径（只要是路径就好，不一定里面有数据）。然后就生成数据库。生成数据库会提示你开通用户和设定密码等等。当然如果用sqlite数据库，不输入也可以。但是其他的后台数据库应该有这一步的输入。
+  </p>
+  <p>要解释的是：风火轮有2D和3D之分。2D的核心在运行install.py后就没有什么问题。但是3D做离屏渲染有两套方案。一套是C++的swig绑定，一套是用ctypes写成的纯Python脚本。现在默认是使用ctypes的方案。因为不需要额外的安装，也不需要做令人恐惧的C++编译。但是似乎C++版本绑定的运行速度会快于ctypes的方案。现在先保留swig的方案，以供选择。
+  </p>
+  <p>最后，风火轮在安装后不能马上使用。要有数据支持。数据生成看<a href="funhoo_data_create.html">风火轮数据生成</a>
+  </p>
+
+<hr /><!--"----------------------------------------"-->
+  <br />
+  <h2>主要依赖库列表</h2>
+  <br />
+  <h3><a name="python" href="http://www.python.org">python解释器</a></h3>
+  <p>由于“九形”软件是使用<a href="http://www.python.org">python</a>建立起来的。所以你首先需要安装python解释器。当前使用的python的版本为2.4。强烈建议安装后立刻把Python的安装目录设置到环境变量PATH路径下，因为设置后可以在任何地方运行Python解释器。设置环境变量的方法可以看<a href="tips.html#set">这里</a>。
+  </p>
+  <h3><a name="pygdal" href="http://www.gdal.org/">gdal，ogr库</a></h3>
+  <p>这个库是基本的数据格式读取库。它可以读取大多数流行的栅格和矢量数据，因为模型很标准，矢量格式直接是OGC的标准，所以软件不单读取数据用它，就连dataset等模型也直接基于它。它的安装可以参考<a href="http://wiki.woodpecker.org.cn/moin/lilin/gdal-introduce">这里</a>，另外，在<a href="http://www.cnforge.org/modules/xfmod/project/showfiles.php?group_id=1047&release_id=56&dl=80">这里</a>我还放了个编译好的PyGDAL的win32版安装程序，包括gdal,ogr,geos,proj4,hdf4,postgis，不过用这个版本需要先安装PostgreSQL8.1，并把PostgreSQL安装目录下的bin目录设到PATH环境变量中。关于环境变量的设置看<a href="tips.html#set">这里</a>。
+  </p>
+  <h3><a name="numeric" href="http://numpy.scipy.org/">Numeric库</a></h3>
+  <p>注意，是<b>Numeric</b>，而不是Numarray或者NumPy。这是一个用于矩阵计算的python模块。主要用在栅格的数据处理。windows下可以直接下载后安装，linux下可以编译源码，或者直接用包安装(现在几乎所有linux系统都提供它的二进制安装包)。下载地址在<a href="http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=1351">这里</a>。
+  </p>
+  <h3><a name="wx" href="http://www.wxpython.org/">wxPython界面库</a></h3>
+  <p>这是主界面的界面库。于要用在ui模块中。如果你想用geosings默认的界面能运行的起来的话就需要安装这个库的python绑定（注意，只是python绑定，不是wxWidgets库的C++版本）。下载地址在<a href="http://www.wxpython.org/download.php">这里</a>。
+  </p>
+  <h3><a name='PIL' href="http://www.pythonware.com/products/pil/">PIL(Python图像库)</a></h3>
+  <p>这是一个Python处理图像的库。和GDAL类似，但它是纯粹处理不带空间信息的图像（图片）的，其更专著于图像的处理和操作。win32系统1.1.6版本下载地址在<a href="http://effbot.org/downloads/PIL-1.1.6.win32-py2.4.exe">这里</a>。
+  </p>
+  <h2>可选的依赖列表</h2>
+  <h3><a name="epydoc" href="http://epydoc.sourceforge.net/">epydoc</a></h3>
+  <p>这是用于自动生成九形的API文档的一个应用工具。如果你要看完整的API，则需要安装这个。下载地址在<a href="http://sourceforge.net/project/showfiles.php?group_id=32455">这里</a>。
+  </p>
+  <h3><a name="pysqlite" href="http://initd.org/tracker/pysqlite">pysqlite2</a></h3>
+  <p>风火轮的后台数据库是使用sqlite数据库。如果你不想使用sqlite数据库，或者不想运行风火轮服务，可以不安装。当然，你可以在风火轮后台使用其他数据库。不过你就需要安装django所要求的对应数据库驱动。下载地址在<a href="http://initd.org/pub/software/pysqlite/releases/2.0/2.0.3/pysqlite-2.0.3.win32-py2.4.exe">这里</a>。
+  </p>
+  <h3><a name="pyopengl" href="http://pyopengl.sourceforge.net/">PyOpenGL</a></h3>
+  <p>这是用于3D渲染的模块。现在是运用于风火轮的hoo服务3D图像渲染。如果你不想使用hoo服务就没有必要安装。下载地址在<a href="http://sourceforge.net/project/showfiles.php?group_id=5988&package_id=6035">这里</a>。另外您还需要注意OpenGL的库是否全面，比如win32下检查是否安装glut32.dll(glut是必须安装的)。Linux下检查Mesa是否安装以及相应的GLUT库。
+  </p>
+  <h3><a name="ctypes" href="http://sourceforge.net/projects/ctypes/">ctypes</a></h3>
+  <p>这是用于直接调用C库的Python库，现在九形用它来进行3D模块的系统相关调用。下载地址在<a href="http://downloads.sourceforge.net/ctypes/ctypes-1.0.1.win32-py2.4.exe?modtime=1161376216&big_mirror=0">这里</a>。
+  </p>
+  <h3><a name="django" href="http://www.djangoproject.com/">django</a></h3>
+  <p>这是一个网络开发框架。九形用它进行风火轮的开发。所以你要运行风火轮的网络服务，就需要安装它。它可以跟apache和mod_python协同工作。其中它也自带了一个网络服务器，所以也可以单独运行,而不需要apache的支持。下载地址在<a href="http://www.djangoproject.com/download/0.95/tarball/">这里</a>。
+  </p>
+  <h3><a name="apache" href="http://httpd.apache.org/">apache</a></h3>
+  <p>这是一个网络服务器。九形用它运行webgss网络应用。安装很简单，可以去网上搜索相关文章。
+  </p>
+  <h3><a name="mod_python" href="http://www.modpython.org/">mod_python</a></h3>
+  <p>这是一个用于python的CGI编程的模块，它可以以比传统cgi快得多的速度运行。它还提供psp的编程支持。主要用在gssweb网络应用之上。安装同Numeric库。下载地址在<a href="http://httpd.apache.org/modules/python-download.cgi">这里</a>。
+  </p>
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+
+<hr /><!--"----------------------------------------"-->
+<br />
+<table id='etab'>
+	<td id='etit'>geosings, 安装</td>
+	<td id='ereta'><a href='index.html'>返回主目录</a></td>
+</table>
+</body>
+</html>
+

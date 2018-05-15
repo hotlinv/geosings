@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:gss2="geosings2.*" width="100%" height="100%"  initialize="init();"
+	>
+
+<mx:Script>
+	<![CDATA[
+		import mx.controls.Alert;
+		import geosings2.dialogs.TalkDlg;
+		import geosings2.dialogs.MyWindow;
+		import mx.core.Window;
+		
+		private var talkwin:TalkDlg;
+		
+		public function init():void{
+			this.talkwin = new TalkDlg();
+			friendsPanel.setParent(this);
+		}
+		
+		public function showTalkDlg(tabname:String):void{
+			//Alert.show(talkwin.visible.toString());
+			if(!this.talkwin){
+				this.talkwin = new TalkDlg();
+			}
+			this.talkwin.advOpen(tabname);
+			this.talkwin.move(500,50);
+		}
+		
+		public function onCloseTalk():void{
+			this.talkwin = null;
+		}
+		
+]]>
+</mx:Script>
+	<mx:Accordion width="100%" height="100%">
+		<gss2:FriendsPanel label="好友" width="100%" height="100%" id="friendsPanel">
+		</gss2:FriendsPanel>
+		<mx:Canvas label="数据集" width="100%" height="100%">
+		</mx:Canvas>
+	</mx:Accordion>
+</mx:Canvas>

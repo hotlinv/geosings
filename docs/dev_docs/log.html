@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>
+		日志系统
+	</title>
+	<style type="text/css">
+		@import url("../css/function.css");
+	</style>
+</head>
+<body>
+	<h1 id='htitle'>
+		日志系统
+	</h1>
+<a href="index.html">返回主索引</a>
+<hr /><!--"----------------------------------------"-->
+
+<p>九形需要有自己的日志调度系统。因为九形是一个松散的系统，而且比你想象的要松散得多。松散到随时可能需要调用不属于它的应用程序或者库，甚至使用不同语言不同系统来调用。在调用时，不一定能保证你正在打印的输出是在GUI还是在控制台上，或者是文件中。如何让输出有一个统一的调度？我们就需要有自己的日志调度系统。
+</p>
+
+<p>九形的日志系统接口定义在geosings.core.Log模块中，分成几个类型：log定义要重点输出的内容，info定义需要输出，但是不是太重点的内容。debug定义在调试时候输出，在发布后不需要输出的信息内容。err定义在运行出错时或者操作失败原因的输出。几个函数全都是print风格，可以跟任意数量任意类型的参数来进行输出(不过输出是强制换行的，没有print后面跟“,”来表示不换行的功能)。
+</p>
+
+<p>为了输出信息到不同位置，你需要进行输出绑定。绑定的方法是用Log模块中的几个bind*Caller方法。只要创建相应的类，（类中必须定义log,info,debug,err几个方法，当然，如果你不想把输出绑定到该类，可以不创建相应方法）。可以参看geosings.ui.gmap.CanvasOutputArea模块中CanvasOutputArea类的Init方法。当然，绑定后还是可以换的。几个bind方法都返回旧的Caller，在需要的时候，可以重新把旧的Caller绑定到日志输出系统中。
+</p>
+
+<p>如果在绑定方法中不使用任何参数，系统自动调用print来实现绑定（这时的print打印到什么地方也可以进行设置，用geosings.core.Utils.MyOutForUIText类具体使用方法以后介绍），系统将以不同格式print指定内容。
+</p>
+
+<p>在打印到CanvasOutputArea上时，是使用不同的颜色来进行区分打印信息内容的。默认用蓝色表示log，用红色表示err，用灰色表示debug，用绿色表示普通信息。如果你觉得这很丑，没问题，打开你的.gssrc，像下面一样修改颜色：
+<p>
+<b>
+GSSCONF["ERR_COLOR"] = "#ff0000"#错误信息颜色<br>
+GSSCONF["INFO_COLOR"] = "#00ff00"#普通信息颜色<br>
+GSSCONF["LOG_COLOR"] = "#0000ff"#LOG信息颜色<br>
+GSSCONF["DEBUG_COLOR"] = "#777777"#调试信息颜色<br>
+</b>
+</p>
+</p>
+
+<p>
+设置你觉得好看的颜色吧！格式是#dddddd，后面六位是数字以及A-F的字母，我想这大家应该都懂吧！
+</p>
+
+<hr /><!--"----------------------------------------"-->
+<br />
+
+<table id='etab'>
+	<td id='etit'>geosings, 日志系统</td>
+	<td id='ereta'><a href='../index.html'>返回主目录</a></td>
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml"
+	 showStatusBar="false" showGripper="false" 
+	 xmlns:gss2="geosings2.*"
+	 title="九形(概念版)" 
+	 paddingBottom="0" paddingLeft="0" paddingRight="0" 
+	 layout="absolute" width="274" >
+	<gss2:MainPanel id="main"/>
+</mx:WindowedApplication>

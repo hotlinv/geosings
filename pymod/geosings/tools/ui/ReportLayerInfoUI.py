@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+
+"""
+该模块定义ReportLayerInfo工具的UI定义
+"""
+from geosings.ui.commondlg.ToolCtrlBasePanel import *
+from geosings.tools.ReportLayerInfo import ReportLayerInfoCtrl
+import os
+from geosings.core.system import SaveUtf8File
+
+class ReportLayerInfoUI(ToolCtrlBasePanel):
+    def __init__(self, *args, **kwds):
+        kwds["style"] = wx.TAB_TRAVERSAL
+        ToolCtrlBasePanel.__init__(self, *args, **kwds)
+
+    def RunTool(self, layers, outSource, outName):
+        if len(layers)==1:
+            layer = layers[0]
+            ctrl = ReportLayerInfoCtrl(layer)
+            ofile_name = os.path.join(outSource, outName)
+            SaveUtf8File(ofile_name, ctrl.Report())
+        else:
+            PopMessage(E("layers count must be 1"))
